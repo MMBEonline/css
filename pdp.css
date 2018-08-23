@@ -1,10 +1,10 @@
 .price {visibility:visible !important;}
 a.button.add-to-cart:before {left: 10px;font-size: 12px;top: 5px;background: none;content: "\1f6d2";color: #fff;font-family: "MM-iconfont";text-indent: 0;}
-a.button.add-to-cart{background-color: #df0000;border-radius: 3px;}
+a.button.add-to-cart{background-color: #df0000;border:1px solid #df0000;color:#fff;}
 .button.add-to-cart.large{font-size: 16px;}
 .button.add-to-cart:hover{background-color: #cf0101;}
 .button.add-to-cart.large:before{left: 16px;top: 11px;font-size: 16px;}
-
+body .button {color: #000;background: #fff;border: 1px solid #ddd;border-radius: 3px;}
 
 h1 #product-details .details h1 {color: #000;}
 span#product-sidebar .fullscreen-gallery {color: #000;}
