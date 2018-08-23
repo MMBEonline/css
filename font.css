@@ -6,8 +6,7 @@
 @font-face{
     font-family:mm-text-regular;
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot);
-    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf) format('truetype');
-    font-weight:normal;
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf) format('truetype')
 }
 @font-face{
     font-family:mm-text-bold;
@@ -16,3 +15,4 @@
     font-weight:bold
 }
 @font-face{font-family:"mm-icons";src:url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.eot");src:url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.eot?#iefix") format("embedded-opentype"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.woff2") format("woff2"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.woff") format("woff"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.ttf") format("truetype"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.svg#svg") format("svg")}
+@font-face{font-family:"SourceSansPro";src:url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.eot");src:url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.woff2") format("woff2"),url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.woff") format("woff"),url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("truetype"),url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.svg#svg") format("svg")}
