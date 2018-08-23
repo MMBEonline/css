@@ -1,6 +1,5 @@
 h1,h2,h3,h4,h5,.headline a{font-family:mm-text-bold;color:#000;}
 .select-label,ul,li,p,a{color:#000;}
-
 .js body .price {
     text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
     color: #000;
@@ -19,4 +18,7 @@ body .price span.p-small {
 }
 body .price-box {
     text-align: left;
+}
+body .products-grid .photo-wrapper img, #product-preview .photo-wrapper img {
+    height: 131px;
 }
