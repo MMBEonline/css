@@ -15,3 +15,4 @@
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.ttf) format('truetype');
     font-weight:bold
 }
+@font-face{font-family:"mm-icons";src:url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.eot");src:url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.eot?#iefix") format("embedded-opentype"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.woff2") format("woff2"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.woff") format("woff"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.ttf") format("truetype"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.svg#svg") format("svg")}
