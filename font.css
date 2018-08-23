@@ -1,0 +1,17 @@
+@font-face{
+    font-family:"mm-headline";
+    src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot");
+    src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.woff") format("woff"), url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.ttf") format("truetype")
+}
+@font-face{
+    font-family:mm-text-regular;
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot);
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf) format('truetype');
+    font-weight:normal;
+}
+@font-face{
+    font-family:mm-text-bold;
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.eot);
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.ttf) format('truetype');
+    font-weight:bold
+}
