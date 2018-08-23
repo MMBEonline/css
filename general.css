@@ -1,4 +1,12 @@
 html body {font-family: SourceSansPro,Arial,sans-serif;}
+@media (min-width: 61.875em) {
+	#rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
+	#rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
+}
+#rise-header #search-autocomplete .ms-button2--search {background-color:#df0000;color:#fff;}
+#rise-header .ms-shopping-cart__button.proceed-button:active{background-color:#df0000;color:#fff;}
+#rise-header .ms-shopping-cart__button-label {display:none;}
+#rise-header .ms-shopping-cart__button.proceed-button .ms-button2__left-icon{margin-right:0;}
 h1,h2,h3,h4,h5,.headline a{font-family:mm-text-bold;color:#000;}
 .select-label,ul,li,p,a{color:#000;}
 .js body .price {
@@ -27,3 +35,4 @@ input[type='checkbox']:after{ line-height: 1.5em; content: ''; display: inline-b
 input[type='checkbox']{position: relative;}
 input[type='checkbox']:checked:after{ -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 0.2rem 0 0 rgba(0, 0, 0, 0.1) inset, 0 -0.2rem 0 0 rgba(255, 255, 255, 0.1) inset; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 0.2rem 0 0 rgba(0, 0, 0, 0.1) inset, 0 -0.2rem 0 0 rgba(255, 255, 255, 0.1) inset; }
 input[type='checkbox']:checked:before { content: "\2713"; color: #df0000; z-index: 1; font-family: "MM-iconfont"; font-weight: bold; position: absolute; top: -6px; left: -5px; font-size: 1.25rem; }
+
