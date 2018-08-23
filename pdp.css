@@ -12,11 +12,13 @@ div #product-sidebar .fullscreen-gallery {color: #000;}
 div .product-details dt{padding-left: 0;}
 div #product-sidebar .product-name{color:#000;}
 div .product-accessories .products-grid .base-info .b-set .add-to-cart span{padding-left:33px;}
+
+/*
 body .box.infobox ul li.productinstock::before, body .box.infobox ul li::before {content: "\1f69a";background: none !important;font-family: MM-iconfont;text-indent: inherit; margin: 0;width: 18px;height: 18px;font-size: 20px;left: -2px;top: 0;}
 body .box.infobox ul li.market-buy::before, body .box.infobox ul li.section-store-availability::before {content: "\1f4cc";font-size: 23px;left: -4px;top: 2px;}
 body .box.infobox ul li::before {color: #444;}
 body .box.infobox ul li.online-ndd::before,body .box.infobox ul li.online-ndd::before{color: green;}
-
+*/
 
 
 
