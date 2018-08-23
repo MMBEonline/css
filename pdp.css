@@ -10,3 +10,4 @@ h1 #product-details .details h1 {color: #000;}
 span#product-sidebar .fullscreen-gallery {color: #000;}
 div .product-details dt:before{display: none;}
 div .product-details dt{padding-left: 0;}
+div #product-sidebar .product-name{color:#000;}
