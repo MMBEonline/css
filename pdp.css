@@ -20,8 +20,8 @@ div .breadcrumbs li.home a {background: none;width: 13px;}
 .box.infobox.availability>ul>li.section-store-availability:before, .box.infobox.availability>ul>li.market-buy:before {color: #444;font-size: 18px;left: 3px;margin-top: -9px;}
 .breadcrumbs li:before {line-height: 1;font-family: "mm-icons";background-image: none;color: #777;content: "\e603";font-size: 7px;height: 7px;text-indent: 0;top: 5px;left: 4px;width: 4px;}
 .skin2014 .breadcrumbs li.home a:after, .breadcrumbs li.home a:after {line-height: 1;font-family: "mm-icons";color: #DF0000;content: "\e60d";display: block;font-size: 10px;position: absolute;text-indent: 0;top: 4px;}
-.thumbnail-carousel__prev{border-top-left-radius: 3px;border-bottom-left-radius: 3px;background-color: #f2f2f2;}
-.thumbnail-carousel__next{border-top-rigth-radius: 3px;border-bottom-rigth-radius: 3px;background-color: #f2f2f2;}
+.thumbnail-carousel__prev{border-top-left-radius: 3px;border-bottom-left-radius: 3px;background-color: #f8f8f8;}
+.thumbnail-carousel__next{border-top-rigth-radius: 3px;border-bottom-rigth-radius: 3px;background-color: #f8f8f8;}
 body .icon {background:none;margin: -7px 0 0 3px;}
 body .icon:after {font-family: MM-iconfont !important;content: "i";font-size: 12px;}
 body .specification dt:before {background: none;text-indent: 0;content: '';color: #090;font-size: 13px;left: 8px;top: 7px;font-family: "mm-icons";}
