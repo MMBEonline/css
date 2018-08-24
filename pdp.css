@@ -1,3 +1,8 @@
+@media (min-width: 1200px){
+body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
+}
+body .premiumopts h2{background: #f8f8f8 !important;border-bottom: 2px solid #df0000;}
+#product-sidebar .sidebar-form form{border: 1px solid #ddd;}
 .price {visibility:visible !important;}
 a.button.add-to-cart:before {left: 8px;font-size: 12px;top: 7px;background: none;content: "🛒";color: #fff;font-family: "MM-iconfont";text-indent: 0;}
 a.button.add-to-cart{background-color: #df0000;color:#fff;}
