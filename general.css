@@ -1,4 +1,5 @@
 html body {font-family: SourceSansPro-Regular,sans-serif;}
+body .products-grid .photo-wrapper img, #product-preview .photo-wrapper img {height: 131px;}
 body .ms-button2,
 body .ms-textarea, 
 body .ms-textfield,
@@ -10,9 +11,7 @@ body .ms-market-selector__button--meta-nav,
 body .site-navigation2--dropdown .ms-market-selector__item-form--offcanvas, 
 body .site-navigation2--dropdown .ms-market-selector__item-link--offcanvas, 
 body .site-navigation2--dropdown .site-navigation2__child-label, 
-body .site-navigation2--dropdown .site-navigation2__child-link {
-	font-family: mm-text-regular,sans-serif !important;
-}
+body .site-navigation2--dropdown .site-navigation2__child-link {font-family: mm-text-regular,sans-serif !important;}
 
 @media (min-width: 61.875em) {
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
@@ -24,29 +23,12 @@ body .site-navigation2--dropdown .site-navigation2__child-link {
 #rise-header .ms-shopping-cart__button.proceed-button .ms-button2__left-icon{margin-right:0;}
 h1,h2,h3,h4,h5,.headline a{font-family:mm-text-bold;color:#000;}
 .select-label,ul,li,p,a{color:#000;}
-.js body .price {
-    text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
-    color: #000;
-    font-family: "MMPrice", sans-serif;
-    height: inherit;
-}
-body .price span {
-	background-image: none !important;
-	text-indent: inherit;
-	overflow: visible;
-}
-body .price span.p-small {
-    font-size: 0.5em;
-    top: -0.5em;
-}
-body .price-box {
-    text-align: left;
-}
-body .products-grid .photo-wrapper img, #product-preview .photo-wrapper img {
-    height: 131px;
-}
+.js body .price {text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;color: #000;font-family: "MMPrice", sans-serif;height: inherit;}
+body .price span {background-image: none !important;text-indent: inherit;overflow: visible;}
+body .price span.p-small {font-size: 0.5em;top: -0.5em;}
+body .price-box {text-align: left;}
 input[type='checkbox']:after{ line-height: 1.5em; content: ''; display: inline-block; width: 1rem; height: 1rem; margin-top: -3px; margin-left: -2px; border: 1px solid rgb(192,192,192); border-radius: 2px; background: #fff; -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 -0.2rem 0 0 rgba(0, 0, 0, 0.1) inset, 0 0.2rem 0 0 rgba(255, 255, 255, 0.1) inset; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 -0.2rem 0 0 rgba(0, 0, 0, 0.1) inset, 0 0.2rem 0 0 rgba(255, 255, 255, 0.1) inset; }
 input[type='checkbox']{position: relative;}
 input[type='checkbox']:checked:after{ -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 0.2rem 0 0 rgba(0, 0, 0, 0.1) inset, 0 -0.2rem 0 0 rgba(255, 255, 255, 0.1) inset; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 0.2rem 0 0 rgba(0, 0, 0, 0.1) inset, 0 -0.2rem 0 0 rgba(255, 255, 255, 0.1) inset; }
 input[type='checkbox']:checked:before { content: "\2713"; color: #df0000; z-index: 1; font-family: "MM-iconfont"; font-weight: bold; position: absolute; top: -6px; left: -3px; font-size: 1.25rem; }
-
+small.vat-info {display: none !important;}
