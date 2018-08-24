@@ -16,6 +16,7 @@ body .site-navigation2--dropdown .site-navigation2__child-link {font-family: mm-
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
 }
+.site-navigation2__panel--level-3 span.site-navigation2__link-label {font-family: SourceSansPro-Regular;}
 #rise-header #search-autocomplete .ms-button2--search {background-color:#df0000;color:#fff;}
 #rise-header .ms-shopping-cart__button.proceed-button:active{background-color:#df0000;color:#fff;}
 #rise-header .ms-shopping-cart__button-label {display:none;}
