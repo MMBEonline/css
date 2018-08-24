@@ -1,6 +1,7 @@
 @media (min-width: 1200px){
 body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
 }
+#services{display:none;}
 body .premiumopts h2{background: #f8f8f8 !important;border-bottom: 2px solid #df0000;}
 #product-sidebar .sidebar-form form{border: 1px solid #e7e7e7;}
 .price {visibility:visible !important;}
