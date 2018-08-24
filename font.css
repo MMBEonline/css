@@ -4,7 +4,7 @@
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.woff") format("woff"), url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.ttf") format("truetype")
 }
 @font-face{
-    font-family:old-regular;
+    font-family:mm-text-regular;
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot);
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf) format('truetype')
 }
@@ -16,7 +16,7 @@
 }
 @font-face{font-family:"mm-icons";src:url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.eot");src:url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.eot?#iefix") format("embedded-opentype"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.woff2") format("woff2"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.woff") format("woff"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.ttf") format("truetype"),url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.svg#svg") format("svg")}
 @font-face{
-    font-family:mm-text-regular;
+    font-family:SourceSansPro-Regular;
     src:url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.eot");src:url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.woff2") format("woff2"),url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.woff") format("woff"),url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("truetype"),url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.svg#svg") format("svg");
     font-weight:normal
 }
