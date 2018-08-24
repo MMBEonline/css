@@ -1,4 +1,3 @@
-html body {font-family: mm-text-regular,Arial,sans-serif;}
 @media (min-width: 61.875em) {
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
