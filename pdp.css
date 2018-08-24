@@ -28,7 +28,7 @@ div .breadcrumbs li.home a {background: none;width: 13px;}
 .thumbnail-carousel__prev{border-top-left-radius: 3px;border-bottom-left-radius: 3px;background-color: #f8f8f8;}
 .thumbnail-carousel__next{border-top-rigth-radius: 3px;border-bottom-rigth-radius: 3px;background-color: #f8f8f8;}
 body .icon {background:none;margin: -7px 0 0 3px;}
-body .icon:after {font-family: MM-iconfont !important;content: "i";font-size: 12px;}
+body .icon:after {font-family: MM-iconfont !important;content: "i";font-size: 12px;color: #444;}
 body .specification dt:before {background: none;text-indent: 0;content: '';color: #090;font-size: 13px;left: 8px;top: 7px;font-family: "mm-icons";}
 body .button.arrow span:after{background: none;text-indent: 0;font-family: MM-Iconfont !important;content: "❯";}
 div .premiumopts h2,div .header{border-bottom: 2px solid #df0000;}
