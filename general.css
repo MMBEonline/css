@@ -10,7 +10,7 @@ body .site-navigation2--dropdown .ms-market-selector__item-form--offcanvas,
 body .site-navigation2--dropdown .ms-market-selector__item-link--offcanvas, 
 body .site-navigation2--dropdown .site-navigation2__child-label, 
 body .site-navigation2--dropdown .site-navigation2__child-link {
-	font-family: old-regular,sans-serif !important;
+	font-family: mm-text-regular,sans-serif !important;
 }
 
 @media (min-width: 61.875em) {
