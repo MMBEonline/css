@@ -4,7 +4,7 @@ body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
 body .premiumopts h2{background: #f8f8f8 !important;border-bottom: 2px solid #df0000;}
 #product-sidebar .sidebar-form form{border: 1px solid #e7e7e7;}
 .price {visibility:visible !important;}
-a.button.add-to-cart:before {left: 8px;font-size: 12px;top: 7px;background: none;content: "🛒";color: #fff;font-family: "MM-iconfont";text-indent: 0;}
+a.button.add-to-cart:before {left: 8px;font-size: 12px;top: 5px;background: none;content: "🛒";color: #fff;font-family: "MM-iconfont";text-indent: 0;}
 a.button.add-to-cart{background-color: #df0000;color:#fff;}
 .button.add-to-cart.large{font-size: 16px;}
 .button.add-to-cart:hover{background-color: #cf0101;}
@@ -30,6 +30,6 @@ div .breadcrumbs li.home a {background: none;width: 13px;}
 body .icon {background:none;margin: -7px 0 0 3px;}
 body .icon:after {font-family: MM-iconfont !important;content: "i";font-size: 12px;color: #444;}
 body .specification dt:before {background: none;text-indent: 0;content: '';color: #090;font-size: 13px;left: 8px;top: 7px;font-family: "mm-icons";}
-body .button.arrow span:after{background: none;text-indent: 0;font-family: MM-Iconfont !important;content: "❯";}
+body .button.arrow span:after{background: none;text-indent: 0;font-family: MM-Iconfont !important;content: "❯";top: 24%;}
 div .premiumopts h2,div .header{border-bottom: 2px solid #df0000;}
 .page-product .label {font-size: 14px;}
