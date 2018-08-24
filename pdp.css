@@ -1,3 +1,5 @@
+div #product-details .model .group,div #product-details .model dt {font-size: 13px;color: #444;}
+div #product-details .model .group .product-rate>a{float: inherit;display: block;}
 @media (min-width: 1200px){
 body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
 }
