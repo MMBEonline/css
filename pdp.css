@@ -29,3 +29,9 @@ div .breadcrumbs li.home a {background: none;width: 13px;}
 
 .skin2014 .breadcrumbs li.home a:after, .breadcrumbs li.home a:after {color: #DF0000;content: "\e60d";display: block;font-size: 10px;position: absolute;text-indent: 0;top: 0;
 }
+.thumbnail-carousel__prev{border-top-left-radius: 3px;border-bottom-left-radius: 3px;background-color: #f2f2f2;}
+.thumbnail-carousel__next{border-top-rigth-radius: 3px;border-bottom-rigth-radius: 3px;background-color: #f2f2f2;}
+body .icon {background:none;margin: -7px 0 0 3px;}
+body .icon:after {font-family: MM-iconfont !important;content: "i";font-size: 12px;}
+body .specification dt:before {background: none;text-indent: 0;content: '';color: #090;font-size: 13px;left: 8px;top: 7px;}
+body .button.arrow span:after{background: none;text-indent: 0;font-family: MM-Iconfont !important;content: "❯";}
