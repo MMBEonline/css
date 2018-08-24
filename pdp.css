@@ -11,7 +11,7 @@ a.button.add-to-cart{background-color: #df0000;color:#fff;}
 .button.add-to-cart:hover{background-color: #cf0101;}
 .button.add-to-cart.large:before{left: 16px;top: 11px;font-size: 16px;}
 body .button {color: #fff;background: #000;border-radius: 3px;}
-div #product-details .product-details dt {font-size: 14px;color: #444;line-height: 18px;margin: 0 0 2px;}
+div #product-details .product-details dt, div #product-details .product-details dd {font-size: 14px;color: #444;line-height: 18px;margin: 0 0 2px;}
 div .fullscreen-layer .fullscreen-layer-header .logo{background: url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/images/red/mm-logo.svg) 0 50% no-repeat;text-indent: -999px;}
 div #product-details .details h1 {color: #000;border-bottom: 1px solid #ddd;line-height: 26px;}
 #product-details .model{border-bottom: 1px solid #ddd;}
