@@ -1,3 +1,18 @@
+body .ms-button2,
+body .ms-textarea, 
+body .ms-textfield,
+body .site-navigation2--dropdown .site-navigation2__panel--level-2 .site-navigation2__hub-link,
+body .site-navigation2--dropdown .ms-market-selector__button--offcanvas,
+body .site-navigation2--dropdown .site-navigation2__link,
+body .ms-header2__meta-nav-link,
+body .ms-market-selector__button--meta-nav,
+body .site-navigation2--dropdown .ms-market-selector__item-form--offcanvas, 
+body .site-navigation2--dropdown .ms-market-selector__item-link--offcanvas, 
+body .site-navigation2--dropdown .site-navigation2__child-label, 
+body .site-navigation2--dropdown .site-navigation2__child-link {
+	font-family: old-regular,sans-serif !important;
+}
+
 @media (min-width: 61.875em) {
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
