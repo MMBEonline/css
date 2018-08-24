@@ -1,5 +1,5 @@
 .price {visibility:visible !important;}
-a.button.add-to-cart:before {left: 10px;font-size: 12px;top: 5px;background: none;content: "/1f6d2";color: #fff;font-family: "MM-iconfont";text-indent: 0;}
+a.button.add-to-cart:before {left: 10px;font-size: 12px;top: 5px;background: none;content: "🛒";color: #fff;font-family: "MM-iconfont";text-indent: 0;}
 a.button.add-to-cart{background-color: #df0000;color:#fff;}
 .button.add-to-cart.large{font-size: 16px;}
 .button.add-to-cart:hover{background-color: #cf0101;}
