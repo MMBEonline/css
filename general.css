@@ -12,14 +12,6 @@ body .site-navigation2--dropdown .ms-market-selector__item-form--offcanvas,
 body .site-navigation2--dropdown .ms-market-selector__item-link--offcanvas, 
 body .site-navigation2--dropdown .site-navigation2__child-label, 
 body .site-navigation2--dropdown .site-navigation2__child-link {font-family: mm-text-regular,sans-serif;}
-@media (min-width: 61.875em){
-	body .site-navigation2--dropdown .site-navigation2__panel--level-3 .ms-market-selector__item-form--offcanvas, 
-	body .site-navigation2--dropdown .site-navigation2__panel--level-3 .ms-market-selector__item-link--offcanvas,
-	body .site-navigation2--dropdown .site-navigation2__panel--level-3 .site-navigation2__child-label,
-	.body site-navigation2--dropdown .site-navigation2__panel--level-3 .site-navigation2__child-link{
-		font-family: SourceSansPro-Regular,sans-serif;
-	}
-}
 @media (min-width: 61.875em) {
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
 	#rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
