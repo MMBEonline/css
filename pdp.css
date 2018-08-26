@@ -38,3 +38,4 @@ body .button.arrow span:after{background: none;text-indent: 0;font-family: MM-Ic
 div .premiumopts h2,div .header{border-bottom: 2px solid #df0000;}
 .page-product .label {font-size: 14px;}
 #product-details .model .group .product-rate>a,#product-sidebar .fullscreen-gallery,#product-details .details .more,#product-details .options a{font-size: 14px;border-bottom: 1px solid #bbb;}
+#product-details .model .group .product-rate>a:hover,#product-sidebar .fullscreen-gallery:hover,#product-details .details .more:hover,#product-details .options a:hover{color: #df0000,border-bottom:1px solid #df0000;}
