@@ -45,7 +45,7 @@ div .features-wrapper.collapsed .button-toggle-collapsed span {padding: 0}
 div .multisection{border:none;}
 div .multisection h2{color: #444;font-size: 20px;line-height: 20px;padding: 5px 0 12px;background:none;border:none;}
 div .specification dt {padding: 6px 5px 6px 30px;color: #444;}
-div .specification dt, div .specification dd {font-size: 14px;line-height: 18px;}
+div .specification dt, div .specification dd {font-size: 14px;line-height: 18px;padding:6px 5px 6px 30px;}
 div .specification dt:nth-child(4n+1), div .specification dt.nth4n1, div .specification dt:nth-child(4n+1)+dd, div .specification dt.nth4n1+dd {background-color: #f2f2f2;}
 #product-details .accessories-list, #product-details .products-carousel, #product-details .features-wrapper, #product-details .product-bundle .pb-element, #product-details .reviews-content, #product-details #alaTestReviews, #product-details .rbkit-container, #product-details #flix-inpage section header+* {border: 1px solid #ddd;}
 #product-details .features-wrapper, #product-details #flix-inpage section header+*, #product-details .product-bundle .pb-element, #product-details .reviews .reviews-content li, #product-details #flix-inpage .inpage_block, #product-details .description, #product-details .tracklist>* {padding: 10px;}
