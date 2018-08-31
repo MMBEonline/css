@@ -60,4 +60,10 @@ div #product-details .model .group .product-rate{max-width: 203px;}
 .premiumopts h2, #product-details #product-service h2 {font-size: 17px;background: none !important;line-height: 34px !important;}
 .product-container .products-grid>li{min-height: 220px !important;}
 .product-container .products-grid>li h3 a {display: block;height: 34px;}
-.product-container .header h2 {font-size: 20px;color: #000;}
+.product-container .header h2 {font-size: 20px;color: #000;padding-top: 20px;}
+.product-container .products-carousel{border: 1px solid #e7e7e7;}
+#product-details .price-sidebar, #product-details .price-sidebar .availability{border: 1px solid #e7e7e7 !important;}
+#product-details .price-sidebar .availability {margin-top: 12px;}
+
+
+
