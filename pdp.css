@@ -72,6 +72,6 @@ div .products-grid .base-info h3, div #product-preview .base-info h3{margin: 10p
 div .products-grid .base-info .photo, div #product-preview .base-info .photo{min-height: 195px;display: block;}
 .products-grid .base-info:hover>h3>a {color: #df0000;text-decoration: none;}
 div .features-wrapper.collapsed a.button {bottom: 10px !important;}
-
+.page-product #avis-sur-les-produits, .page-product #productrecensies {border-bottom: 1px solid #ddd;}
 
 
