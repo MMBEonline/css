@@ -19,7 +19,7 @@ div #product-details .details h1 {color: #000;border-bottom: 1px solid #ddd;line
 div #product-sidebar .fullscreen-gallery {color: #000;}
 #product-details .price-sidebar div.price-label, #product-details .price-sidebar small,#product-sidebar .sidebar-form .price-details div.price-label,.responsive #product-sidebar .sidebar-form .price-details small,div .product-details dt:before{display: none;}
 div .product-details dt{padding-left: 0;padding: 0;width: 170px;}
-div #product-sidebar .product-name{color:#000;}
+div #product-sidebar .product-name{color:#000;font-family: mm-text-bold;font-size: 20px;padding-top: 5px;}
 div .product-accessories .products-grid .base-info .b-set .add-to-cart span{padding-left:33px;}
 div .breadcrumbs li.home a {background: none;width: 13px;}
 .iconfont-delivery:before,.deliverytbl-section-delivery .deliverytbl-sub-heading th:before,.box.infobox.availability>ul>li:before{content:"";font-size:32px;color:#777}
