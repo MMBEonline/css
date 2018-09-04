@@ -38,9 +38,9 @@ body .button.arrow span:after{background: none;text-indent: 0;font-family: MM-Ic
 .page-product .label,.service-value {font-size: 14px;}
 #product-sidebar .fullscreen-gallery,#product-details .details .more,#product-details .options a{font-size: 13px;border-bottom: 1px solid #bbb;}
 #product-sidebar .fullscreen-gallery:hover,#product-details .details .more:hover,#product-details .options a:hover{color: #df0000;border-bottom:1px solid #df0000;text-decoration: none;}
-div .features-wrapper.collapsed .button-toggle-collapsed{bottom:10px;background: none;color: #000;font-weight: normal;font-size: 16px;border-bottom: 1px solid #bbb;left: 10px;padding: 0;border-radius: 0;}
-div .features-wrapper.collapsed .button-toggle-collapsed:hover{color: #df0000; border-bottom: 1px solid #df0000;}
-div .features-wrapper.collapsed .button-toggle-collapsed span {padding: 0}
+div .features-wrapper .button-toggle-collapsed{bottom:10px !important;background: none;color: #000;font-weight: normal;font-size: 16px;border-bottom: 1px solid #bbb;left: 10px;padding: 0;border-radius: 0;}
+div .features-wrapper .button-toggle-collapsed:hover{color: #df0000; border-bottom: 1px solid #df0000;}
+div .features-wrapper .button-toggle-collapsed span {padding: 0}
 div .multisection{border:none;}
 div .multisection h2{color: #444;font-size: 20px;line-height: 20px;padding: 5px 0 12px;background:none;border:none;}
 div .specification dt {padding: 6px 5px 6px 30px;color: #444;}
