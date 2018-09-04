@@ -60,12 +60,12 @@ div #product-details .model .group .product-rate{max-width: 203px;}
 .premiumopts h2, #product-details #product-service h2 {font-size: 17px;background: none !important;line-height: 34px !important;}
 .product-container .products-grid>li{min-height: 220px !important;}
 .product-container .products-grid>li h3 a {display: block;height: 34px;}
-.product-container .header h2 {font-size: 20px;color: #000;padding-top: 20px;}
+.product-container .header h2 {font-size: 20px;color: #000;padding-top: 20px;padding-left:0;}
 .product-container .products-carousel{border: 1px solid #e7e7e7;}
 #product-details .price-sidebar, #product-details .price-sidebar .availability{border: 1px solid #e7e7e7 !important;}
 #product-details .price-sidebar .availability {margin-top: 12px;}
 .product-container .products-grid>[data-id] {background: url(https://csscdn.redblue.de/MediaBE/skins/desktop0507/fr/images/general/mm-loader.gif) no-repeat 50% 50%;}
 .product-container .button.add-to-cart {border: none;}
-
+div #product-sidebar .premiumopts{margin-top:-11px;}
 
 
