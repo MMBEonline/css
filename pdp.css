@@ -1,5 +1,6 @@
 div #product-details .model .group,div #product-details .model dt {font-size: 13px;color: #444;}
 div #product-details .model .group .product-rate>a{float: inherit;display: block;}
+div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 @media (min-width: 1200px){
 body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
 }
@@ -35,8 +36,8 @@ body .icon:after {font-family: MM-iconfont !important;content: "i";font-size: 12
 body .specification dt:before {background: none;text-indent: 0;content: '';color: #56B118;font-size: 14px;left: 8px;top: 7px;font-family: "mm-icons";}
 body .button.arrow span:after{background: none;text-indent: 0;font-family: MM-Iconfont !important;content: "❯";top: 24%;}
 .page-product .label,.service-value {font-size: 14px;}
-#product-details .model .group .product-rate>.rate-product,#product-sidebar .fullscreen-gallery,#product-details .details .more,#product-details .options a{font-size: 13px;border-bottom: 1px solid #bbb;}
-#product-details .model .group .product-rate>.rate-product:hover,#product-sidebar .fullscreen-gallery:hover,#product-details .details .more:hover,#product-details .options a:hover{color: #df0000;border-bottom:1px solid #df0000;text-decoration: none;}
+#product-sidebar .fullscreen-gallery,#product-details .details .more,#product-details .options a{font-size: 13px;border-bottom: 1px solid #bbb;}
+#product-sidebar .fullscreen-gallery:hover,#product-details .details .more:hover,#product-details .options a:hover{color: #df0000;border-bottom:1px solid #df0000;text-decoration: none;}
 div .features-wrapper.collapsed .button-toggle-collapsed{bottom:10px;background: none;color: #000;font-weight: normal;font-size: 16px;border-bottom: 1px solid #bbb;left: 10px;padding: 0;border-radius: 0;}
 div .features-wrapper.collapsed .button-toggle-collapsed:hover{color: #df0000; border-bottom: 1px solid #df0000;}
 div .features-wrapper.collapsed .button-toggle-collapsed span {padding: 0}
@@ -65,7 +66,12 @@ div #product-details .model .group .product-rate{max-width: 203px;}
 #product-details .price-sidebar, #product-details .price-sidebar .availability{border: 1px solid #e7e7e7 !important;}
 #product-details .price-sidebar .availability {margin-top: 12px;}
 .product-container .products-grid>[data-id] {background: url(https://csscdn.redblue.de/MediaBE/skins/desktop0507/fr/images/general/mm-loader.gif) no-repeat 50% 50%;}
-.product-container .button.add-to-cart {border: none;}
+.product-container .button.add-to-cart {border: none !important;}
 div #product-sidebar .premiumopts{margin-top:-11px;}
+div .products-grid .base-info h3, div #product-preview .base-info h3{margin: 10px 6px 6px;}
+div .products-grid .base-info .photo, div #product-preview .base-info .photo{min-height: 195px;display: block;}
+.products-grid .base-info:hover>h3>a {color: #df0000;text-decoration: none;}
+
+
 
 
