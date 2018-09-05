@@ -1,4 +1,6 @@
 html body {font-family: SourceSansPro-Regular,sans-serif;}
+#cboxOverlay,#colorbox{background: rgba(0,0,0,0.45);}
+#marketsel-gm-pins>div{background-image:none !important;}
 body .products-grid .photo-wrapper img, #product-preview .photo-wrapper img {height: 131px;}
 body .ms-button2,
 body .ms-textarea, 
