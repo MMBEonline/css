@@ -73,10 +73,17 @@ div .products-grid .base-info .photo, div #product-preview .base-info .photo{min
 .products-grid .base-info:hover>h3>a {color: #df0000;text-decoration: none;}
 div .features-wrapper.collapsed a.button {bottom: 10px !important;}
 .page-product #avis-sur-les-produits, .page-product #productrecensies {border-bottom: 1px solid #ddd;}
-div #product-sidebar .fullscreen-gallery:after,div #product-details .options .to-wishlist a:before,div #product-details .options .to-compare a:before,div #product-details .options .print a:before {font-family: "mm-icons";background: none !important;text-indent: 0;font-size: 12px;}
+div #product-sidebar .fullscreen-gallery:after,div #product-details .options .to-wishlist a:before,div #product-details .options .to-compare a:before,div #product-details .options .print a:before {font-family: "mm-icons";background: none !important;text-indent: 0;font-size: 14px;left: -22px;}
 div #product-details .options .to-wishlist a:before{content: "";}
 div #product-details .options .to-compare a:before{content: "";}
 div #product-details .options .print a:before{content: "";}
 div #product-sidebar .fullscreen-gallery:after{content:"";}
 div #product-details .details .more{padding:0;}
 div #product-details .details .more:before{display:none;}
+div #product-details .options a{padding:0;margin:0 0 0 22px;}
+
+
+
+
+
+
