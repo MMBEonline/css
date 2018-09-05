@@ -1,5 +1,6 @@
 div #product-details .model .group,div #product-details .model dt {font-size: 13px;color: #444;}
-div #product-details .model .group .product-rate>a{float: inherit;display: block;}
+div #product-details .model .group .product-rate>a{float: inherit;display: block;margin-top: 3px;}
+div #product-details .model .product-rate .rating{margin: 0 10px 0 0;}
 div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 @media (min-width: 1200px){
 body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
@@ -51,7 +52,7 @@ div .specification dt:nth-child(4n+1), div .specification dt.nth4n1, div .specif
 div #product-details .product-anchors {border: none;background: none;height: 0;margin: 0;}
 div .features-wrapper.collapsed .collapse-fade {top:140px;}
 div #product-details .model .group{padding: 5px 0 0;}
-div #product-details .model .group .product-rate{max-width: 203px;}
+div #product-details .model .group .product-rate{max-width: 203px;margin-top: 3px;}
 #product-details .description {clear: both;color: #444;margin-top: 40px;position: relative;}
 #product-details .description h2{position:absolute;top:-30px;left:0px;font-size:20px;color: #000;}
 #product-details .description h3 {margin-bottom: 10px;color: #444;}
