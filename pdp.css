@@ -42,7 +42,7 @@ div .features-wrapper .button-toggle-collapsed{background: none;color: #000;font
 div .features-wrapper .button-toggle-collapsed:hover{color: #df0000; border-bottom: 1px solid #df0000;}
 div .features-wrapper .button-toggle-collapsed span {padding: 0}
 div .multisection{border:none;}
-div .multisection h2{color: #444;font-size: 20px;line-height: 20px;padding: 5px 0 12px;background:none;border:none;}
+div .multisection h2{color: #444;font-size: 17px;line-height: 20px;padding: 5px 0 12px;background:none;border:none;}
 div .specification dt {padding: 6px 5px 6px 30px;color: #444;}
 div .specification dt, div .specification dd {font-size: 14px;line-height: 18px;padding:6px 5px 6px 30px;}
 div .specification dt:nth-child(4n+1), div .specification dt.nth4n1, div .specification dt:nth-child(4n+1)+dd, div .specification dt.nth4n1+dd {background-color: #f2f2f2;}
