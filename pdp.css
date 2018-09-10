@@ -100,9 +100,10 @@ div .rating-5:before{content: '    ';}
 .button.rate-product:before{display:none;}
 div .button.gray.rate-product span{padding-left: 11px;color: #444;line-height: 28px;}
 div .button.gray.rate-product{background: #fff;border: 1px solid #ddd;}
-
-
-
+div .prev, div .next{    width: 38px;height: 38px;box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .4);}
+div .next:before {background: none;font-family: mm-icons;content: "\e603";top: 11px;right: 15px;font-size: 20px;}
+div .prev:before {content: "\e602";background: none;font-family: mm-icons;font-size: 20px;top: 11px;left: 12px;}
+div .prev:hover:before,div .prev:hover:after{color:#df0000;}
 
 
 
