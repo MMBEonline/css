@@ -97,3 +97,13 @@ div .rating-3-5:before{content: '   ';}
 div .rating-4:before{content: '   ';}
 div .rating-4-5:before{content: '    ';}
 div .rating-5:before{content: '    ';}
+.button.rate-product:before{display:none;}
+div .button.gray.rate-product span{padding-left: 11px;color: #444;line-height: 28px;}
+div .button.gray.rate-product{background: #fff;border: 1px solid #ddd;}
+
+
+
+
+
+
+
