@@ -3,7 +3,10 @@ div #product-details .model .group .product-rate>a{float: inherit;display: block
 div #product-details .model .product-rate .rating{margin:0;}
 div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 @media (min-width: 1200px){
-body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
+  body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
+}
+@media screen and (max-width: 1199px){
+	.swogo-container.swogo-container-pdp{width:686px;}
 }
 #services{display:none;}
 #product-sidebar .sidebar-form form,#product-details .price-sidebar{background-color: #f2f2f2;}
@@ -106,5 +109,30 @@ div .prev:before {content: "\e602";background: none;font-family: mm-icons;font-s
 div .prev:hover:before,div .next:hover:after{color:#df0000;}
 div .box.infobox ul li {margin: 10px 0px 5px;font-size: 13px;}
 div .box.infobox ul li+li {margin-top: 15px;}
+
+
+
+
+
+
+.swogo-container.swogo-container-pdp {margin:50px 0 0;border:1px solid #ddd;position:relative;display:inline-block;width:782px;padding:0 10px;}
+.swogo-container-pdp .swogo-host-title {position:absolute;top:-40px;left:0;border-bottom:none;display:inline-block;padding:0;}
+.swogo-container-pdp .swogo-bundle{border-bottom: 1px solid #ddd;}
+.swogo-container-pdp .swogo-main{display:flex;justify-content:space-around;background:none !important;padding:0}
+.swogo-container-pdp .swogo-host,.swogo-container-pdp .swogo-accessory,.swogo-container-pdp .swogo-alternative,.swogo-container-pdp .swogo-option{width:25%;margin:0;}
+.swogo-container-pdp .swogo-summary{margin-top:112px;height:70px;position:relative;}
+.swogo-container-pdp .swogo-button-add-to-cart:hover:after{background-position:bottom right;}
+.swogo-container-pdp .swogo-accessory:before{font-family:arial;font-size:18px;margin-left:-25px;background-color:#df0000;padding:1px 3.5px;border-radius:15px;color:#fff;top:50px;}
+.swogo-container-pdp .swogo-button-alternatives:before{font-size:13px;color:#df0000;}
+.swogo-container-pdp .swogo-button-alternatives{padding:0 0 5px;text-decoration:none;line-height:inherit;height:27px;}
+.swogo-container-pdp .swogo-button-alternatives:hover,.swogo-button-alternatives.swogo-enable{text-decoration:underline;}
+.swogo-container-pdp>div:nth-last-child(2){margin-bottom:0;border-bottom:none;}
+.swogo-container-pdp .swogo-price:not(.swogo-line-throug),.swogo-container-pdp .swogo-discount{font-family:mm-text-bold;text-shadow:#fff 0.04em 0 0, #fff -0.04em 0 0, #fff 0 -0.04em 0, #fff 0 0.04em 0, #fff 0.04em 0.04em 0, #fff 0.04em -0.04em 0, #fff -0.04em -0.04em 0, #fff -0.04em 0.04em 0, rgba(0,0,0,.2) 0.1em 0 0.05em, rgba(0,0,0,.2) 0 0.1em 0.05em, rgba(0,0,0,.2) 0.1em 0.1em 0.05em;letter-spacing:.02em;color:#000;font-style:italic;font-size:22px;}
+.swogo-container-pdp .swogo-summary .swogo-price:not(.swogo-line-throug):before, .swogo-container-pdp .swogo-summary .swogo-discount:before{content: "€ ";}
+.swogo-container-pdp .swogo-summary .swogo-price:not(.swogo-line-throug),.swogo-container-pdp .swogo-summary .swogo-discount{margin-bottom:5px;font-size:25px;}
+.swogo-container-pdp .swogo-product-images-container{height:106px;width:120px;}
+.swogo-container-pdp .swogo-alternatives-box.swogo-enable{display:flex;justify-content:space-around;}
+
+
 
 
