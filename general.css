@@ -22,6 +22,7 @@ body .site-navigation2--dropdown .site-navigation2__child-link {font-family: mm-
 #rise-header #search-autocomplete .ms-button2--search {background-color:#df0000;color:#fff;}
 #rise-header .ms-shopping-cart__button.proceed-button:active{background-color:#df0000;color:#fff;}
 #rise-header .ms-shopping-cart__button-label {display:none;}
+#rise-header .ms-dropdown__content {font-family:mm-text-regular;}
 #rise-header .ms-shopping-cart__button.proceed-button .ms-button2__left-icon{margin-right:0;}
 h1,h2,h3,h4,h5,.headline a{font-family:mm-text-bold;color:#000;}
 .select-label,ul,li,p,a{color:#444;}
