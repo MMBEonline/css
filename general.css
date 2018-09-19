@@ -36,3 +36,4 @@ input[type='checkbox']:checked:before { content: "\2713"; color: #df0000; z-inde
 small.vat-info {display: none !important;}
 div .teaser nav a{background-color: #fff;color: #444;}
 div .teaser nav ul{border-left: 1px solid #c6c6c6;border-bottom: 1px solid #c6c6c6;}
+div .teaser nav a.active{background-color:#df0000;}
