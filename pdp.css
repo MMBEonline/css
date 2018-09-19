@@ -133,6 +133,14 @@ div .box.infobox ul li+li {margin-top: 15px;}
 .swogo-container-pdp .swogo-product-images-container{height:106px;width:120px;}
 .swogo-container-pdp .swogo-alternatives-box.swogo-enable{display:flex;justify-content:space-around;}
 
-
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}
+}
+@keyframes rotating {
+  from {-ms-transform: rotate(0deg);-moz-transform: rotate(0deg);-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
+  to {-ms-transform: rotate(360deg);-moz-transform: rotate(360deg);-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}
+}
+.product-container .products-grid>[data-id]:after {-webkit-animation: rotating 2s linear infinite;-moz-animation: rotating 2s linear infinite;-ms-animation: rotating 2s linear infinite;-o-animation: rotating 2s linear infinite;animation: rotating 2s linear infinite;content: "";color: #df0000;font-size: 80px;font-family: mm-icons;top: 45%;left: 30%;position: absolute;}
 
 
