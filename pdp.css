@@ -118,9 +118,8 @@ div .box.infobox ul li+li {margin-top: 15px;}
 .swogo-container.swogo-container-pdp {margin:50px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:782px;padding:0 10px;}
 .swogo-container-pdp .swogo-host-title {position:absolute;top:-40px;left:0;border-bottom:none;display:inline-block;padding:0;}
 .swogo-container-pdp .swogo-bundle{border-bottom: 1px solid #ddd;}
-.swogo-container-pdp .swogo-main{display:flex;justify-content:space-around;background:none !important;padding:0}
+.swogo-container-pdp .swogo-main{display:flex;justify-content:space-around;background:none !important;padding:0 180px 0 0;}
 .swogo-container-pdp .swogo-host,.swogo-container-pdp .swogo-accessory,.swogo-container-pdp .swogo-alternative,.swogo-container-pdp .swogo-option{width:25%;margin:0;}
-.swogo-container-pdp .swogo-summary{margin-top:112px;height:70px;position:relative;}
 .swogo-container-pdp .swogo-button-add-to-cart:hover:after{background-position:bottom right;}
 .swogo-container-pdp .swogo-accessory:before{font-family:arial;font-size:18px;margin-left:-25px;background-color:#df0000;padding:1px 3.5px;border-radius:15px;color:#fff;top:50px;}
 .swogo-container-pdp .swogo-button-alternatives:before{font-size:13px;color:#df0000;}
