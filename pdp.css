@@ -145,9 +145,9 @@ div .box.infobox ul li+li {margin-top: 15px;}
 body .select select{-moz-box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .1);-webkit-box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .1);box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .1);color:#000 !important;line-height:26px !important;font-family:"SourceSansPro-Regular" !important;padding:5px 10px 5px 5px !important;cursor:pointer !important;height:34px !important;outline:0 none !important;border-radius:0 !important;font-size:14px !important;-webkit-transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;background:none repeat scroll 0 0 #F2F2F2 !important;border:1px solid #ddd !important}
 body .select select:focus{border-color:#d8d8d8 !important;-moz-box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .4);-webkit-box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .4);box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .4)}
 body .reviews-active-filters{height:0px;}
-.select.reviews-sorting{position:absolute;right:0;top:12px;}
+div .select.reviews-sorting{position:absolute;right:0;top:12px;}
 
-
-
+div .fullscreen-layer .fullscreen-layer-header .logo{background: url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/images/red/mm-logo.svg) 50% no-repeat;text-indent: -999px;}
+div .gallery-view .gv-heading{font-weight: normal;color: #000;font-family: mm-text-bold;}
 
 
