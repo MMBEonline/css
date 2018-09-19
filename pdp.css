@@ -87,7 +87,7 @@ div #product-details .details .more{padding:0;}
 div #product-details .details .more:before{display:none;}
 div #product-details .options a{padding:0;margin:0 0 0 22px;}
 div .rating,div .rating>div:first-child,div .rating:after{background:none;vertical-align: inherit;}
-div .rating:after,div .rating:before{font-family: MM-icons;position: absolute;font-size:11px;}
+div .rating:after,div .rating:before{font-family: MM-icons;position: absolute;font-size:11px;width:80px;}
 div .rating:before{z-index: 1;color: #df0000;font-weight: bold;}
 div .rating:after,body div .rating-0:before{content: '    ';color: #444}
 div .rating-0-5:before{content: ''}
