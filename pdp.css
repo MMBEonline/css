@@ -169,7 +169,7 @@ body #product-sidebar.sticky{top: 100px;} div#accessoires .prev,div#accessoires 
 #product-sidebar .thumbnail-carousel--single-page .thumbnail-carousel__prev{display:none}
 #product-sidebar .thumbnail-carousel--single-page .thumbnail-carousel__next{display:none}
 
-
+.products-carousel .b-set {display: none;}
 
 
 
