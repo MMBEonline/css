@@ -121,7 +121,7 @@ div .box.infobox ul li+li {margin-top: 15px;}
 .swogo-container-pdp .swogo-main{display:flex;justify-content:space-around;background:none !important;padding:0 180px 0 0;}
 .swogo-container-pdp .swogo-host,.swogo-container-pdp .swogo-accessory,.swogo-container-pdp .swogo-alternative,.swogo-container-pdp .swogo-option{width:25%;margin:0;}
 .swogo-container-pdp .swogo-button-add-to-cart:hover:after{background-position:bottom right;}
-.swogo-container-pdp .swogo-accessory:before{font-family:arial;font-size:18px;margin-left:-25px;background-color:#df0000;padding:1px 3.5px;border-radius:15px;color:#fff;top:50px;}
+.swogo-container-pdp .swogo-accessory:before{font-family:arial;font-size:18px;margin-left:-12px;background-color:#df0000;padding:1px 3.5px;border-radius:15px;color:#fff;top:50px;}
 .swogo-container-pdp .swogo-button-alternatives:before{font-size:13px;color:#df0000;}
 .swogo-container-pdp .swogo-button-alternatives{padding:0 0 5px;text-decoration:none;line-height:inherit;height:27px;}
 .swogo-container-pdp .swogo-button-alternatives:hover,.swogo-button-alternatives.swogo-enable{text-decoration:underline;}
