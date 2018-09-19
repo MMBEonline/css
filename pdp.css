@@ -148,6 +148,6 @@ body .reviews-active-filters{height:0px;}
 div .select.reviews-sorting{position:absolute;right:0;top:12px;}
 
 div .fullscreen-layer .fullscreen-layer-header .logo{background: url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/images/red/mm-logo.svg) 50% no-repeat;text-indent: -999px;}
-div .gallery-view .gv-heading{font-weight: normal;color: #000;font-family: mm-text-bold;}
-
-
+div .gallery-view .gv-heading{font-weight: bold;font-family: mm-text-regular;}
+div .fullscreen-layer .fullscreen-layer-wrapper .fullscreen-layer-header {background: #f2f2f2;height: 59px;border-bottom: 1px solid #ddd!important;}
+div .fullscreen-layer .fullscreen-layer-header .button-close:after{content: '╳';background-image:none;}
