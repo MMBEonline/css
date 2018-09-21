@@ -172,6 +172,8 @@ body #product-sidebar.sticky{top: 100px;} div#accessoires .prev,div#accessoires 
 
 .products-carousel .b-set {display: none;}
 
-div .products-list>li footer ul li a:before{font-family: "mm-icons";background: none;}
+/* cat */
 
+div .products-list>li footer ul li a:before{font-family: "mm-icons";background: none;}
+div .products-list>li footer {background: none;font-size: 12px;margin: 0 0 15px 272px;}
 
