@@ -1,3 +1,6 @@
+body .price span {float: none;margin: 0 0 0 1px !important;}
+
+
 /*cat*/
 
 .products-list>li{border: 1px solid #ddd;}
