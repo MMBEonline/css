@@ -25,6 +25,7 @@ div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 	body.responsive .product-details dd {width: 220px;}
 }
 @media screen and (max-width: 1199px){
+	div .products-list>li .product-wrapper .product-price{width: 185px;}
 	div .products-list>li footer {margin: 10px 0 10px 208px;}
 	.swogo-container.swogo-container-pdp{width:686px;}
 }
