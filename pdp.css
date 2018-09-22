@@ -4,7 +4,7 @@ div #product-details .model .product-rate .rating{margin:0;}
 div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 @media (min-width: 1200px){
 	body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
-	div .responsive .product-details dd {width: 225px;}
+	body.responsive .product-details dd {width: 225px;}
 }
 @media screen and (max-width: 1199px){
 	.swogo-container.swogo-container-pdp{width:686px;}
