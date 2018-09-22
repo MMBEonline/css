@@ -6,6 +6,9 @@ div .products-list>li .product-wrapper .content h2, div .products-list>li .produ
 .products-list>li .content h2>a:hover{color:#df0000;}
 div .products-list>li footer ul li a:before{font-family: "mm-icons";background: none;text-indent:0;margin: -10px 0 0 !important;}
 div .products-list>li footer {background: none;font-size: 14px;margin: 10px 0 10px 272px;}
+div .products-list>li .product-wrapper .content{padding:10px 20px 5px 0;}
+div .products-list>li .product-wrapper .product-price {width: 216px; padding: 12px; background: #f2f2f2; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 0;}
+
 
 
 /*cat*/
@@ -15,7 +18,7 @@ div #product-details .model .product-rate .rating{margin:0;}
 div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 @media (min-width: 1200px){
 	body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
-	body.responsive .product-details dd {width: 225px;}
+	body.responsive .product-details dd {width: 220px;}
 }
 @media screen and (max-width: 1199px){
 	.swogo-container.swogo-container-pdp{width:686px;}
