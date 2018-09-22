@@ -8,7 +8,6 @@ div .products-list>li footer ul li a:before{font-family: "mm-icons";background: 
 div .products-list>li footer {background: none;font-size: 14px;margin: 10px 0 10px 272px;}
 div .products-list>li .product-wrapper .content{padding:10px 20px 5px 0;}
 div .products-list>li .product-wrapper .product-price {margin: -2px -2px 0 0;width: 216px; padding: 12px; background: #f2f2f2; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;}
-div .box.infobox.availability { background: #fff; padding: 5px 10px 10px; border: 1px solid #ddd;}
 div .box.infobox{background: transparent;padding: 0;border: none;margin: 0;}
 div .products-list>li .product-wrapper .product-price .buttons{margin-top:2px;}
 
@@ -21,10 +20,12 @@ div #product-details .model .group .product-rate>a{float: inherit;display: block
 div #product-details .model .product-rate .rating{margin:0;}
 div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 @media (min-width: 1200px){
+	div .box.infobox.availability { background: #fff; padding: 5px 10px 10px; border: 1px solid #ddd;}
 	body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
 	body.responsive .product-details dd {width: 220px;}
 }
 @media screen and (max-width: 1199px){
+	div .products-list>li footer {margin: 10px 0 10px 208px;}
 	.swogo-container.swogo-container-pdp{width:686px;}
 }
 #services{display:none;}
