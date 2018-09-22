@@ -7,9 +7,13 @@ div .products-list>li .product-wrapper .content h2, div .products-list>li .produ
 div .products-list>li footer ul li a:before{font-family: "mm-icons";background: none;text-indent:0;margin: -10px 0 0 !important;}
 div .products-list>li footer {background: none;font-size: 14px;margin: 10px 0 10px 272px;}
 div .products-list>li .product-wrapper .content{padding:10px 20px 5px 0;}
-div .products-list>li .product-wrapper .product-price {width: 216px; padding: 12px; background: #f2f2f2; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 0;}
+div .products-list>li .product-wrapper .product-price {margin: -2px -2px 0 0;width: 216px; padding: 12px; background: #f2f2f2; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 0;}
 div .box.infobox.availability { background: #fff; padding: 5px 10px 10px; border: 1px solid #ddd;}
-div .box.infobox{background: transparent;padding: 0;border: none;}
+div .box.infobox{background: transparent;padding: 0;border: none;margin: 0;}
+div .products-list>li .product-wrapper .product-price .buttons{margin-top:2px;}
+
+
+
 
 /*cat*/
 div #product-details .model .group,div #product-details .model dt {font-size: 13px;color: #444;}
