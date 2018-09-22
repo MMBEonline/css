@@ -1,3 +1,15 @@
+/*cat*/
+
+.products-list>li{border: 1px solid #ddd;}
+div .products-list>li .product-wrapper .content h2, div .products-list>li .product-wrapper .content h3{margin: 0 0 10px;}
+.products-list>li .content h2>a{color: #000;font-size: 20px;}
+.products-list>li .content h2>a:hover{color:#df0000;}
+div .products-list>li footer ul li a {line-height: 20px;font-size: 14px;}
+
+
+
+
+/*cat*/
 div #product-details .model .group,div #product-details .model dt {font-size: 13px;color: #444;}
 div #product-details .model .group .product-rate>a{float: inherit;display: block;margin-top: 3px;}
 div #product-details .model .product-rate .rating{margin:0;}
@@ -174,6 +186,6 @@ body #product-sidebar.sticky{top: 100px;} div#accessoires .prev,div#accessoires 
 
 /* cat */
 
-div .products-list>li footer ul li a:before{font-family: "mm-icons";background: none;text-indent:0;}
+div .products-list>li footer ul li a:before{font-family: "mm-icons";background: none;text-indent:0;margin: -10px 0 0 !important;}
 div .products-list>li footer {background: none;font-size: 12px;margin: 0 0 15px 272px;}
 
