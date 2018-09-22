@@ -8,8 +8,8 @@ div .products-list>li footer ul li a:before{font-family: "mm-icons";background: 
 div .products-list>li footer {background: none;font-size: 14px;margin: 10px 0 10px 272px;}
 div .products-list>li .product-wrapper .content{padding:10px 20px 5px 0;}
 div .products-list>li .product-wrapper .product-price {width: 216px; padding: 12px; background: #f2f2f2; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 0;}
-div .box.infobox { background: #fff; padding: 5px 10px 10px; border: 1px solid #ddd;}
-
+div .box.infobox.availability { background: #fff; padding: 5px 10px 10px; border: 1px solid #ddd;}
+div .box.infobox{background: transparent;padding: 0;border: none;}
 
 /*cat*/
 div #product-details .model .group,div #product-details .model dt {font-size: 13px;color: #444;}
