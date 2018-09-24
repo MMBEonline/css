@@ -137,7 +137,6 @@ div .rating-4-5:before{content: '    ';}
 div .rating-5:before{content: '    ';}
 .button.rate-product:before{display:none;}
 div .button.gray.rate-product span{padding: 0px;color: #444;line-height: 28px;font-size: 14px;}
-div .button.gray.rate-product{background: #fff;border: none;border-bottom: 1px solid #444;font-weight: normal;border-radius: 0;}
 div .prev, div .next{    width: 38px;height: 38px;box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .4);}
 div .next:before {background: none;content: "\e603";top: 10px;right: 15px;font-size: 20px;}
 div .prev:before {content: "\e602";background: none;font-size: 20px;top: 10px;left: 12px;}
