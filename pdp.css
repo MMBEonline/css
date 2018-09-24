@@ -73,7 +73,6 @@ div .breadcrumbs li.home a {background: none;width: 13px;}
 body .icon {background:none;margin: -7px 0 0 3px;}
 body .icon:after {content: "i";font-size: 13px;color: #777;content:"\e60e";}
 body .specification dt:before {background: none;text-indent: 0;content: '';color: #56B118;font-size: 14px;left: 8px;top: 7px;font-family: "mm-icons";}
-body .button.arrow span:after{background: none;text-indent: 0;font-family: MM-Iconfont !important;content: "❯";top: 24%;}
 .page-product .label,.service-value {font-size: 14px;}
 #product-sidebar .fullscreen-gallery,#product-details .details .more,#product-details .options a{font-size: 13px;border-bottom: 1px solid #bbb;}
 #product-sidebar .fullscreen-gallery:hover,#product-details .details .more:hover,#product-details .options a:hover{color: #df0000;border-bottom:1px solid #df0000;text-decoration: none;}
