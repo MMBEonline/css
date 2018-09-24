@@ -98,7 +98,6 @@ div .product-container .products-carousel{border: 1px solid #ddd;min-height: 270
 #product-details .price-sidebar, #product-details .price-sidebar .availability{border: 1px solid #ddd !important;}
 #product-details .price-sidebar .availability {margin-top: 12px;}
 .product-container .products-grid>[data-id] {background: none;}
-.product-container .button.add-to-cart {border: none !important;}
 div #product-sidebar .premiumopts{margin-top:-11px;}
 div .products-grid .base-info h3, div #product-preview .base-info h3{margin: 10px 6px 6px;font-size: 14px;text-align: left;}
 div .products-grid .base-info .photo, div #product-preview .base-info .photo{min-height: 195px;display: block;}
