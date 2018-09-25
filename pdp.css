@@ -4,7 +4,11 @@
 .products-list>li .product-price .buttons .button {float: right !important;margin: 10px 0 !important;}
 .products-list>li .product-price .buttons .button+.button {height: 38px !important;float: left !important;width: 80px !important;}
 .products-list>li .product-price .buttons .button+.button span {line-height: 36px !important;padding: 0 16px 0 3px !important;font-weight: normal;font-family: "MMTextProWeb-Regular","mm-text-regular",Arial,sans-serif !important;font-size: 16px !important;height: 36px !important;}
-
+@media only screen and (max-width: 954px){
+	.responsive div#filters, .small-screen aside#filters {background-color: #fff !important;}
+	.responsive #filters, .responsive #my-market-wrapper #my-market-sidebar {border: 1px solid #ddd;border-left: none;background-position: right 0;background: none transparent;padding: 12px 0 15px 12px;margin-top: 0;box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .4) !important;}
+	.container.shader>.main, .container.shader>.side {padding-bottom: 1px;}
+}
 
 #content, .container {padding: 0;}
 body.responsive div#content {padding: 12px 0 0;}
