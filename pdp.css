@@ -1,5 +1,5 @@
 #product-details .description ul li:before {background: none repeat scroll 0 0 #DF0000;margin: 8px 0 0;top: 0;left: 8px;}
-
+#product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:hover:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:hover:after {color: #DF0000;}
 #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:after {display: block;margin: 0 0 0 5px;font-size: 12px;line-height: 60px;color: #000;}
 .mm-iconfont-arrow-left, .skin2014 .breadcrumbs li.back-to-search::before, .breadcrumbs li.back-to-search::before, #header #top-navigation .top-navigation-items .flyout-subnavigation.flyout-expanding-left ul.dropdown-menu .level-1 > a::after, #filters .menu-collapse .menu-collapse-button-hide::before, #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev::after {content: "";}
 body #product-details #accessoires .products-carousel{border-right:1px solid #ddd;border-bottom:1px solid #ddd;border-left:1px solid #ddd;}
