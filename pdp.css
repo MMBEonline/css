@@ -1,4 +1,3 @@
-#product-sidebar .thumbnail-carousel.thumbnail-carousel--last-page .thumbnail-carousel__next:after {opacity: .2;}
 
 
 #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:after {display: block;margin: 0 0 0 5px;font-size: 12px;line-height: 60px;color: #000;}
