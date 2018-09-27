@@ -5,7 +5,7 @@ body .button.arrow span{font-family: MMText-semibold!important;}
 .button.arrow:hover{background: #fff!important;}
 .products-grid li{height:270px;}
 
-
+.price span{float:inherit;}
 #filters .content.categories.categories-tree {padding-left: 12px;}
 body #filters .categories li:nth-child(1) a {padding-left: 0px;}
 #filters .categories a {padding: 5px 5px 5px 0;display: block;font-size: 16px;color: black;}
