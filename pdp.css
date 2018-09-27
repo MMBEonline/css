@@ -1,6 +1,6 @@
 #product-details .description ul li:before {background: none repeat scroll 0 0 #DF0000;margin: 8px 0 0;top: 0;left: 8px;}
 #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:hover:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:hover:after {color: #DF0000;}
-#product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:after {display: block;margin: 0 0 0 5px;font-size: 12px;line-height: 60px;color: #000;}
+#product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:after {display: block;margin: 0 0 0 5px;font-size: 12px;line-height: 60px;color: #000;top: 49%;position: absolute;transform: translateY(-49%);}
 .mm-iconfont-arrow-left, .skin2014 .breadcrumbs li.back-to-search::before, .breadcrumbs li.back-to-search::before, #header #top-navigation .top-navigation-items .flyout-subnavigation.flyout-expanding-left ul.dropdown-menu .level-1 > a::after, #filters .menu-collapse .menu-collapse-button-hide::before, #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev::after {content: "";}
 body #product-details #accessoires .products-carousel{border-right:1px solid #ddd;border-bottom:1px solid #ddd;border-left:1px solid #ddd;}
 body #product-details #accessoires > .header.border-top{border-bottom:1px solid #ddd;margin-bottom:-1px;padding-bottom:12px;}
@@ -210,7 +210,7 @@ div .fullscreen-layer .fullscreen-layer-header .button-close:after{content: '╳
 }
 body #product-sidebar.sticky{top: 100px;} div#accessoires .prev,div#accessoires .next{top:50%!important}
 #product-sidebar .thumbnail-carousel.thumbnail-carousel--single-page div.thumbnail-carousel__carousel{width:100%}
-#product-sidebar .thumbnail-carousel__prev,#product-sidebar .thumbnail-carousel__next{background-color:#f2f2f2;border:none!important;width:15px!important}
+#product-sidebar .thumbnail-carousel__prev,#product-sidebar .thumbnail-carousel__next{position: relative;background-color:#f2f2f2;border:none!important;width:15px!important}
 #product-sidebar .thumbnail-carousel__prev{border-radius:6px 0 0 6px}
 #product-sidebar .thumbnail-carousel__next{border-radius:0 6px 6px 0}
 #product-sidebar .thumbnail-carousel.thumbnail-carousel--last-page .thumbnail-carousel__next:after{opacity:.2}
