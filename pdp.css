@@ -102,7 +102,7 @@ div .features-wrapper .button-toggle-collapsed:hover{color: #df0000; border-bott
 div .features-wrapper .button-toggle-collapsed span {padding: 0}
 div .multisection{border:none;}
 
-.features-wrapper .button-toggle-collapsed span{ color: #000 !important; padding: 0 !important; font-size: 16px !important; border: none !important; border-bottom: 1px solid #bbb !important; line-height: 35px !important; border-radius: 0 !important; background: none;}
+.features-wrapper .button-toggle-collapsed span{font-family: SourceSansPro-Regular !important;color: #000 !important; padding: 0 !important; font-size: 16px !important; border: none !important; border-bottom: 1px solid #bbb !important; line-height: 35px !important; border-radius: 0 !important; background: none;}
 
 div .multisection h2{color: #444;font-size: 17px;line-height: 20px;padding: 5px 0 12px;background:none;border:none;}
 div .specification dt {padding: 6px 5px 6px 30px;color: #444;}
