@@ -4,7 +4,11 @@ body #filters .categories li:nth-child(1) a {padding-left: 0px;}
 body #filters .categories li:nth-child(2) a {padding-left: 12px;border-top: 1px dotted #D6D6D6;}
 #filters .content .categories-tree-ancestors a::before, #filters .content .categories-tree-current::before{display:none;}
 #filters .content div.categories-tree-current {font-weight: normal;padding: 5px 5px 7px 0;color: #df0000;margin-left: 12px;padding-left: 12px;font-size: 16px;border-top: 1px dotted #D6D6D6;line-height: 20px;}
-
+.as-list:after{content: "\e640";top: 6px;font-size: 16px;}
+.as-grid:after{content: "\e642";top: 5px;font-size: 18px;}
+.as-grid:after,.as-list:after {display: block;text-indent: 0;position: absolute;}
+.as-grid.is-active:after,.as-list.is-active:after{color:#df0000;}
+.as-grid,.as-list{background:none !important;position:relative;}
 .container.shader{background:none;}
 
 .box.infobox.availability>ul>li>a:hover{color:#df0000;}
