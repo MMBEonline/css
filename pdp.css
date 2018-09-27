@@ -105,7 +105,7 @@ body .specification dt:before {background: none;text-indent: 0;content: '';co
 div .features-wrapper .button-toggle-collapsed:hover{color: #df0000; border-bottom: 1px solid #df0000;}
 div .features-wrapper .button-toggle-collapsed span {padding: 0}
 div .multisection{border:none;}
-.features-wrapper .button-toggle-collapsed:hover{border:none !important;}
+.features-wrapper .button-toggle-collapsed:hover{border:none !important;background:none !important;}
 .features-wrapper .button-toggle-collapsed span{font-family: SourceSansPro-Regular !important;padding: 0 !important; font-size: 16px !important; border: none !important; border-bottom: 1px solid #bbb !important; line-height: 35px !important; border-radius: 0 !important; background: none;}
 
 div .multisection h2{color: #444;font-size: 17px;line-height: 20px;padding: 5px 0 12px;background:none;border:none;}
