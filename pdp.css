@@ -3,7 +3,7 @@ body .button.arrow span{font-family: MMText-semibold!important;}
 .button.arrow span:after{color:#444!important;}
 .button.arrow:hover>span:after{color:#df0000!important;}
 .button.arrow:hover{background: #fff!important;}
-
+.products-grid li{height:270px;}
 
 
 #filters .content.categories.categories-tree {padding-left: 12px;}
