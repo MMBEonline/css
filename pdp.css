@@ -1,6 +1,6 @@
 .products-grid .info-wrapper .price{margin-right:10px;}
 
-
+#product-preview{display:none !important;}
 .features-wrapper .button-toggle-collapsed {color: #000;bottom: -20px !important;border: none;position: static;bottom: auto !important;height: auto;background: transparent !important;}
 #product-details .description ul li:before {background: none repeat scroll 0 0 #DF0000;margin: 8px 0 0;top: 0;left: 8px;}
 #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:hover:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:hover:after {color: #DF0000;}
