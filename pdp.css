@@ -1,4 +1,5 @@
 .button.arrow{background: #fff!important;border: 1px solid #ddd!important;color: #444!important;}
+.products-list>li footer ul a:hover {color: #df0000;}
 body .button.arrow span{font-family: MMText-semibold!important;}
 .button.arrow span:after{color:#444!important;}
 .button.arrow:hover>span:after{color:#df0000!important;}
