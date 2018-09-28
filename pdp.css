@@ -1,3 +1,4 @@
+body .ms-button2 {font-family: MMText-semibold;}
 .ms-textarea, .ms-textfield {font-family: SourceSansPro-Regular !important;}
 .marketsel-zip {height: inherit;border: 1px solid #ddd;width: calc(100% - 28px);}
 .deliverytbl tr.deliverytbl-sub-heading th { font-style: normal; background: #fff; color: #000; padding: 15px 0; }
