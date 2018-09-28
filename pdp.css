@@ -1,3 +1,7 @@
+.marketsel-zip {height: inherit;border: 1px solid #ddd;width: calc(100% - 28px);}
+
+
+
 .breadcrumbs a:hover,.breadcrumbs-nav a:hover{color:#df0000;}
 #product-sidebar .sidebar-form form {	padding: 10px 10px 20px;}
 .offline{height:103%;background:#ffffffd1;}
