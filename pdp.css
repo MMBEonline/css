@@ -3,7 +3,7 @@
 .deliverytbl-current-location .market-name, .deliverytbl-current-location .current-name, .deliverytbl-current-header .market-name, .deliverytbl-current-header .current-name {font-weight: normal;color: #df0000;}
 .deliverytbl-current-location, .deliverytbl-current-header { font-size: 17px; font-style: normal; padding: 0; margin: 0 0 10px; background: #fff; color: #000; }
 .deliverytbl-section-map tr td {padding: 0px;}
-
+body #filters .categories .categories-tree-descendants li a {padding-left: 0;}
 
 .breadcrumbs a:hover,.breadcrumbs-nav a:hover{color:#df0000;}
 #product-sidebar .sidebar-form form {	padding: 10px 10px 20px;}
