@@ -166,10 +166,10 @@ div #product-details .model .group .product-rate{max-width: 203px;margin-top: 3p
 #product-details .header h2 {font-size: 20px !important;}
 #product-details .header p{font-size: 13px;}
 .premiumopts h2, #product-details #product-service h2 {font-size: 17px;background: none !important;line-height: 34px !important;}
-.product-container .products-grid>li{min-height: 180px !important;}
+.product-container .products-grid>li{min-height: 225px !important;}
 .product-container .products-grid>li h3 a {display: block;color: #000;}
 .product-container .header h2 {font-size: 20px;color: #000;padding-top: 20px;padding-left:0;}
-div .product-container .products-carousel{border: 1px solid #ddd;min-height:180px;}
+div .product-container .products-carousel{border: 1px solid #ddd;min-height:225px;}
 #product-details .price-sidebar, #product-details .price-sidebar .availability{border: 1px solid #ddd !important;}
 #product-details .price-sidebar .availability {margin-top: 12px;}
 .product-container .products-grid>[data-id] {background: none;}
