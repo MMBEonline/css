@@ -5,7 +5,7 @@ body .button.arrow span{font-family: MMText-semibold!important;}
 .button.arrow:hover>span:after{color:#df0000!important;}
 .button.arrow:hover{background: #fff!important;}
 .products-grid li{height:270px;}
-body #product-details #accessoires .products-carousel {min-height: 270px;}
+body #product-details #accessoires .products-carousel {min-height: 270px;    margin-top: -1px;}
 .mm-iconfont-close-cancel, .fullscreen-layer .fullscreen-layer-header .button-close::after, .ct-modal .ct-modal-content .ct-modal-close::before, .cms-products-grid .action-bar .action-clearall::after, .button.gray.filter > span::before, .marketsel-info-window .filter.button.js-select-market > span::before, .fullscreen-layer .fullscreen-layer-content .gv-button-details .filter.button.arrow > span::before, .mm-btn.close::after, .filters li::before, #filters .options .reset > a::before, .reviewer-summary-box .rsb-close::after { content: ""; }
 .price span{float:none;}
 #filters .content.categories.categories-tree {padding-left: 12px;}
@@ -135,7 +135,10 @@ div .multisection h2{color: #444;font-size: 17px;line-height: 20px;padding: 5px 
 div .specification dt {padding: 6px 5px 6px 30px;color: #444;}
 div .specification dt, div .specification dd {font-size: 14px;line-height: 18px;padding:6px 5px 6px 30px;}
 div .specification dt:nth-child(4n+1), div .specification dt.nth4n1, div .specification dt:nth-child(4n+1)+dd, div .specification dt.nth4n1+dd {background-color: #f2f2f2;}
-.description, #product-details .accessories-list, #product-details .products-carousel, #product-details .features-wrapper, #product-details .product-bundle .pb-element, #product-details .reviews-content, #product-details #alaTestReviews, #product-details .rbkit-container, #product-details #flix-inpage section header+* {border: 1px solid #ddd;}
+.description, #product-details .products-carousel, #product-details .features-wrapper, #product-details .product-bundle .pb-element, #product-details .reviews-content, #product-details #alaTestReviews, #product-details .rbkit-container, #product-details #flix-inpage section header+* {border: 1px solid #ddd;}
+
+#product-details .accessories-list{margin-left:1px solid #ddd;}
+
 #product-details .features-wrapper, #product-details #flix-inpage section header+*, #product-details .product-bundle .pb-element, #product-details .reviews .reviews-content li, #product-details #flix-inpage .inpage_block, #product-details .description, #product-details .tracklist>* {padding: 10px;}
 div #product-details .product-anchors {border: none;background: none;height: 0;margin: 0;}
 div .features-wrapper.collapsed .collapse-fade {top:140px;}
