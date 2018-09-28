@@ -4,6 +4,7 @@ body .button.arrow span{font-family: MMText-semibold!important;}
 .button.arrow:hover>span:after{color:#df0000!important;}
 .button.arrow:hover{background: #fff!important;}
 .products-grid li{height:270px;}
+body #product-details #accessoires .products-carousel {min-height: 270px;}
 
 .price span{float:none;}
 #filters .content.categories.categories-tree {padding-left: 12px;}
@@ -28,7 +29,6 @@ body #filters .categories li:nth-child(2) a {padding-left: 12px;border-top: 1px 
 #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:hover:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:hover:after {color: #DF0000;}
 #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev:after, #product-sidebar .thumbnail-carousel .thumbnail-carousel__next:after {display: block;margin: 0 0 0 5px;font-size: 12px;line-height: 60px;color: #000;top: 49%;position: absolute;transform: translateY(-49%);}
 .mm-iconfont-arrow-left, .skin2014 .breadcrumbs li.back-to-search::before, .breadcrumbs li.back-to-search::before, #header #top-navigation .top-navigation-items .flyout-subnavigation.flyout-expanding-left ul.dropdown-menu .level-1 > a::after, #filters .menu-collapse .menu-collapse-button-hide::before, #product-sidebar .thumbnail-carousel .thumbnail-carousel__prev::after {content: "";}
-body #product-details #accessoires .products-carousel{border-right:1px solid #ddd;border-bottom:1px solid #ddd;border-left:1px solid #ddd;}
 body #product-details #accessoires > .header.border-top{border-bottom:1px solid #ddd;margin-bottom:-1px;padding-bottom:12px;}
 #accessoires .accessories-list, .accessories .accessories-list {margin:0;border-bottom: none;overflow: visible;padding: 0;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;-ms-flex-flow: wrap;flex-flow: wrap;border-right: 0 !important;background: transparent;}
 #accessoires .accessories-list li, .accessories .accessories-list li {display: inline-block;-webkit-box-flex: 1;-ms-flex: auto;flex: auto;text-align: center;margin: 0;width: auto;border-bottom: 1px solid #ddd;border-right: 1px solid #ddd;background: #fff;}
