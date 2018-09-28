@@ -1,3 +1,6 @@
+.static .heading-h1, .static h1, .static h2, .static h3 {color: #000;}
+#cookie-info-layer h2 {font-size: 18px;padding: 10px 0 0 0;}
+
 body .ms-button2 {font-family: MMText-semibold;}
 .ms-textarea, .ms-textfield {font-family: SourceSansPro-Regular !important;}
 .marketsel-zip {height: inherit;border: 1px solid #ddd;width: calc(100% - 28px);}
