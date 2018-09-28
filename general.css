@@ -12,11 +12,7 @@ body .ms-header2__meta-nav-link,
 body .ms-market-selector__button--meta-nav,
 body .site-navigation2--dropdown .ms-market-selector__item-form--offcanvas, 
 body .site-navigation2--dropdown .ms-market-selector__item-link--offcanvas, 
-body .site-navigation2--dropdown .site-navigation2__child-label, 
-@media (min-width: 61.875em) {
-	#rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
-	#rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
-}
+body .site-navigation2--dropdown .site-navigation2__child-label,
 .site-navigation2__panel--level-3 span.site-navigation2__link-label {font-family: SourceSansPro-Regular;}
 #rise-header #search-autocomplete .ms-button2--search {background-color:#df0000;color:#fff;}
 #rise-header .ms-shopping-cart__button.proceed-button:active{background-color:#df0000;color:#fff;}
@@ -36,9 +32,7 @@ small.vat-info {display: none !important;}
 div .teaser nav a{background-color: #fff;color: #444;}
 div .teaser nav ul{border-left: 1px solid #c6c6c6;border-bottom: 1px solid #c6c6c6;}
 div .teaser nav a.active{background-color:#df0000;}
-
-
-
-
-
-/*cat*/
+@media (min-width: 61.875em) {
+	#rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
+	#rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
+}
