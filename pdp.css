@@ -20,7 +20,7 @@ body #filters .categories li:nth-child(2) a {padding-left: 12px;border-top: 1px 
 .container.shader{background:none;}
 
 .box.infobox.availability>ul>li>a:hover{color:#df0000;}
-.products-grid .info-wrapper .price{margin-right:10px;}
+.products-grid .info-wrapper .price{margin-right:10px;min-height: 52px;}
 #product-sidebar .support{border-top: none;}
 #product-preview{display:none !important;}
 .features-wrapper .button-toggle-collapsed {color: #000;bottom: -20px !important;border: none;position: static;bottom: auto !important;height: auto;background: transparent !important;}
@@ -155,7 +155,7 @@ div .product-container .products-carousel{border: 1px solid #ddd;min-height: 225
 #product-details .price-sidebar .availability {margin-top: 12px;}
 .product-container .products-grid>[data-id] {background: none;}
 div #product-sidebar .premiumopts{margin-top:-11px;}
-.products-grid .info-wrapper, #product-preview .info-wrapper{margin: -20px 0 0;}
+.products-grid .info-wrapper, #product-preview .info-wrapper{margin: -30px 0 0;}
 div .products-grid .base-info h3, div #product-preview .base-info h3{height:17px;margin: 10px 6px 6px;text-align: left;overflow: hidden;text-overflow: ellipsis;font-size: 16px;}
 .products-grid .base-info:hover>h3>a {text-decoration: none;}
 .page-product #avis-sur-les-produits, .page-product #productrecensies {border-bottom: 1px solid #ddd;}
