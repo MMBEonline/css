@@ -27,7 +27,7 @@
     font-weight:normal;
     src:url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.eot");
     src:url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
-        url("https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY.woff2") format("woff2"),
+        url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.woff2") format("woff2"),
         url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.woff") format("woff"),
         url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("truetype"),
         url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.svg#svg") format("svg");
