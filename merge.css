@@ -103,7 +103,7 @@ body .button.arrow span:after{right: 10px;}
 .price span{float:none;margin: 0;}
 #filters .content.categories.categories-tree {padding-left: 12px;}
 #filters .categories a {padding: 5px 5px 5px 0;display: block;font-size: 16px;color: black;}
-body #filters .categories li:nth-child(1) a{border-top:none; }
+body #filters .categories li:nth-child(1) a{border-top:none;padding-left: 0px !important; }
 body #filters .categories li a {border-top: 1px dotted #D6D6D6;}
 #filters .content .categories-tree-ancestors a::before, #filters .content .categories-tree-current::before{display:none;}
 #filters .content div.categories-tree-current {font-weight: normal;padding: 5px 5px 7px 0;color: #df0000;margin-left: 12px;padding-left: 12px;font-size: 16px;border-top: 1px dotted #D6D6D6;line-height: 20px;}
