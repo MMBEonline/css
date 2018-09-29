@@ -100,7 +100,7 @@ body .button.arrow span:after{right: 10px;}
 .products-grid li{height:270px;}
 .page-product #product-details #accessoires .products-carousel {min-height: 270px;    margin-top: -1px;}
 .mm-iconfont-close-cancel, .fullscreen-layer .fullscreen-layer-header .button-close::after, .ct-modal .ct-modal-content .ct-modal-close::before, .cms-products-grid .action-bar .action-clearall::after, .button.gray.filter > span::before, .marketsel-info-window .filter.button.js-select-market > span::before, .fullscreen-layer .fullscreen-layer-content .gv-button-details .filter.button.arrow > span::before, .mm-btn.close::after, .filters li::before, #filters .options .reset > a::before, .reviewer-summary-box .rsb-close::after { content: "";background: none !important; }
-.price span{float:none;}
+.price span{float:none;margin: 0;}
 #filters .content.categories.categories-tree {padding-left: 12px;}
 #filters .categories a {padding: 5px 5px 5px 0;display: block;font-size: 16px;color: black;}
 body #filters .categories li:nth-child(1) a{border-top:none; }
