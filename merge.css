@@ -102,9 +102,9 @@ body .button.arrow span:after{right: 10px;}
 .mm-iconfont-close-cancel, .fullscreen-layer .fullscreen-layer-header .button-close::after, .ct-modal .ct-modal-content .ct-modal-close::before, .cms-products-grid .action-bar .action-clearall::after, .button.gray.filter > span::before, .marketsel-info-window .filter.button.js-select-market > span::before, .fullscreen-layer .fullscreen-layer-content .gv-button-details .filter.button.arrow > span::before, .mm-btn.close::after, .filters li::before, #filters .options .reset > a::before, .reviewer-summary-box .rsb-close::after { content: "";background: none !important; }
 .price span{float:none;}
 #filters .content.categories.categories-tree {padding-left: 12px;}
-body #filters .categories li:nth-child(1) a {padding-left: 0px;}
 #filters .categories a {padding: 5px 5px 5px 0;display: block;font-size: 16px;color: black;}
-body #filters .categories li:nth-child(2) a {padding-left: 12px;border-top: 1px dotted #D6D6D6;}
+body #filters .categories li:nth-child(1) a{border-top:none; }
+body #filters .categories li a {border-top: 1px dotted #D6D6D6;}
 #filters .content .categories-tree-ancestors a::before, #filters .content .categories-tree-current::before{display:none;}
 #filters .content div.categories-tree-current {font-weight: normal;padding: 5px 5px 7px 0;color: #df0000;margin-left: 12px;padding-left: 12px;font-size: 16px;border-top: 1px dotted #D6D6D6;line-height: 20px;}
 .as-list:after{content: "\e640";top: 6px;font-size: 16px;}
@@ -278,20 +278,20 @@ div #product-sidebar .fullscreen-gallery:after{content:"";}
 div #product-details .details .more{padding:0;}
 div #product-details .details .more:before{display:none;}
 div #product-details .options a{padding:0;margin:0 0 0 22px;}
-div .rating,div .rating>div:first-child,div .rating:after{background:none;vertical-align: inherit;}
-div .rating:after,div .rating:before{position: absolute;font-size:11px;width:80px;font-family:mm-icons;}
-div .rating:before{z-index: 1;color: #df0000;font-weight: bold;}
-div .rating:after,body div .rating-0:before{content: '    ';color: #444}
-div .rating-0-5:before{content: ''}
-div .rating-1:before{content: '';}
-div .rating-1-5:before{content: ' ';}
-div .rating-2:before{content: ' ';}
-div .rating-2-5:before{content: '  ';}
-div .rating-3:before{content: '  ';}
-div .rating-3-5:before{content: '   ';}
-div .rating-4:before{content: '   ';}
-div .rating-4-5:before{content: '    ';}
-div .rating-5:before{content: '    ';}
+.rating,div .rating>div:first-child,div .rating:after{background:none;vertical-align: inherit;}
+.rating:after,.rating [class*="value-"]:before{position: absolute;font-size:11px;width:80px;font-family:mm-icons;top:0;left:0;}
+.rating [class*="value-"]:before{z-index: 1;color: #df0000;font-weight: bold;}
+.rating:after,body .rating .value-0:before{content: '    ';color: #444}
+.rating .value-0-5:before{content: ''}
+.rating .value-1:before{content: '';}
+.rating .value-1-5:before{content: ' ';}
+.rating .value-2:before{content: ' ';}
+.rating .value-2-5:before{content: '  ';}
+.rating .value-3:before{content: '  ';}
+.rating .value-3-5:before{content: '   ';}
+.rating .value-4:before{content: '   ';}
+.rating .value-4-5:before{content: '    ';}
+.rating .value-5:before{content: '    ';}
 .button.rate-product:before{display:none;}
 div .button.gray.rate-product span{padding: 0px;color: #444;line-height: 28px;font-size: 14px;}
 div .prev, div .next{    width: 38px;height: 38px;box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .4);}
@@ -300,12 +300,6 @@ div .prev:before {content: "\e602";background: none;font-size: 20px;top: 10px;le
 div .prev:hover:before,div .next:hover:before{color:#df0000;}
 div .box.infobox ul li {margin: 10px 0px 5px;font-size: 13px;}
 div .box.infobox ul li+li {margin-top: 15px;}
-
-
-
-
-
-
 .swogo-container.swogo-container-pdp {margin:50px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:740px;padding:0 10px;}
 .swogo-container-pdp .swogo-host-title {position:absolute;top:-40px;left:0;border-bottom:none;display:inline-block;padding:0;}
 .swogo-container-pdp .swogo-bundle{border-bottom: 1px solid #ddd;}
