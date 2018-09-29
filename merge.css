@@ -281,6 +281,7 @@ div #product-details .options a{padding:0;margin:0 0 0 22px;}
 .rating,div .rating>div:first-child,div .rating:after{background:none;vertical-align: inherit;}
 .rating:after,.rating [class*="value-"]:before{position: absolute;font-size:11px;width:80px;font-family:mm-icons;top:0;left:0;}
 .rating [class*="value-"]:before{z-index: 1;color: #df0000;font-weight: bold;}
+.base-content .rating [class*="value-"]:before {left:-2px;}
 .rating:after,body .rating .value-0:before{content: '    ';color: #444}
 .rating .value-0-5:before{content: ''}
 .rating .value-1:before{content: '';}
