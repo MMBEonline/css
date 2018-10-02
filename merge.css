@@ -108,12 +108,12 @@ div .teaser nav a.active{background-color:#df0000;}
 body .ms-button2 {font-family: MMText-semibold;}
 .ms-textarea, .ms-textfield {font-family: SourceSansPro-Regular !important;}
 .marketsel-zip {height: inherit;border: 1px solid #ddd;width: calc(100% - 28px);}
-.deliverytbl tr.deliverytbl-sub-heading th { font-style: normal; background: #fff; color: #000; padding: 15px 0; }
+.deliverytbl tr.deliverytbl-sub-heading th { font-style: normal; background: #f2f2f2; color: #000; padding: 15px 0; }
 .deliverytbl-current-location .market-name, .deliverytbl-current-location .current-name, .deliverytbl-current-header .market-name, .deliverytbl-current-header .current-name {font-weight: normal;color: #df0000;}
 .deliverytbl-current-location, .deliverytbl-current-header { font-size: 17px; font-style: normal; padding: 0; margin: 0 0 10px; background: #fff; color: #000; }
 .deliverytbl-section-map tr td {padding: 0px;}
 body #filters .categories .categories-tree-descendants li a {padding-left: 0;}
-
+.deliverytbl table {font-size: 14px;}
 .breadcrumbs a:hover,.breadcrumbs-nav a:hover{color:#df0000;}
 #product-sidebar .sidebar-form form {	padding: 10px 10px 20px;}
 .offline{height:103%;background:#ffffffd1;}
@@ -244,11 +244,11 @@ div .product-details dt{padding-left: 0;padding: 0;width: 170px;}
 div #product-sidebar .product-name{color:#000;font-family: mm-text-bold;font-size: 20px;padding-top: 5px;}
 div .product-accessories .products-grid .base-info .b-set .add-to-cart span{padding-left:33px;}
 div .breadcrumbs li.home a {background: none;width: 13px;}
-.deliverytbl-section-delivery .deliverytbl-sub-heading th:before{content:"  ";color:#000;font-size:22px;}
+.deliverytbl-section-delivery .deliverytbl-sub-heading th:before{content:"  ";color:#000;font-size: 16px;position: absolute;left: 26px;}
 .iconfont-delivery:before,.box.infobox.availability>ul>li:before{content:"";font-size:32px;color:#777}
 .box.infobox.availability>ul>li:before {font-family: "mm-icons";background: none !important;text-indent: 0;font-size: 11px;color: #444;width: 18px;height: 18px;top: 50%;margin-top: -5px;left: 0;}
 
-.deliverytbl-section-pickup .deliverytbl-sub-heading th:before{color:#000;font-size:27px;content:"  ";}
+.deliverytbl-section-pickup .deliverytbl-sub-heading th:before{color:#000;font-size:20px;content:"  ";position: absolute;left: 28px;}
 .iconfont-store:before,.box.infobox.availability>ul>li.section-store-availability:before,.box.infobox.availability>ul>li.market-buy:before{content:"";font-size:32px;color:#777}
 .box.infobox.availability>ul>li.section-store-availability:before, .box.infobox.availability>ul>li.market-buy:before {color: #444;font-size: 18px;left: 3px;margin-top: -9px;}
 .breadcrumbs li:before {line-height: 1;background-image: none;color: #777;content: "\e603";font-size: 7px;height: 7px;text-indent: 0;top: 5px;left: 4px;width: 4px;}
