@@ -326,7 +326,7 @@ div .prev:before {content: "\e602";background: none;font-size: 20px;top: 10px;le
 div .prev:hover:before,div .next:hover:before{color:#df0000;}
 div .box.infobox ul li {margin:10px 0 0;font-size: 14px;line-height:1;}
 div .box.infobox ul li a {text-decoration: underline;}
-.swogo-container.swogo-container-pdp {margin:50px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:740px;padding:0 10px;}
+.swogo-container.swogo-container-pdp {margin:50px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:756px;padding:0 10px;}
 .swogo-container-pdp .swogo-host-title {position:absolute;top:-40px;left:0;border-bottom:none;display:inline-block;padding:0;}
 .swogo-container-pdp .swogo-bundle{border-bottom: 1px solid #ddd;}
 .swogo-container-pdp .swogo-main{display:flex;justify-content:space-around;background:none !important;padding:0 180px 0 0;}
