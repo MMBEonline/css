@@ -270,6 +270,8 @@ div .multisection{border:none;}
 .features-wrapper .button-toggle-collapsed:hover{border:none !important;background:none !important;}
 .features-wrapper .button-toggle-collapsed span{font-family: SourceSansPro-Regular !important;padding: 0 !important; font-size: 16px !important; border: none !important; border-bottom: 1px solid #bbb !important; line-height: 35px !important; border-radius: 0 !important; background: none;}
 
+
+#ContainerAuto_ar{padding:40px 10px 0 20px}#ContainerAuto_ar h1{font-size:40px;padding-bottom:15px;margin:0;color:#df0000;text-transform:uppercase;line-height:1em}#ContainerAuto_ar h2{font-size:27px;padding:10px 0 7px;margin:0;color:#444;line-height:1em}#ContainerAuto_ar h3{font-size:21px;padding:8px 0 10px;margin:0;color:#444;font-style:normal}#ContainerAuto_ar p{padding-bottom:15px;text-align:justify;line-height:normal}#ContainerAuto_ar ul{list-style:disc!important;margin-bottom:10px}#ContainerAuto_ar li{margin-left:19px;line-height:1.4em}#ContainerAuto_ar th h1{font-size:1.3em!important;line-height:1.1em!important;color:#444!important}#ContainerAuto_ar th h1 span{font-size:.7em!important;color:#444!important}
 div .multisection h2{color: #444;font-size: 17px;line-height: 20px;padding: 5px 0 12px;background:none;border:none;}
 div .specification dt {padding: 6px 5px 6px 30px;color: #444;}
 div .specification dt, div .specification dd {font-size: 14px;line-height: 18px;padding:6px 5px 6px 30px;}
