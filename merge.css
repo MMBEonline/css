@@ -39,7 +39,10 @@
 	url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MediaMarktPreise.woff) format("woff"),
 	url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MediaMarktPreise.ttf) format("truetype")
 }
-
+.marketsel-info-window .description{border:none;}
+.marketsel-info-window {width: auto;max-height: inherit;}
+.marketsel-zip label {width: auto;margin-right: 24px;}
+.marketsel-article-info .pname {font-weight: normal;color: #000;font-family: mm-text-bold;}
 .reviews-content li{border-bottom: 1px dotted #ddd;}
 .reviews-content aside .verified-buyer,.reviews-content aside small{color: #444;font-size: 14px;}
 .reviews-content aside strong,.reviews-content h2, .reviews-content h3{color: #000;font-size: 16px;}
