@@ -41,7 +41,7 @@
 }
 thead.deliverytbl-section-header th {font-weight: normal;font-size: 14px;padding: 15px 0;}
 .deliverytbl tr th, .deliverytbl tr td {border-color: #ddd;}
-
+.deliverytbl-layer .deliverytbl-col-market .deliverytbl-map-icon{width: 0px;background: none;margin-right: 0;}
 .marketsel-info-window .description{border:none;}
 .marketsel-info-window {width: auto;max-height: inherit;}
 .marketsel-zip label {width: auto;margin-right: 24px;}
