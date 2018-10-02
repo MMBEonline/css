@@ -221,7 +221,7 @@ div #product-details .model .product-rate .rating{margin:0;}
 div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 @media (min-width: 1200px){
 	.responsive #product-details {width: 778px;}
-	div .box.infobox.availability { background: #fff; padding: 15px 10px; border: 1px solid #ddd;}
+	div .box.infobox.availability { background: #fff; padding: 15px 10px !important; border: 1px solid #ddd;}
 	body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
 	body.responsive .product-details dd {width: 220px;}
 }
