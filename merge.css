@@ -221,7 +221,7 @@ div #product-details .model .product-rate .rating{margin:0;}
 div #product-details .model .group .product-rate>a:hover{color:#df0000;}
 @media (min-width: 1200px){
 	.responsive #product-details {width: 778px;}
-	div .box.infobox.availability { background: #fff; padding: 5px 10px 10px; border: 1px solid #ddd;}
+	div .box.infobox.availability { background: #fff; padding: 15px 10px; border: 1px solid #ddd;}
 	body.responsive #product-sidebar .sidebar-form .price-button {top: 5px;}
 	body.responsive .product-details dd {width: 220px;}
 }
@@ -330,7 +330,8 @@ div .prev, div .next{    width: 38px;height: 38px;box-shadow: 1px 1px 10px 0 rgb
 div .next:before {background: none;content: "\e603";top: 10px;right: 15px;font-size: 20px;}
 div .prev:before {content: "\e602";background: none;font-size: 20px;top: 10px;left: 12px;}
 div .prev:hover:before,div .next:hover:before{color:#df0000;}
-div .box.infobox ul li {margin:10px 0 0;font-size: 14px;line-height:1;}
+div .box.infobox ul li {margin:10px 0 0;font-size: 13px;line-height:1;}
+div .box.infobox ul>li:nth-child(1) {margin: 0;}
 div .box.infobox ul li a {text-decoration: underline;}
 .swogo-container.swogo-container-pdp {margin:50px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:756px;padding:0 10px;}
 .swogo-container-pdp .swogo-host-title {position:absolute;top:-40px;left:0;border-bottom:none;display:inline-block;padding:0;}
