@@ -280,7 +280,6 @@ div #product-sidebar .premiumopts{margin-top:-11px;}
 .products-grid .info-wrapper, #product-preview .info-wrapper{margin: -30px 0 0;}
 div .products-grid .base-info h3, div #product-preview .base-info h3{height:17px;margin: 10px 6px 6px;text-align: left;overflow: hidden;text-overflow: ellipsis;font-size: 16px;}
 .products-grid .base-info:hover>h3>a {text-decoration: none;}
-.page-product #avis-sur-les-produits, .page-product #productrecensies {border-bottom: 1px solid #ddd;}
 div #product-sidebar .fullscreen-gallery:after,div #product-details .options .to-wishlist a:before,div #product-details .options .to-compare a:before,div #product-details .options .print a:before {background: none !important;text-indent: 0;font-size: 14px;left: -22px;}
 div #product-details .options .to-wishlist a:before,.add-to-wishlist:before{content: "" !important;}
 div #product-details .options .to-compare a:before,.add-to-compare:before{content: "" !important;}
