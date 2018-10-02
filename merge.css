@@ -234,7 +234,7 @@ div .fullscreen-layer .fullscreen-layer-header .logo{background: url(https://css
 div #product-details .details h1 {color: #000;border-bottom: 1px solid #ddd;line-height: 26px;}
 #product-details .model{border-bottom: 1px solid #ddd;}
 div #product-sidebar .fullscreen-gallery {color: #000;padding: 0;margin: -19px 0 0 22px;}
-#product-details .price-sidebar small{font-size: 11px;    color: #000;    margin: 5px 0;}
+#product-details .price-sidebar small{font-size: 11px;    color: #444;    margin: 5px 0;}
 #product-details .price-sidebar div.price-label, #product-sidebar .sidebar-form .price-details div.price-label,.responsive #product-sidebar .sidebar-form .price-details small,div .product-details dt:before{display: none;}
 div .product-details dt{padding-left: 0;padding: 0;width: 170px;}
 div #product-sidebar .product-name{color:#000;font-family: mm-text-bold;font-size: 20px;padding-top: 5px;}
