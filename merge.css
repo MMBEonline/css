@@ -113,7 +113,7 @@ body .ms-button2 {font-family: MMText-semibold;}
 .marketsel-zip {height: inherit;border: 1px solid #ddd;width: calc(100% - 28px);}
 .deliverytbl tr.deliverytbl-sub-heading th { font-style: normal; background: #f2f2f2; color: #000; padding: 15px 0; }
 .deliverytbl-current-location .market-name, .deliverytbl-current-location .current-name, .deliverytbl-current-header .market-name, .deliverytbl-current-header .current-name {font-weight: normal;color: #df0000;}
-.deliverytbl-current-location, .deliverytbl-current-header { font-size: 17px; font-style: normal; padding: 0; margin: 0 0 10px; background: #fff; color: #000; }
+.deliverytbl-current-location, .deliverytbl-current-header { font-size: 17px; font-style: normal; padding: 0; margin: 0 0 10px; background: #fff; color: #444; }
 .deliverytbl-section-map tr td {padding: 0px;}
 body #filters .categories .categories-tree-descendants li a {padding-left: 0;}
 .deliverytbl table {font-size: 14px;}
