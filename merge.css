@@ -304,9 +304,9 @@ div .prev, div .next{    width: 38px;height: 38px;box-shadow: 1px 1px 10px 0 rgb
 div .next:before {background: none;content: "\e603";top: 10px;right: 15px;font-size: 20px;}
 div .prev:before {content: "\e602";background: none;font-size: 20px;top: 10px;left: 12px;}
 div .prev:hover:before,div .next:hover:before{color:#df0000;}
-div .box.infobox ul li {margin:10px 0 0;font-size: 13px;line-height:1;}
+div .box.infobox ul li {margin:10px 0 0;font-size: 14px;line-height:1;}
 div .box.infobox ul>li:nth-child(1) {margin: 0;}
-div .box.infobox ul li a {border-bottom: 1px solid #bbb;}
+div .box.infobox ul li a {border-bottom: 1px solid #bbb;line-height:1.8;}
 .swogo-container.swogo-container-pdp {margin:50px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:756px;padding:0 10px;}
 .swogo-container-pdp .swogo-host-title {position:absolute;top:-40px;left:0;border-bottom:none;display:inline-block;padding:0;}
 .swogo-container-pdp .swogo-bundle{border-bottom: 1px solid #ddd;}
