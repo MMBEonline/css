@@ -39,6 +39,7 @@
 	url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MediaMarktPreise.woff) format("woff"),
 	url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MediaMarktPreise.ttf) format("truetype")
 }
+#page-product .fg-container #services {display: none;}
 .product-container .products-grid>li {margin-left: 11px;}
 .product-attributes__item-label{font-size: 14px;font-weight: normal;}
 #product-sidebar .screenshots .section-label{color:#444;}
