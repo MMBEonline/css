@@ -183,7 +183,6 @@ body #product-details #accessoires > .header.border-top{border-bottom:1px solid 
 .products-list>li .product-price .buttons .button.add-to-cart {margin-right:0px !important;}
 .products-list>li .product-price .buttons .button {float: right !important;margin: 10px 0 0!important;}
 .products-list>li .product-price .buttons .button+.button {height: 38px !important;float: left !important;width: 73px !important;}
-.products-list>li .product-price .buttons .button+.button span {line-height: 36px !important;padding: 0 16px 0 3px !important;font-weight: normal;font-family: "SourceSansPro-Regular","SourceSansPro-Regular",Arial,sans-serif !important;font-size: 16px !important;height: 36px !important;}
 @media only screen and (max-width: 954px){
 	.responsive #category>hgroup .side{display: flex;justify-content: flex-end;}
 	.responsive div#filters, .small-screen aside#filters {background-color: #fff !important;}
