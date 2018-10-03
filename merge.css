@@ -179,7 +179,7 @@ body #product-details #accessoires > .header.border-top{border-bottom:1px solid 
 	div .button.add-to-cart span {padding: 0 10px 0 30px !important;font-size: 14px !important;}
 	.products-grid .button.add-to-cart span {padding: 0 10px 0 35px !important;}
 	div .products-list>li .product-wrapper .product-price .add-to-cart:before{left: 7px !important;}
-	div .products-list>li .product-price .buttons .button+.button span{padding: 0 10px 0 3px !important;font-size: 14px !important;}
+	div .products-list>li .product-wrapper .product-price .buttons .button+.button span{padding: 0 10px 0 3px !important;font-size: 14px !important;}
 	div .to-details.button.arrow span:after{top: 21px !important;right: 5px !important;}
 }
 
