@@ -1,3 +1,8 @@
+
+
+body #filters .categories .categories-tree-descendants li:nth-child(1) a {border-top:1px solid #d6d6d6;}
+
+
 /**/
 @font-face{
     font-family:"mm-headline";
