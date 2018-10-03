@@ -253,9 +253,8 @@ div #product-details .model .group .product-rate{max-width: 203px;margin-top: 3p
 .product-container .products-grid>li{min-height: 225px !important;}
 .product-container .products-grid>li h3 a {display: block;color: #000;}
 .product-container .header h2 {font-size: 20px;color: #000;padding-top: 20px;padding-left:0;}
-.product-container .products-carousel{min-height:225px;}
+.product-container .products-carousel{min-height:225px;border: 1px solid #ddd;}
 
-.product-container:not(.accessories) .products-carousel>.pc-wrapper {border: 1px solid #ddd;width: calc(100% - 2px);}
 
 
 
