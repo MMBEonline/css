@@ -41,7 +41,7 @@
 }
 .gallery-view .gv-navigation .thumbs a {border: 1px solid #ddd;}
 .gallery-view .gv-navigation{border: 1px solid #ddd;background: #f2f2f2;}
-
+.productinstock,.productinstock:before{color:#090 !important;}
 .fullscreen-layer .fullscreen-layer-wrapper .fullscreen-layer-header {background: #f2f2f2;border-bottom: 1px solid #ddd!important;}
 .gallery-view .gv-heading span, .gallery-view .gv-heading .gv-button-details{font-weight: normal;font-family: MMText-semibold;color: #000;}
 .fullscreen-layer .fullscreen-layer-header .logo{text-indent: -999px;background: url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/images/red/mm-logo.svg) 50% 50% no-repeat;}
