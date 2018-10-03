@@ -1,7 +1,3 @@
-#filters .categories .active.child-active>a{border-bottom:none;}
-body #filters .categories .categories-tree-descendants li:nth-child(1) a {border-top:1px solid #d6d6d6;}
-
-
 /**/
 @font-face{
     font-family:"mm-headline";
@@ -49,7 +45,8 @@ body #filters .categories .categories-tree-descendants li:nth-child(1) a {border
 .fullscreen-layer .fullscreen-layer-wrapper .fullscreen-layer-header {background: #f2f2f2;border-bottom: 1px solid #ddd!important;}
 .gallery-view .gv-heading span, .gallery-view .gv-heading .gv-button-details{font-weight: normal;font-family: MMText-semibold;color: #000;}
 .fullscreen-layer .fullscreen-layer-header .logo{text-indent: -999px;background: url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/images/red/mm-logo.svg) 50% 50% no-repeat;}
-
+#filters .categories .active.child-active>a{border-bottom:none;}
+body #filters .categories .categories-tree-descendants li:nth-child(1) a {border-top:1px solid #d6d6d6;}
 .infobox .ee-wrapper {margin: 6px 0 10px;}
 #page-product .fg-container #services {display: none;}
 .product-container .products-grid>li {margin-left: 11px;}
@@ -119,7 +116,7 @@ small.vat-info {display: none !important;}
 .teaser nav a.active{background-color:#df0000;}
 .teaser .teasers{border: 1px solid #ddd;border-bottom: none;}
 .static .heading-h1, .static h1, .static h2, .static h3 {color: #000;}
-#cookie-info-layer h2 {font-size: 18px;padding: 10px 0 0 0;}
+#cookie-info-layer h2 {font-size: 20px;padding: 15px 0 0 0;}
 #cboxLoadedContent{overflow:hidden;}
 .static {color: #444;}
 #product-details .description p {font-size: 14px;}
