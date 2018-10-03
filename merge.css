@@ -149,8 +149,7 @@ body #filters .categories li a {border-top: 1px dotted #D6D6D6;}
 .as-grid.is-active:after,.as-list.is-active:after{color:#df0000;}
 .as-grid,.as-list{background:none !important;position:relative;}
 .container.shader{background:none;}
-
-.box.infobox.availability>ul>li>a:hover{color:#df0000;}
+.box.infobox.availability>ul>li>a:hover{color:#df0000;text-decoration: none;border-bottom: 1px solid #df0000;}
 .products-grid .info-wrapper .price{margin-right:10px;min-height: 52px;}
 #product-sidebar .support{border-top: none;}
 #product-preview{display:none !important;}
@@ -338,7 +337,7 @@ div .prev:before {content: "\e602";background: none;font-size: 20px;top: 10px;le
 div .prev:hover:before,div .next:hover:before{color:#df0000;}
 div .box.infobox ul li {margin:10px 0 0;font-size: 13px;line-height:1;}
 div .box.infobox ul>li:nth-child(1) {margin: 0;}
-div .box.infobox ul li a {text-decoration: underline;}
+div .box.infobox ul li a {border-bottom: 1px solid #bbb;}
 .swogo-container.swogo-container-pdp {margin:50px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:756px;padding:0 10px;}
 .swogo-container-pdp .swogo-host-title {position:absolute;top:-40px;left:0;border-bottom:none;display:inline-block;padding:0;}
 .swogo-container-pdp .swogo-bundle{border-bottom: 1px solid #ddd;}
