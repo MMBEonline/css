@@ -127,9 +127,7 @@ body #filters .categories .categories-tree-descendants li a {padding-left: 0;}
 #product-details #product-service,.premiumopts,#search-suggestion, .sales-advisor-question{border: 1px solid #ddd;}
 .button.arrow{background: #fff!important;border: 1px solid #ddd!important;color: #444!important;}
 .products-list>li footer ul a:hover {color: #df0000;}
-body .button.arrow span{font-family: MMText-semibold!important;padding: 0 23px 0 9px !important;}
-body .button.arrow span:after{right: 10px;}
-.button.arrow span:after{color:#444!important;}
+.button.arrow span:after{color:#444!important;right: 10px;}
 .button.arrow:hover>span:after{color:#df0000!important;}
 .button.arrow:hover{background: #fff!important;}
 .products-grid li{height:270px;}
