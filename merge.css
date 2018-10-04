@@ -124,7 +124,7 @@ small.vat-info {display: none !important;}
 #cookie-info-layer h2 {font-size: 20px;padding: 15px 0 0 0;}
 #cboxLoadedContent{overflow:hidden;}
 .static {color: #444;}
-#product-details .description p {font-size: 14px;}
+#product-details .description p {font-size: 14px;line-height: 1.5;}
 body .ms-button2 {font-family: MMText-semibold;}
 .ms-textarea, .ms-textfield {font-family: SourceSansPro-Regular !important;}
 .marketsel-zip {height: inherit;border: 1px solid #ddd;width: calc(100% - 28px);}
