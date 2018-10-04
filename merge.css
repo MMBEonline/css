@@ -116,6 +116,7 @@ input[type='checkbox']:checked:before { content: "\2713"; color: #df0000; z-inde
 small.vat-info {display: none !important;}
 .teaser nav a{background-color: #fff;color: #444;border-right: 1px solid #ddd;font-size: 14px;font-weight: normal;opacity: 1;text-transform: none;}
 .teaser nav ul {border: 1px solid #ddd;border-right: none;}
+.teaser nav a:hover{color:#df0000;}
 .teaser nav a.active{background-color: #fff;color: #df0000;border-bottom: 2px solid #df0000;}
 .teaser .teasers{border: 1px solid #ddd;border-bottom: none;}
 .static .heading-h1, .static h1, .static h2, .static h3 {color: #000;}
