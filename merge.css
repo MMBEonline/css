@@ -40,11 +40,8 @@
 	url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MediaMarktPreise.ttf) format("truetype")
 }
 .reviews-content .review-rate .button,.reviews-content .review-rate .button span{height: 28px;line-height: 28px;}
-
-
-#product-details .reviews-header.header {border: 1px solid #dddd;padding: 10px;}
+#product-details .reviews-header.header {border: 1px solid #dddd;padding: 10px;line-height: 0;}
 .select.reviews-sorting select{height: 30px;}
-
 .select-label{font-weight: normal;}
 .gallery-view .gv-navigation .thumbs a {border: 1px solid #ddd;}
 .gallery-view .gv-navigation{border: 1px solid #ddd;background: #f2f2f2;}
