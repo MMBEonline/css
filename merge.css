@@ -43,7 +43,7 @@
 .fullscreen-layer .fullscreen-layer-wrapper .fullscreen-layer-header {background: #f2f2f2;border-bottom: 1px solid #ddd!important;}
 .gallery-view .gv-heading span, .gallery-view .gv-heading .gv-button-details{font-weight: normal;font-family: MMText-semibold;color: #000;}
 .fullscreen-layer .fullscreen-layer-header .logo{text-indent: -999px;background: url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/images/red/mm-logo.svg) 50% 50% no-repeat;}
-#filters .categories .active.child-active>a{border-bottom:none;}
+#filters .categories .active.child-active>a{border-bottom:none !important;}
 body #filters .categories .categories-tree-descendants li:nth-child(1) a {border-top:1px solid #d6d6d6;}
 .infobox .ee-wrapper {margin: 6px 0 10px;}
 #page-product .fg-container #services {display: none;}
