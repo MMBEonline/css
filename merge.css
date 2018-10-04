@@ -39,6 +39,9 @@
 	url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MediaMarktPreise.woff) format("woff"),
 	url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MediaMarktPreise.ttf) format("truetype")
 }
+.reviews-content .review-rate .button,.reviews-content .review-rate .button span{height: 28px;line-height: 28px;}
+
+
 #product-details .reviews-header.header {border: 1px solid #dddd;padding: 10px;}
 .select.reviews-sorting select{height: 30px;}
 
