@@ -459,3 +459,10 @@ div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 
 
 #cboxContent.loading,.crosssells .layer-loading.layer-to-layer,.product-container-vertical .products-vertical-list.loading{background:url("https://www.mediamarkt.be/static/css/mm-loader.gif") no-repeat 50% 50% #fff !important}
+#filters .content.categories-flat>ul.categories-flat-descendants>li>a {padding: 12px 0px !important;}
+
+#filters .categories.categories-tree.content>ul.categories-tree-descendants {padding-left: 18px;}
+#filters .categories.categories-tree.content>div.categories-tree-current{margin-left: 0;}
+
+
+
