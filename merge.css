@@ -1,4 +1,3 @@
-/**/
 @font-face{
     font-family:"mm-headline";
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot");
@@ -462,7 +461,7 @@ div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 #filters .content.categories-flat>ul.categories-flat-descendants>li>a {padding: 12px 0px !important;}
 
 #filters .categories.categories-tree.content>ul.categories-tree-descendants {padding-left: 18px;}
-#filters .categories.categories-tree.content>div.categories-tree-current{margin-left: 0;}
+#filters .categories.categories-tree.content>div.categories-tree-current.categories-tree-has-descendants{margin-left: 0;}
 
 
 
