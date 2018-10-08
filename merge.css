@@ -1,3 +1,4 @@
+/*v12*/
 @font-face{
     font-family:"mm-headline";
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot");
@@ -102,7 +103,6 @@ thead.deliverytbl-section-header th {font-weight: normal;font-size: 14px;padding
 html body {font-family: SourceSansPro-Regular,sans-serif;}
 #cboxOverlay,#colorbox{background: rgba(0,0,0,0.45);}
 #marketsel-gm-pins>div{background-image:none !important;}
-body .products-grid .photo-wrapper img, #product-preview .photo-wrapper img {height: 131px;}
 body .ms-button2,
 body .ms-textarea, 
 body .ms-textfield,
@@ -120,9 +120,11 @@ body .site-navigation2--dropdown .site-navigation2__child-label{font-family: MMT
 #rise-header .ms-shopping-cart__button-label {display:none;}
 #rise-header .ms-shopping-cart__button.proceed-button .ms-button2__left-icon{margin-right:0;}
 h1,h2,h3,h4,h5,.headline a{font-family:mm-text-bold;color:#000;text-transform: none !important;}
+#rise-header h3 {color: #df0000}
 body h1, body h2, body h3, body h4, .skin2014 h1, .skin2014 h2, .skin2014 h3, .skin2014 h4,.headline a {font-family: "mm-text-bold",Arial !important;text-transform: none !important;font-weight: normal !important;color:#000;}
 .select-label,ul,li,p,a{color:#444;}
-.js body .price {text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;color: #000;font-family: "MMPrice", sans-serif;height: inherit;}
+.js body .price {font-size: 58px;text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;color: #000;font-family: "MMPrice", sans-serif;height: inherit;}
+.js body .sidebar-form .price{font-size: 50px;}
 body .price span {background-image: none !important;text-indent: inherit;overflow: visible;}
 body .price span.p-small {margin-right: 1px !important;font-size: .7em;top: -.3099em;}
 body .price-box {text-align: left;}
@@ -135,7 +137,6 @@ small.vat-info {display: none !important;}
 .teaser nav ul {border: 1px solid #ddd;border-right: none;}
 .teaser nav a:hover{color:#df0000;}
 .teaser nav a.active{background-color: #fff;color: #df0000;border-bottom: 2px solid #df0000;    cursor: pointer;}
-.teaser .teasers{border: 1px solid #ddd;border-bottom: none;}
 .static .heading-h1, .static h1, .static h2, .static h3 {color: #000;}
 #cookie-info-layer h2 {font-size: 20px;padding: 15px 0 0 0;}
 #cboxLoadedContent{overflow:hidden;}
@@ -255,7 +256,8 @@ div .breadcrumbs li.home a {background: none;width: 13px;}
 .thumbnail-carousel__next{border-top-rigth-radius: 3px;border-bottom-rigth-radius: 3px;background-color: #f2f2f2;}
 body .icon {background:none;margin: -7px 0 0 3px;}
 body .icon:after {content: "i";font-size: 13px;color: #777;content:"\e60e";}
-body .specification dt:before {background: none;text-indent: 0;content: '';color: #56B118;font-size: 14px;left: 8px;top: 7px;font-family: "mm-icons";}
+body .specification dt:before {background: none;text-indent: 0;content: '';color: #090;font-size: 14px;left: 8px;top: 7px;font-family: "mm-icons";}
+.usp_price_sidebar li::before {content: "";color: #090;font-size: 14px;top: 3px;font-family: mm-icons;background: none !important;}
 .page-product .label,.service-value {font-size: 14px;}
 #product-sidebar .fullscreen-gallery,#product-details .details .more,#product-details .options a{font-size: 14px;border-bottom: 1px solid #bbb;}
 #product-sidebar .fullscreen-gallery:hover,#product-details .details .more:hover,#product-details .options a:hover{color: #df0000;border-bottom:1px solid #df0000;text-decoration: none;}
@@ -293,6 +295,7 @@ div #product-details .model .group .product-rate{max-width: 203px;margin-top: 3p
 .product-container .products-grid>[data-id] {background: none;}
 div #product-sidebar .premiumopts{margin-top:-11px;}
 .products-grid .info-wrapper, #product-preview .info-wrapper{margin: -30px 0 0;}
+#category .products-grid .base-info h3{overflow: hidden;}
 div .products-grid .base-info h3, div #product-preview .base-info h3{height:17px;margin: 10px 12px 6px;text-align: left;font-size: 16px;}
 .products-grid .base-info:hover>h3>a {text-decoration: none;}
 div #product-sidebar .fullscreen-gallery:after,div #product-details .options .to-wishlist a:before,div #product-details .options .to-compare a:before,div #product-details .options .print a:before {background: none !important;text-indent: 0;font-size: 17px;left: -22px;}
@@ -396,7 +399,8 @@ input[type="text"]{font-family: "SourceSansPro-Regular";}
 .box.infobox ul li.false, .box.infobox ul li.false a {font-size: 14px;}
 #product-sidebar .support img {width: 52px !important;margin: 0 2px 0 2px !important;max-height: none !important;}
 #product-sidebar .sidebar-form .ee-wrapper, #product-sidebar .sidebar-form .ee-wrapper .energy-usage-label {display: none;}
-.side-nav{margin:15px 10px 0 0;padding:0;border-top:1px solid #ddd}.side-nav>li{border-bottom:1px solid #ddd;font-family:"mm-text-regular" !important}.side-nav>li a{font-weight:normal !important;padding:11px 5px 11px 0;display:block;font-size:16px;line-height:24px;color:#000;text-decoration:none}.side-nav li>a:hover,.side-nav li.active>a{color:#DF0000 !important}.side-nav ul{margin:0;padding:0;display:none}.side-nav .active ul{display:block}.side-nav ul li{border-top:1px dotted #D6D6D6;margin:0;padding-left:20px;background:none}.side-nav ul li em{color:#444;font-size:11px}
+.side-nav{margin:15px 10px 0 0;padding:0;border-top:1px solid #ddd}
+.side-nav>li{border-bottom:1px solid #ddd;}.side-nav>li a{font-weight:normal !important;padding:11px 5px 11px 0;display:block;font-size:16px;line-height:24px;color:#000;text-decoration:none}.side-nav li>a:hover,.side-nav li.active>a{color:#DF0000 !important}.side-nav ul{margin:0;padding:0;display:none}.side-nav .active ul{display:block}.side-nav ul li{border-top:1px dotted #D6D6D6;margin:0;padding-left:20px;background:none}.side-nav ul li em{color:#444;font-size:11px}
 footer#page-footer h2,footer#page-footer h3,footer#page-footer h4{color:#444;}
 #filters form {border-right: 1px solid #ddd !important;}
 .market-teaser .map-autocomplete label{font-size: 11px !important;}
@@ -412,7 +416,7 @@ footer#page-footer h2,footer#page-footer h3,footer#page-footer h4{color:#444;}
 .price.price-xs {font-size: 34px;line-height: 34px;}
 .price.price-xs span{float: none;}
 #product-details .prodrel .add-to-compare:before{display: none;}
-.products-grid .base-info.cta .ee-wrapper,.products-carousel .products-grid .ee-wrapper{display: block;position: absolute;top: 49%;}
+.products-grid .base-info.cta .ee-wrapper,.products-carousel .products-grid .ee-wrapper{display: block;position: absolute;top: 47%;}
 .toplayer{border:none;}
 .toplayer .header h2, .toplayer .header h3{font-size: 16px;color: #444;}
 #review-form-toplayer .header h2{line-height: 46px !important;}
@@ -455,14 +459,11 @@ div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 #filters .active.filter-price .content .inline-input label{padding: 4px 4px;}
 
 #loading .spinner,.info-window .layer-loading,#all-markets-box.loading{background:url("https://www.mediamarkt.be/static/css/mm-loader.gif") no-repeat fixed 50% 50% transparent}
-
-
 #cboxContent.loading,.crosssells .layer-loading.layer-to-layer,.product-container-vertical .products-vertical-list.loading{background:url("https://www.mediamarkt.be/static/css/mm-loader.gif") no-repeat 50% 50% #fff !important}
 #filters .content.categories-flat>ul.categories-flat-descendants>li>a {padding: 12px 0px !important;}
-
 #filters .categories.categories-tree.content>ul.categories-tree-descendants {padding-left: 18px;}
 #filters .categories.categories-tree.content>div.categories-tree-current.categories-tree-has-descendants{margin-left: 0;}
-
-
-
 #filters .content.categories.categories-tree ul li a:hover{color: #df0000;}
+.box.infobox .energy-usage .value {color: #fff;}
+.products-carousel .products-grid .base-info .energy-info-wrapper{display: none;}
+.products-grid .photo-wrapper img, #product-preview .photo-wrapper img {width: auto;}
