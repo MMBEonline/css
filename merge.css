@@ -9,14 +9,6 @@
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot);
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf) format('truetype')
 }
-/*
-@font-face{
-    font-family:"mm-text-bold";
-    font-weight:bold;
-    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.eot);
-    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.ttf) format('truetype');
-}
-*/
 @font-face{font-family:"mm-text-bold";
     src:url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.eot");
     src:url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.eot?#iefix") format("embedded-opentype"),
@@ -302,7 +294,6 @@ div #product-details .model .group .product-rate{max-width: 203px;margin-top: 3p
 .product-container .products-carousel{min-height:225px;border: 1px solid #ddd;}
 #product-details .price-sidebar, #product-details .price-sidebar .availability{border: 1px solid #ddd !important;}
 #product-details .price-sidebar .availability {margin-top: 12px;}
-.product-container .products-grid>[data-id] {background: none;}
 div #product-sidebar .premiumopts{margin-top:-11px;}
 .products-grid .info-wrapper, #product-preview .info-wrapper{margin: -30px 0 0;}
 #category .products-grid .base-info h3{overflow: hidden;}
@@ -473,6 +464,17 @@ div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 .error-box, .error-wrapper, .success-box {background-color: #FFF;}
 .error-box:before, .error-wrapper .icon, .success-box:before {position: absolute; left: unset; top: unset; margin: 8px 0 0 -30px; width: unset; height: unset; background: unset; content: "\e636"; font-family: mm-icons !important; font-size: 22px;}
 
-.product-container-vertical .products-vertical-list.loading, .product-container .products-grid>[data-id], .pb-loading {background: url(https://csscdn.redblue.de/MediaBE/static/css/mm-loader-small.gif) no-repeat 50% 50% transparent;}
+.product-container-vertical .products-vertical-list.loading, .pb-loading {background: url(https://csscdn.redblue.de/MediaBE/static/css/mm-loader-small.gif) no-repeat 50% 50% transparent;}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}
+}
+@keyframes rotating {
+  from {-ms-transform: rotate(0deg);-moz-transform: rotate(0deg);-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
+  to {-ms-transform: rotate(360deg);-moz-transform: rotate(360deg);-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}
+}
+.product-container .products-grid>[data-id] {background: none;}
+.product-container .products-grid>[data-id]:after {font-family: mm-icons;content: "\e628";color: #df0000;font-size: 80px;top: 45%;left: 30%;position: absolute;-webkit-animation: rotating 2s linear infinite;-moz-animation: rotating 2s linear infinite;-ms-animation: rotating 2s linear infinite;-o-animation: rotating 2s linear infinite;animation: rotating 2s linear infinite;}
+
 #category>.products-grid .base-info>.b-set{display: none;}
 #category>.products-grid li {height: 225px;}
