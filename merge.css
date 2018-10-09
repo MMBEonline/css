@@ -1,4 +1,4 @@
-/*v12*/
+/*v13*/
 @font-face{
     font-family:"mm-headline";
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot");
@@ -16,22 +16,22 @@
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.ttf) format('truetype');
 }
 @font-face{font-family:"mm-icons";
-    src:url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.eot");
-    src:url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.eot?#iefix") format("embedded-opentype"),
-        url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.woff2") format("woff2"),
-        url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.woff") format("woff"),
-        url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.ttf") format("truetype"),
-        url("//imgdata.redblue.de/common/fonts/mm-icons/MMIcons.svg#svg") format("svg")
+    src:url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot");
+    src:url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot?#iefix") format("embedded-opentype"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.woff2") format("woff2"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.woff") format("woff"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.ttf") format("truetype"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.svg#svg") format("svg")
 }
 @font-face{
     font-family:"SourceSansPro-Regular";
     font-weight:normal;
-    src:url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.eot");
-    src:url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
-        url("https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2") format("woff2"),
-        url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.woff") format("woff"),
-        url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("truetype"),
-        url("//imgdata.redblue.de/common/fonts/source-sans-pro/SourceSansPro-Regular.svg#svg") format("svg");
+    src:url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.eot");
+    src:url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.woff2") format("woff2"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.woff") format("woff"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.ttf") format("truetype"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.svg#svg") format("svg");
 }
 div #product-details .options .to-wishlist a:before,.add-to-wishlist:before{font-family: "mm-icons";content: "\e60f" !important;font-size: 16px;}
 div #product-details .options .to-compare a:before,.add-to-compare:before{font-family: "mm-icons";content: "\e610" !important;font-size: 16px;}
@@ -326,15 +326,7 @@ div .box.infobox ul li a {border-bottom: 1px solid #bbb;line-height:1.8;}
 .swogo-container-pdp .swogo-summary .swogo-price:not(.swogo-line-throug),.swogo-container-pdp .swogo-summary .swogo-discount{margin-bottom:5px;font-size:25px;}
 .swogo-container-pdp .swogo-product-images-container{height:106px;width:120px;}
 .swogo-container-pdp .swogo-alternatives-box.swogo-enable{display:flex;justify-content:space-around;}
-@-webkit-keyframes rotating /* Safari and Chrome */ {
-  from {-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
-  to {-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}
-}
-@keyframes rotating {
-  from {-ms-transform: rotate(0deg);-moz-transform: rotate(0deg);-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
-  to {-ms-transform: rotate(360deg);-moz-transform: rotate(360deg);-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}
-}
-.product-container .products-grid>[data-id]:after {-webkit-animation: rotating 2s linear infinite;-moz-animation: rotating 2s linear infinite;-ms-animation: rotating 2s linear infinite;-o-animation: rotating 2s linear infinite;animation: rotating 2s linear infinite;content: "";color: #df0000;font-size: 80px;font-family: mm-icons;top: 45%;left: 30%;position: absolute;}
+
 .rating-details-content{font-size:14px;}
 body .select select{-moz-box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .1);-webkit-box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .1);box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .1);color:#444 !important;line-height:26px;font-family:"SourceSansPro-Regular";padding:5px 10px 5px 5px;cursor:pointer;height:34px;outline:0 none;border-radius:0;font-size:14px;-webkit-transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;background:none repeat scroll 0 0 #F2F2F2;border:1px solid #ddd}
 body .select select:focus{border-color:#d8d8d8 !important;-moz-box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .4);-webkit-box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .4);box-shadow:inset 1px 1px 10px 0 rgba(0, 0, 0, .4)}
@@ -467,3 +459,8 @@ div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 .box.infobox .energy-usage .value {color: #fff;}
 .products-carousel .products-grid .base-info .energy-info-wrapper{display: none;}
 .products-grid .photo-wrapper img, #product-preview .photo-wrapper img {width: auto;}
+.responsive .my-account.login-page .error-box>p {color: #ed1c24; font-size: 16px; margin-left: 20px;}
+.error-box, .error-wrapper, .success-box {background-color: #FFF;}
+.error-box:before, .error-wrapper .icon, .success-box:before {position: absolute; left: unset; top: unset; margin: 8px 0 0 -30px; width: unset; height: unset; background: unset; content: "\e636"; font-family: mm-icons !important; font-size: 22px;}
+
+.product-container-vertical .products-vertical-list.loading, .product-container .products-grid>[data-id], .pb-loading {background: url(https://csscdn.redblue.de/MediaBE/static/css/mm-loader-small.gif) no-repeat 50% 50% transparent;}
