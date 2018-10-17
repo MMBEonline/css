@@ -437,7 +437,10 @@ div strong:not(.text--small) {font-family: SourceSansPro-Regular;font-weight: bo
 #ContainerAuto_ar strong {font-family: SourceSansPro-Regular !important;font-weight: bold;}
 .responsive #product-sidebar .sidebar-form .price-details{float: none !important;display: flex;flex-direction: column;text-align: left !important;}
 body.responsive #product-sidebar .sidebar-form .price-button {position:inherit;}
-#product-sidebar .sidebar-form .price-details .old-price-block{order: 1;margin: 0;}
+
+
+
+#product-sidebar .sidebar-form .price-details .old-price-block{order: 1;margin: 0 0 5px !important;}
 #product-wrapper .price-old-you-save{position: absolute;top: 0;right: 0;background: #df0000;color: #fff;padding: 5px;margin: 0;border-bottom-left-radius: 4px;font-size: 14px;font-family: mm-text-bold;}
 div .price.price-old:after{background: #df0000;border: none;}
 .price-old-info,.price-old-info{display: none;}
@@ -446,12 +449,17 @@ div .price.price-old:after{background: #df0000;border: none;}
 .price-details.has-old-price>*,.product-wrapper .product-price .price-box>*,.cms-products-grid .price-box>* {order: 9;}
 div .price.price-old{margin-left: 20px;}
 .product-wrapper .product-price .price-box>.price-old,.cms-products-grid .price-box>.price.price-old{order: 1;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
+#product-wrapper .sidebar-form .price-old-you-save{display: none;}
 .products-grid .price-old-you-save{display: none;}
 .products-grid .info-wrapper .price-old{top: -40px !important;}
 .products-grid .info-wrapper .price.price-old:after{margin-top: -8px;}
 .ms-detect--ie .price.price-old:after,.ms-detect--ie .cms-products-grid .price-box>.price.price-old:after{transform: none !important;margin-left: calc(0px - 50% - 0px);width: calc(100% + 0px);}
 .ms-detect--ie .product-wrapper .product-price .price-box>.price-old,.ms-detect--ie .cms-products-grid .price-box>.price.price-old{width: 30%;}
+
+
+
 .products-grid .base-info h3, #product-preview .base-info h3{margin: 10px 6px 6px;}
+.compare-table-wrapper .title { line-height: 1;}
 @media (min-width: 1200px){
     div #product-details .price-sidebar {width: 246px;}
     div .box.infobox.availability { background: #fff; padding: 15px 10px !important; border: 1px solid #ddd;}
