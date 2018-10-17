@@ -441,7 +441,7 @@ body.responsive #product-sidebar .sidebar-form .price-button {position:inherit;}
 
 #product-sidebar .sidebar-form .price-details .old-price-block{order: 1;margin: 0 0 5px !important;}
 #product-wrapper .price-old-you-save{position: absolute;top: 0;right: 0;background: #df0000;color: #fff;padding: 5px;margin: 0;border-bottom-left-radius: 4px;font-size: 14px;font-family: mm-text-bold;}
-div .price.price-old:after{background: #df0000;border: none;-webkit-transform: rotate(-20deg);transform: rotate(-20deg) !important;width: calc(100% + 10px);margin-left: calc(0px - 50% - 7px);}
+div .price.price-old:after{background: #df0000;border: none;-webkit-transform: rotate(-20deg);transform: rotate(-20deg) !important;width: calc(100% + 15px);margin-left: calc(0px - 50% - 7px);}
 .price-old-info,.price-old-info{display: none;}
 .price-details.has-old-price>.old-price-block{order: 1;margin: 0 !important;}
 .price-details.has-old-price,.product-wrapper .product-price .price-box,.cms-products-grid .price-box{display: flex;flex-direction: column;}
