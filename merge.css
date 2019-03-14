@@ -1,7 +1,10 @@
-@font-face{
-    font-family:"mm-headline";
+@font-face{font-family:"mm-headline";
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot");
-    src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.woff") format("woff"), url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.ttf") format("truetype")
+    src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot?#iefix") format("embedded-opentype"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.woff2") format("woff2"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.woff") format("woff"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.ttf") format("truetype"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.svg#svg") format("svg")
 }
 @font-face{
     font-family:"mm-text-regular";
@@ -11,10 +14,10 @@
 @font-face{font-family:"mm-text-bold";
     src:url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.eot");
     src:url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.eot?#iefix") format("embedded-opentype"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.woff2") format("woff2"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.woff") format("woff"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.ttf") format("truetype"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.svg#svg") format("svg")
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-text-bold.woff2") format("woff2"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-text-bold.woff") format("woff"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-text-bold.ttf") format("truetype"),
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-text-bold.svg#svg") format("svg")
 }
 @font-face{font-family:"mm-icons";
     src:url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot");
@@ -35,14 +38,15 @@
         url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.svg#svg") format("svg");
 }
 @font-face{font-family:"pricemm";
-    src:url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.eot");
-    src:url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.eot?#iefix") format("embedded-opentype"),
+    src:url("https://csscdn.redblue.de/MediaBE/static/css/pricemm.eot");
+    src:url("https://csscdn.redblue.de/MediaBE/static/css/pricemm.eot?#iefix") format("embedded-opentype"),
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.woff2") format("woff2"),
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.woff") format("woff"),
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.ttf") format("truetype"),
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.svg#svg") format("svg")
 }
 a:hover {color: #df0000;}
+.price .p-c.p-d {letter-spacing: -2px;}
 div #product-details .options .to-wishlist a:before,.add-to-wishlist:before{font-family: "mm-icons";content: "\e60f" !important;font-size: 16px;}
 div #product-details .options .to-compare a:before,.add-to-compare:before{font-family: "mm-icons";content: "\e610" !important;font-size: 16px;}
 div #product-details .options .print a:before{font-family: "mm-icons";content: "\e612";}
@@ -312,7 +316,7 @@ div .box.infobox ul li {margin:5px 0 0;font-size: 14px;line-height:1.1;}
 div .box.infobox ul>li:nth-child(1) {margin: 0;}
 div .box.infobox ul li a {border-bottom: 1px solid #bbb;line-height:1.5;}
 .swogo-container.swogo-container-pdp {margin:40px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:772px;padding:0 10px;}
-.swogo-container-pdp .swogo-host-title {font-size: 20px;position:absolute;top:-35px;left:0;border-bottom:none;display:inline-block;padding:0;}
+.swogo-container-pdp .swogo-host-title {font-size: 20px;position:absolute;top:-35px;left:0;border-bottom:none;display:inline-block;padding:0;font-weight:normal;}
 .swogo-container-pdp .swogo-bundle{border-bottom: 1px solid #ddd;}
 .swogo-container-pdp .swogo-main{display:flex;justify-content:space-around;background:none !important;padding:0 180px 0 0;}
 .swogo-container-pdp .swogo-host,.swogo-container-pdp .swogo-accessory,.swogo-container-pdp .swogo-alternative,.swogo-container-pdp .swogo-option{width:25%;margin:0;}
@@ -335,7 +339,7 @@ div .select.reviews-sorting{position:absolute;right:12px;top:12px;}
 div .fullscreen-layer .fullscreen-layer-header .logo{background: url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/images/red/mm-logo.svg) 50% no-repeat;text-indent: -999px;}
 div .gallery-view .gv-heading{font-weight: bold;font-family: SourceSansPro-Regular;}
 div .fullscreen-layer .fullscreen-layer-wrapper .fullscreen-layer-header {background: #f2f2f2;height: 59px;border-bottom: 1px solid #ddd!important;}
-div .fullscreen-layer .fullscreen-layer-header .button-close:after{content: 'â•³';background-image:none;}
+div .fullscreen-layer .fullscreen-layer-header .button-close:after{content: '╳';background-image:none;}
 body #product-sidebar.sticky{top: 100px;} div#accessoires .prev,div#accessoires .next{top:50%!important}
 #product-sidebar .thumbnail-carousel.thumbnail-carousel--single-page div.thumbnail-carousel__carousel{width:100%}
 #product-sidebar .thumbnail-carousel__prev,#product-sidebar .thumbnail-carousel__next{position: relative;background-color:#f2f2f2;border:none!important;width:15px!important}
@@ -468,6 +472,7 @@ div .price.price-old{margin-left: 20px;}
     .responsive #product-sidebar {width: 370px;}
 }
 @media screen and (max-width: 1199px){
+    div .button.large.add-to-cart span{font-size:20px !important;}
     #product-details .price-sidebar .availability{padding: 15px 10px !important;}
     div .products-list>li .product-price .buttons .button+.button{width: 58px !important;}
     div .button.add-to-cart span {padding: 0 10px 0 30px !important;font-size: 14px !important;}
