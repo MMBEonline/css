@@ -161,7 +161,7 @@ body #filters .categories .categories-tree-descendants li a {padding-left: 0;}
 .deliverytbl table {font-size: 14px;}
 .breadcrumbs a:hover,.breadcrumbs-nav a:hover{color:#df0000;}
 #product-sidebar .sidebar-form form {padding: 10px;}
-.offline{height:103%;background:rgba(255, 255, 255, 0.84);}
+.offline{z-index:9999;height:110%;background:rgba(255, 255, 255, 0.84);}
 #product-details #product-service,.premiumopts,#search-suggestion, .sales-advisor-question{border: 1px solid #ddd;}
 .button.arrow{background: #fff!important;border: 1px solid #ddd!important;color: #444!important;}
 .products-list>li footer ul a:hover {color: #df0000;}
