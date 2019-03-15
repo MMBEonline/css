@@ -236,9 +236,8 @@ div .box.infobox{background: transparent;padding: 0;border: none;margin: 0;}
 div .products-list>li .product-wrapper .product-price .buttons{margin-top:2px;}
 div #product-details .model .group,div #product-details .model dt {font-size: 13px;color: #444;}
 div #product-details .model .group .product-rate>a{float: inherit;display: block;margin-bottom: 3px;}
-div #product-details .model .product-rate .rating{margin:0;display: none;}
+div #product-details .model .product-rate .rating{margin:0;}
 div #product-details .model .group .product-rate>a:hover{color:#df0000;}
-div #product-details .model .group .product-rate>a:not(.rate-product) {display: none;}
 #services{display:none;}
 #product-sidebar .sidebar-form form,#product-details .price-sidebar{background-color: #f2f2f2;}
 #product-sidebar .sidebar-form form{border: 1px solid #ddd;}
