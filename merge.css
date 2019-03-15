@@ -45,6 +45,8 @@
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.ttf") format("truetype"),
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.svg#svg") format("svg")
 }
+.bv-content-list.bv-content-list-Reviews {border: 1px solid #ddd !important;}
+.bv-content-list.bv-content-list-Reviews>li:first-child{border: none !important;}
 a:hover {color: #df0000;}
 .price .p-c.p-d {letter-spacing: -2px;}
 div #product-details .options .to-wishlist a:before,.add-to-wishlist:before{font-family: "mm-icons";content: "\e60f" !important;font-size: 16px;}
