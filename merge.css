@@ -463,8 +463,8 @@ div .price.price-old{margin-left: 20px;}
 .parentnews {display: none !important;}
 .products-grid .base-info h3, #product-preview .base-info h3{margin:20px 6px 6px;}
 .products-grid .base-content{display:block;visibility:hidden;max-height:0px;position:relative;}
-.products-grid .base-content .rate{text-align:left;visibility:visible;position:absolute;top:-42px;left:5px;z-index:999;font-family:MMText-semibold;font-weight:normal;}
-.products-grid .base-content .rate .see-reviews{font-size:15px;}
+.products-grid .base-content .rate{text-align:left;visibility:visible;position:absolute;top:-42px;left:5px;z-index:999;}
+.products-grid .base-content .rate .see-reviews{font-size:14px;}
 .compare-table-wrapper .title {line-height:1;}
 @media (min-width: 1200px){
     div #product-details .price-sidebar {width: 246px;}
