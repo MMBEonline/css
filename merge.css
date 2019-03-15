@@ -284,7 +284,7 @@ div .specification dt:nth-child(4n+1), div .specification dt.nth4n1, div .specif
 #wc-power-page,#product-details .features-wrapper, #product-details #flix-inpage section header+*, #product-details .product-bundle .pb-element, #product-details .reviews .reviews-content li, #product-details #flix-inpage .inpage_block, #product-details .description, #product-details .tracklist>* {padding: 10px;}
 div #product-details .product-anchors {border: none;background: none;height: 0;margin: 0;}
 div .features-wrapper.collapsed .collapse-fade {top:145px;}
-div #product-details .model .group{padding: 12px 0 0;}
+div #product-details .model .group{padding: 3px 0 0;}
 div #product-details .model .group .product-rate{max-width: 203px;margin-top: 3px;display: flex;flex-wrap: wrap;}
 #product-details .description {clear: both;color: #444;margin-top: 40px;position: relative;}
 #product-details .description h2{position:absolute;top:-30px;left:0px;font-size:20px;color: #000;line-height: 16px;}
