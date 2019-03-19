@@ -59,8 +59,8 @@ div #product-sidebar .fullscreen-gallery:after{font-family: "mm-icons";content:"
 div #product-details .details .more{padding:0;}
 div #product-details .details .more:before{display:none;}
 div #product-details .options a{padding:0;margin:0 0 0 22px;}
-.rating,div .rating>div:first-child,div .rating:after{background:none;vertical-align: inherit;letter-spacing:5px;text-align:left;}
-.rating:after,.rating [class*="value-"]:before{position: absolute;font-size:11px;width:80px;font-family:mm-icons;top:0;left:0;}
+.rating,div .rating>div:first-child,div .rating:after{background:none;vertical-align:inherit;width:80px;}
+.rating:after,.rating [class*="value-"]:before{position: absolute;font-size:13px;width:80px;font-family:mm-icons;top:-1px;left:0;letter-spacing:3px;text-align:left;}
 .rating [class*="value-"]:before{z-index: 1;color: #df0000;}
 .rating:after,body .rating .value-0:before{content: '\e637\e637\e637\e637\e637';color: #444}
 .rating .value-0-5:before{content: '\e639'}
