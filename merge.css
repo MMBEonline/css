@@ -47,7 +47,7 @@
 }
 #BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar .bv-rating-ratio-number .bv-rating,#BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar .bv-rating-ratio-count{padding:0 !important;font-size:14px !important;margin-top: -2px !important;}
 #BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar-minimalist .bv-write-container .bv-submission-button.bv-write-review{padding:0 !important;font-size:14px !important;}
-#BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar-minimalist .bv-write-container .bv-submission-button.bv-write-review:hover{color:#df0000 !important;text-decoration: underline;}
+#BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar-minimalist .bv-write-container .bv-submission-button.bv-write-review:hover{color:#df0000 !important;text-decoration: underline !important;}
 .bv-content-list.bv-content-list-Reviews {border: 1px solid #ddd !important;}
 .bv-content-list.bv-content-list-Reviews>li:first-child{border: none !important;}
 a:hover {color: #df0000;}
