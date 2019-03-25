@@ -45,10 +45,14 @@
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.ttf") format("truetype"),
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.svg#svg") format("svg")
 }
+#BVRRContainer{padding-top: 60px !important;}
+#BVRRContainer .bv-content-list-container {border: 1px solid #ddd !important;position: relative !important;padding-top: 20px !important;}
+#BVRRContainer .bv-cv2-cleanslate .bv-action-bar{position: absolute !important;top: -50px !important;width: 100% !important;margin: 0 !important;}
+#BVRRContainer .bv-cv2-cleanslate .bv-action-bar .bv-write-review-container.bv-write-container{margin-top: -15px !important;}
 .bv-checkbox-container input:before,.bv-checkbox-container input:after{visibility: hidden;}
-#BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar .bv-rating-ratio-number .bv-rating,#BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar .bv-rating-ratio-count{padding:0 !important;font-size:14px !important;margin-top: -2px !important;}
-#BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar-minimalist .bv-write-container .bv-submission-button.bv-write-review{padding:0 !important;font-size:14px !important;}
-#BVRRSummaryContainer .bv-cv2-cleanslate .bv-core-container-60 .bv-summary-bar-minimalist .bv-write-container .bv-submission-button.bv-write-review:hover{color:#df0000 !important;text-decoration: underline;}
+#BVRRSummaryContainer .bv-cv2-cleanslate .bv-summary-bar .bv-rating-ratio-number .bv-rating,#BVRRSummaryContainer .bv-cv2-cleanslate .bv-summary-bar .bv-rating-ratio-count{padding:0 !important;font-size:14px !important;margin-top: -2px !important;}
+#BVRRSummaryContainer .bv-cv2-cleanslate .bv-summary-bar-minimalist .bv-write-container .bv-submission-button{padding:0 !important;font-size:14px !important;}
+#BVRRSummaryContainer .bv-cv2-cleanslate .bv-summary-bar-minimalist .bv-write-container .bv-submission-button:hover{color:#df0000 !important;text-decoration: underline;}
 .bv-content-list.bv-content-list-Reviews {border: 1px solid #ddd !important;}
 .bv-content-list.bv-content-list-Reviews>li:first-child{border: none !important;}
 a:hover {color: #df0000;}
