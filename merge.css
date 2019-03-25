@@ -46,7 +46,7 @@
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.svg#svg") format("svg")
 }
 
-#BVRRContainer .bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userinfo-data,#BVRRContainer .bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userinfo-value,#BVRRContainer .bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userstats-data,#BVRRContainer .bv-cv2-cleanslate .bv-mbox-fullprofile .bv-sidebar .bv-author-profile-userinfo .bv-author-userstats-list .bv-author-userstats-value {color: #fff !important;}
+#bv-mboxzone-lightbox .bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userinfo-data,#bv-mboxzone-lightbox .bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userinfo-value,#bv-mboxzone-lightbox .bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userstats-data,#bv-mboxzone-lightbox .bv-cv2-cleanslate .bv-mbox-fullprofile .bv-sidebar .bv-author-profile-userinfo .bv-author-userstats-list .bv-author-userstats-value {color: #fff !important;}
 #BVRRContainer .bv-cv2-cleanslate button.bv-author.bv-fullprofile-popup-target:hover{color: #df0000 !important;font-family: "MMText-semibold"!important;}
 #BVRRContainer{padding-top: 60px !important;}
 #BVRRContainer .bv-content-list-container {border: 1px solid #ddd !important;position: relative !important;padding-top: 20px !important;}
