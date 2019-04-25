@@ -14,5 +14,5 @@ body .ms-icon--type_location:before{content:"";position:absolute;width:0px;botto
 
 
 
-body h1{font-weight: 700;}
+body h1,.button.background-type-1.primary-button, .button.background-type-1.primary-button *{font-weight: 700;}
 body h2,h3,h4,div .ms-text--medium,.ellipsis-text {font-weight: 600;}
