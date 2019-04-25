@@ -15,7 +15,8 @@ body .ms-icon--type_location:before{content:"";position:absolute;width:0px;botto
 .button.second-cookie-btn {display: none;}
 .cookies-banner {box-shadow: 0 0 10px rgba(0,0,0,.250);}
 #page-footer{border-top: 1px solid #ddd;padding: 0;margin: 50px 0 0;}
-
+.button.search-submit{background:#000;}
+.button.background-type-1.search-submit:before{content:"\1f50d";font-size:1.285rem;left:20px;top:5px;}
 
 
 body h1,.button.background-type-1.primary-button, .button.background-type-1.primary-button *{font-weight: 700;}
