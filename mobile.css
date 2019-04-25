@@ -8,7 +8,9 @@ body .ms-icon--type_location:before{content:"";position:absolute;width:0px;botto
 .site-navigation2__child-item--no-children:after {font-size:24px !important;transform:translateY(-8px);}
 .site-navigation2__link:after {font-size: 24px !important;}
 .price {font-size: 22px !important;text-shadow: none !important;font-weight: 700 !important;}
-
+.product-list>li{border-bottom:1px solid #ddd}
+.product-list-container>.product-list>li:last-child{border-bottom:none}
+.product-teaser-vatLabel,.wrapper-price>span.product-teaser-fee-container{display:none!important}
 
 
 
