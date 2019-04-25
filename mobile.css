@@ -1,7 +1,7 @@
 html body *,html body,body button,body code,body input,body .site-navigation2__offcanvas-toggle-icon:after,body .ms-button2,.ms-link-list__title:before,.ms-market-selector__item-link-wrapper--offcanvas:after, .site-navigation2__child-item--no-children:after,.ms-market-selector__button--offcanvas:not(.site-navigation2__link--primary-toggle):after, .site-navigation2__link:not(.site-navigation2__link--primary-toggle):after{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;}
 body .ms-icon--type_info:before{content: "\2605";}
 body .ms-icon--type_location:before{content: "\2617";}
-.ms-icon--type_menu:before{font-size: 34px;transform: translateY(-5px);}
+.ms-icon--type_menu:before{font-size: 30px;transform: translateY(-3px);}
 body #nav-categories li a:after,#nav-categories li a.background-type-2:after {background-image: none;content: "\276f";top: 11px;}
 .ms-icon--type_location{position:relative;border-radius:50%;border:3px solid #000;width:2px;height:2px;transform:translateY(-2px);}
 body .ms-icon--type_location:before{content:"";position:absolute;width:0px;bottom:-10px;left:-3px;border:4px solid transparent;border-top:4px solid #000;}
