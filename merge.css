@@ -8,16 +8,13 @@
 }
 @font-face{
     font-family:"mm-text-regular";
-    src:url("https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot");
-    src:url("https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix") format('embedded-opentype'),url("https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2") format('woff2'),url("https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf") format('truetype')
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot);
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf) format('truetype')
 }
-@font-face{font-family:"mm-text-bold";
-    src:url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.eot");
-    src:url("https://csscdn.redblue.de/MediaBE/static/css/mmtextbold.eot?#iefix") format("embedded-opentype"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mm-text-bold.woff2") format("woff2"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mm-text-bold.woff") format("woff"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mm-text-bold.ttf") format("truetype"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mm-text-bold.svg#svg") format("svg")
+@font-face{
+    font-family:"mm-text-bold";
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot);
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff2) format("woff2"),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff) format("woff"),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.ttf) format("truetype")
 }
 @font-face{font-family:"mm-icons";
     src:url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot");
@@ -70,8 +67,8 @@ div #product-details .options a{padding:0;margin:0 0 0 22px;}
 .products-list .rating:after, .products-list .rating [class*="value-"]:before{top:-2px;}
 .rating,div .rating>div:first-child,div .rating:after{background:none;vertical-align:inherit;width:80px;}
 .rating:after,.rating [class*="value-"]:before{position: absolute;font-size:12px;width:80px;font-family:mm-icons;left:0;letter-spacing:4px;text-align:left;}
-.rating [class*="value-"]:before{z-index: 1;color: #df0000;font-weight:bold;}
-.rating:after,body .rating .value-0:before{content: '\e637\e637\e637\e637\e637';color: #444}
+.rating [class*="value-"]:before{z-index: 2;color: #df0000;font-weight:bold;}
+.rating:after,body .rating .value-0:before{content: '\e637\e637\e637\e637\e637';color: #868686;z-index: 1;}
 .rating .value-0-5:before{content: '\e639'}
 .rating .value-1:before{content: '\e637';}
 .rating .value-1-5:before{content: '\e637\e639';}
@@ -265,6 +262,7 @@ div #product-sidebar .fullscreen-gallery {color: #000;padding: 0;margin: -16px 0
 div .product-details dt{padding-left: 0;padding: 0;width: 170px;}
 div #product-sidebar .product-name{color:#000;font-family: mm-text-bold;font-size: 20px;padding-top: 5px;font-weight: normal;}
 div .product-accessories .products-grid .base-info .b-set .add-to-cart span{padding-left:33px;}
+div .product-accessories .products-grid .base-info .b-set{display: flex;justify-content: space-around;}
 div .breadcrumbs li.home a {background: none;width: 13px;}
 .deliverytbl-section-delivery .deliverytbl-sub-heading th:before{content:"\e622  ";color:#000;font-size: 16px;position: absolute;left: 26px;}
 .iconfont-delivery:before,.box.infobox.availability>ul>li:before{content:"\e622";font-size:32px;color:#777}
@@ -308,7 +306,7 @@ div #product-details .model .group .product-rate{max-width: 203px;margin-top:5px
 #product-details .header p{font-size: 13px;}
 .premiumopts h2, #product-details #product-service h2 {font-size: 17px;background: #f2f2f2 !important;line-height: 34px !important;color:#444;}
 .product-container .products-grid>li{min-height: 230px !important;}
-.product-container .products-grid>li h3 a {display: block;color: #000;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.product-container .products-grid>li h3 a {display: block;color: #000;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;height: 18px;}
 .product-container .header h2 {font-size: 24px;color: #444;padding-top: 20px;padding-left:0;}
 .page-product .product-container .header h2{color:#000;}
 .product-container .products-carousel{max-height:240px;min-height:240px;border:1px solid #ddd;}
@@ -316,8 +314,8 @@ div #product-details .model .group .product-rate{max-width: 203px;margin-top:5px
 div #product-sidebar .premiumopts{margin-top:-11px;}
 .products-grid .info-wrapper, #product-preview .info-wrapper{margin: -30px 0 0;}
 div .products-grid .base-info h3, div #product-preview .base-info h3{font-size: 16px; text-align: left;overflow: hidden; text-overflow: ellipsis; white-space: nowrap !important; width: 210px;}
-.responsive #category ul.products-grid li .base-info h3 { white-space: normal!important; height: 38px; line-height: 18px; margin: 15px 10px 0; }
-.responsive #category ul.products-grid li .base-content .rate {top: -55px;left: 10px;}
+.responsive #category ul.products-grid li .base-info h3 { white-space: normal!important; height: 38px; line-height: 18px; margin: 20px 10px 0; }
+.responsive #category ul.products-grid li .base-content .rate {top: -60px;left: 10px;}
 .products-grid .base-info:hover>h3>a {text-decoration: none;}
 div #product-sidebar .fullscreen-gallery:after,div #product-details .options .to-wishlist a:before,div #product-details .options .to-compare a:before,div #product-details .options .print a:before {background: none !important;text-indent: 0;font-size: 17px;left: -22px;}
 .button.rate-product:before{display:none;}
@@ -377,7 +375,6 @@ input[type="text"]{font-family: "SourceSansPro-Regular";}
 .side-nav>li{border-bottom:1px solid #ddd;}.side-nav>li a{font-weight:normal !important;padding:11px 5px 11px 0;display:block;font-size:16px;line-height:24px;color:#000;text-decoration:none}.side-nav li>a:hover,.side-nav li.active>a{color:#DF0000 !important}.side-nav ul{margin:0;padding:0;display:none}.side-nav .active ul{display:block}.side-nav ul li{border-top:1px dotted #D6D6D6;margin:0;padding-left:20px;background:none}.side-nav ul li em{color:#444;font-size:11px}
 #filters form {border-right: 1px solid #ddd !important;}
 .market-teaser .map-autocomplete label{font-size: 11px !important;}
-.ms-link-list .ms-link {padding-bottom: 1px;margin-bottom: -1px;}
 .products-list>li .product-wrapper .product-price small{font-size: 11px;color:#444;margin: 5px 0;}
 .energy-usage .label, .energy-usage .value, .installment-compact .label, .installment-compact .value{font-weight: normal;padding: 0px 7px 0 5px;color: #444;}
 .infobox .timeframe.state-initialized{margin-bottom: 0;}
@@ -394,11 +391,6 @@ input[type="text"]{font-family: "SourceSansPro-Regular";}
 .toplayer .header h2, .toplayer .header h3{font-size: 16px;color: #444;}
 #review-form-toplayer .header h2{line-height: 46px !important;}
 #review-form-toplayer .buttons.guest-user button span{line-height: 28px !important;}
-#page-footer .ms-site-footer__row:nth-child(1) ul.ms-list {display: flex;justify-content: center;}
-#page-footer .ms-site-footer__row:nth-child(1) ul.ms-list li:nth-child(2) {margin: 0 35px 0 20px;}
-#page-footer > .ms-site-footer__row:nth-child(1) {padding-top: 0px;}
-#page-footer .ms-site-footer__row:last-child {justify-content: space-around;display: flex;flex-wrap: wrap;margin-top: -15px;}
-#page-footer .ms-site-footer__row:last-child .ms-link-list:nth-child(2) img {margin-top:30px;}
 #dptIframe{height: 0px;}
 div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 .my-account.gift-cards .content .giftcard .image.balance{background:url("images/myaccount/giftcardBalance.png") no-repeat scroll 50% 0 transparent}
@@ -442,7 +434,7 @@ div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 .error-box:before, .error-wrapper .icon, .success-box:before {position: absolute; left: unset; top: unset; margin: 0 0 0 -30px; width: unset; height: unset; background: unset; content: "\e636"; font-family: mm-icons !important; font-size: 22px;}
 .product-container-vertical .products-vertical-list.loading, .pb-loading,.product-container .products-grid>[data-id] {background: url(https://csscdn.redblue.de/MediaBE/static/css/mm-loader-small.gif) no-repeat 50% 50% transparent;}
 #category>.products-grid .base-info>.b-set{display: none;}
-#category>.products-grid li {height: 235px;}
+#category>.products-grid li {height: 245px;}
 #category>.products-grid .base-info>.ee-wrapper{display: block;position: absolute;top: 48%;}
 #category>hgroup h1{color: #000;}
 .ms-login-logout__logout-button:hover {color: #df0000;}
@@ -475,9 +467,9 @@ div .price.price-old{margin-left: 20px;}
 #product-details #product-service ul li{width: 96.2% !important;border-bottom: 1px solid #ddd;}
 #product-details #product-service ul li:last-child{border-bottom: none;}
 .parentnews {display: none !important;}
-.products-grid .base-info h3, #product-preview .base-info h3{margin:20px 6px 6px;}
+.products-grid .base-info h3, #product-preview .base-info h3{margin:22px 6px 6px;}
 .products-grid .base-content{display:block;visibility:hidden;max-height:0px;position:relative;}
-.products-grid .base-content .rate{text-align:left;visibility:visible;position:absolute;top:-42px;left:5px;}
+.products-grid .base-content .rate{text-align:left;visibility:visible;position:absolute;top:-45px;left:5px;}
 .products-grid .base-content .rate .see-reviews{font-size:14px;}
 .compare-table-wrapper .title {line-height:1;}
 @media (min-width: 1200px){
