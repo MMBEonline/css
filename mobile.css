@@ -11,7 +11,9 @@ body .ms-icon--type_location:before{content:"";position:absolute;width:0px;botto
 .product-list>li{border-bottom:1px solid #ddd}
 .product-list-container>.product-list>li:last-child{border-bottom:none}
 .product-teaser-vatLabel,.wrapper-price>span.product-teaser-fee-container{display:none!important}
-
+.first-cookie-btn{width: 100% !important;margin:10px 0 0;}
+.button.second-cookie-btn {display: none;}
+.cookies-banner {box-shadow: 0 0 10px rgba(0,0,0,.250);}
 
 
 
