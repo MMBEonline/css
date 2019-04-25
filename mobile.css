@@ -14,7 +14,7 @@ body .ms-icon--type_location:before{content:"";position:absolute;width:0px;botto
 .first-cookie-btn{width: 100% !important;margin:10px 0 0;}
 .button.second-cookie-btn {display: none;}
 .cookies-banner {box-shadow: 0 0 10px rgba(0,0,0,.250);}
-
+#page-footer{border-top: 1px solid #ddd;padding: 0;margin: 50px 0 0;}
 
 
 
