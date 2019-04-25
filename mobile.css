@@ -7,7 +7,7 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 body .ms-icon--type_location:before{content:"";position:absolute;width:0px;bottom:-10px;left:-3px;border:4px solid transparent;border-top:4px solid #000;}
 .site-navigation2__child-item--no-children:after {font-size:24px;transform:translateY(-8px);}
 .site-navigation2__link:after {font-size: 24px !important;}
-
+.price {font-size: 22px !important;text-shadow: none !important;font-weight: 700 !important;}
 
 
 
