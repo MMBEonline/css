@@ -25,6 +25,8 @@ body .ms-logo__brand-name{background: url(data:image/svg+xml;base64,PHN2ZyB4bWxu
 #rise-header .site-navigation2__offcanvas-toggle-icon.ms-icon.ms-icon--type_menu {margin-top: 5px;}
 #rise-header .ms-header2__logo {margin-left: 2.2rem;}
 .layer-open .mrh-page-overlay {position: fixed !important;}
+.slider-stage-home{max-height:48vw!important;overflow:hidden;}
+.teaser-image img{margin-bottom:50px;}
 
 body .ms-icon--type_profile:before{background-position:-2px -43px!important;}
 body .ms-icon--type_search:before{background-position:-2px -63px!important;}
