@@ -6,9 +6,10 @@ html body *,html body,body button,body code,body input,body .site-navigation2__o
 .product-teaser-vatLabel,.wrapper-price>span.product-teaser-fee-container,.button.second-cookie-btn,.ms-icon--type_info:before,.ms-icon--type_location:before,.ms-header2__meta-nav-link>.ms-icon--type_profile:before {display: none !important;}
 .cookies-banner {box-shadow: 0 0 10px rgba(0,0,0,.250);}
 #page-footer{border-top: 1px solid #ddd;padding: 0;margin: 50px 0 0;}
-.button.search-submit{background:#df0000;}
+.button.search-submit{background-color:#df0000;}
 body #nav-categories li a:after,#nav-categories li a.background-type-2:after {background-image: none;content: "\276f";top: 11px;}
 .crossed-price-wrapper .product-crossed-price,.crossed-price-wrapper .crossed-price-layer span{font-size: 16px;}
+.crossed-price-wrapper .product-crossed-price:before{top:10px;}
 .add-to-compare-list-wrapper{border-top:none;}
 body h1,.button.background-type-1.primary-button, .button.background-type-1.primary-button *{font-weight: 700;}
 body h2,h3,h4,div .ms-text--medium,.ellipsis-text {font-weight: 600;}
