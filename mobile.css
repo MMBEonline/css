@@ -26,9 +26,9 @@ body .ms-logo__brand-name{background: url(data:image/svg+xml;base64,PHN2ZyB4bWxu
 #rise-header .ms-header2__logo {margin-left: 2.2rem;}
 .layer-open .mrh-page-overlay {position: fixed !important;}
 
-body .ms-icon--type_profile:before{background-position: -2px -20px;}
-body .ms-icon--type_search:before{background-position:-22px -20px;}
-body .ms-icon--type_cart:before{background-position:-22px -0px;}
-body .ms-icon--type_menu:before{background-position:-2px -0px;}
+body .ms-icon--type_profile:before{background-position: -2px -20px!important;}
+body .ms-icon--type_search:before{background-position:-22px -20px!important;}
+body .ms-icon--type_cart:before{background-position:-22px -0px!important;}
+body .ms-icon--type_menu:before{background-position:-2px -0px!important;}
 body .ms-icon--type_profile:before,body .ms-icon--type_search:before,body .ms-icon--type_cart:before,body .ms-icon--type_menu:before{content:"";width:18px;height:18px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAoCAYAAACFFRgXAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADX0lEQVRYhe2YT0hVQRTGfyPxKhGRkIgQiTIXEkEtJKRaBFkUtCiiEA1qGdKqlRStQly1KGjhwkVu+rctRMJq0cKFhRFiT6OFRWVYWkqpdVrMvN598+6bO/c+fSn0wcB9M+d+75szZ86ZuUpEWE0o+9cC4mJN8IdSqh04mZDrrojcCHBdBeqAs8BcUoF5ESAifxuQBiRhS1tcP01/U1Kxtj4RQQVnoJRqAk5ged4Di8B9EXkW4DoCnAI+AC+BMeA1MBVXcBC24Jg6C5MbrjL0qm0NmH0lK37MjBecTKkFAzwB9ntS5E1GRHqDBrbgFLA5od73IjJfpOA8iIiyO4IbpZ/km67f4goKTsop9qaz8/CKz8t2NjgE1CTkmihSixdswYvA2yX+j0ckj+HHdkcpsgTACDAIDMSg+w3cE5GcKrmchSPzWA18BHYBwzF5I0vzKMl39GhIlkgBXcBkDI2NwGmM0+wsYXvyOkUcfkL6eoAW83wRXQxcqAWuobPVUaDNNlB5Ll8imJAYBepN1xTwPeK1CmCDeR4DtjtDYimbQQswC7wCNnnMsxa9QWfNu+7T2mrAiq9sNla3YKVUWKtVSt1USqVN61ZK1YTZlgQFTlgZ7Aamyc+5k0CDi6sA5wGgG12u+4BOYIuvvrDTWhBlwC2gMmSsGriNf0ilDFef4XuIPnY2olNfuyeP08PNRFe35kJcFmcPOl3VhUhoBr4B56L0iYhTcIeH4A4PwXuBBXLvdTZa0aFXFSXYtaRrHWMZrPewaQPuAG8cNr3ADHA4iswl+J2HmLSHTT3w3MNumPCQyYFL8AP0sbEQfhibKMyjN10UUhF6IMJgArjsGL8CfPYQ8gJ99XKhHJ0xhiLZIvIw6GPhLNmN9gU4H8UV4KxHbzpXfHai01vexSFOlgiiAr3b9+BYXkdau4BOXa0hvF1oR0yjvezkdN3pqozAHcA29LKB/hI5jv46M0Tgthw26QDnGfThfA69wdYZ/k/oM3AlOlMcRN//wjlDvNGAvj0s4Hc1Gsh4xqM0V6KvP5dMO4ZesUayR4AcT0eFxHGyn0njtF9Aq4dgF0JFRwkeSSA208aLFBwmemdUpSvPo/BHdRHvZjCIjuEZoyWvVMf9/lAKDAL7gI3AU3vw/51uufEHrskiaOwV7OsAAAAASUVORK5CYII=);}
 
