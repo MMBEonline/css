@@ -7,7 +7,6 @@ html body *,html body,body button,body code,body input,body .site-navigation2__o
 .cookies-banner {box-shadow: 0 0 10px rgba(0,0,0,.250);}
 #page-footer{border-top: 1px solid #ddd;padding: 0;margin: 50px 0 0;}
 .button.search-submit{background:#df0000;}
-.button.background-type-1.search-submit:before{content:"\1f50d";font-size:1.285rem;left:20px;top:5px;font-family:MM-iconfonte;}
 body #nav-categories li a:after,#nav-categories li a.background-type-2:after {background-image: none;content: "\276f";top: 11px;}
 .crossed-price-wrapper .product-crossed-price,.crossed-price-wrapper .crossed-price-layer span{font-size: 16px;}
 .add-to-compare-list-wrapper{border-top:none;}
