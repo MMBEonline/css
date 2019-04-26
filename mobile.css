@@ -4,7 +4,7 @@ html body *,html body,body button,body code,body input,body .site-navigation2__o
 .product-list-container>.product-list>li:last-child{border-bottom:none}
 .product-teaser-vatLabel,.wrapper-price>span.product-teaser-fee-container{display:none!important}
 .first-cookie-btn{width: 100% !important;margin:10px 0 0;}
-.button.second-cookie-btn,.ms-icon--type_info:before,.ms-icon--type_location:before {display: none;}
+.button.second-cookie-btn,.ms-icon--type_info:before,.ms-icon--type_location:before {display: none !important;}
 .cookies-banner {box-shadow: 0 0 10px rgba(0,0,0,.250);}
 #page-footer{border-top: 1px solid #ddd;padding: 0;margin: 50px 0 0;}
 .button.search-submit{background:#df0000;}
