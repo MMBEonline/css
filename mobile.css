@@ -2,9 +2,8 @@ html body *,html body,body button,body code,body input,body .site-navigation2__o
 .price {font-size: 22px !important;text-shadow: none !important;font-weight: 700 !important;}
 .product-list>li{border-bottom:1px solid #ddd}
 .product-list-container>.product-list>li:last-child{border-bottom:none}
-.product-teaser-vatLabel,.wrapper-price>span.product-teaser-fee-container{display:none!important}
 .first-cookie-btn{width: 100% !important;margin:10px 0 0;}
-.button.second-cookie-btn,.ms-icon--type_info:before,.ms-icon--type_location:before {display: none !important;}
+.product-teaser-vatLabel,.wrapper-price>span.product-teaser-fee-container,.button.second-cookie-btn,.ms-icon--type_info:before,.ms-icon--type_location:before,.ms-header2__meta-nav-link>.ms-icon--type_profile:before {display: none !important;}
 .cookies-banner {box-shadow: 0 0 10px rgba(0,0,0,.250);}
 #page-footer{border-top: 1px solid #ddd;padding: 0;margin: 50px 0 0;}
 .button.search-submit{background:#df0000;}
