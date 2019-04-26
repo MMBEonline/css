@@ -1,4 +1,9 @@
 html body *,html body,body button,body code,body input,body .site-navigation2__offcanvas-toggle-icon:after,body .ms-button2,.ms-link-list__title:before,.ms-market-selector__item-link-wrapper--offcanvas:after, .site-navigation2__child-item--no-children:after,.ms-market-selector__button--offcanvas:not(.site-navigation2__link--primary-toggle):after, .site-navigation2__link:not(.site-navigation2__link--primary-toggle):after{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;}
+
+
+
+
+
 .price {font-size: 22px !important;text-shadow: none !important;font-weight: 700 !important;}
 .product-list>li{border-bottom:1px solid #ddd}
 .product-list-container>.product-list>li:last-child{border-bottom:none}
