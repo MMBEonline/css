@@ -10,7 +10,11 @@ body h2,h3,h4,div .ms-text--medium,.ellipsis-text {font-weight: 600;}
 
 body .only-open,body .not-available,.market-list #type-pickup-delivery .option-label h2,#type-pickup-delivery h2.extra-info,body a.button,.wrapper-price>span,body .site-navigation2__offcanvas-toggle-icon:after,.mrh-layer-content .product-variants-option a,.product-variants-container a,#type-standard-delivery>h2>span>span,#type-standard-delivery>h1,#type-nextday-delivery>h1,div p.button,body .ms-textfield,body .ms-button2,html body,body button,body code,body input,body select,div select.mrh-dropdown,input.button,label.button,span.button,body textarea{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
 
+
+/*
 @font-face{font-family:mm-text-bold;src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff2) format("woff2"),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff) format("woff"),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.ttf) format("truetype")}
+*/
+
 
 .product-list>li{border-bottom:1px solid #ddd}
 .product-list-container>.product-list>li:last-child{border-bottom:none}
