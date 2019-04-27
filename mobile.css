@@ -10,10 +10,7 @@ body h2,h3,h4,div .ms-text--medium,.ellipsis-text {font-weight: 600;}
 
 body .only-open,body .not-available,.market-list #type-pickup-delivery .option-label h2,#type-pickup-delivery h2.extra-info,body a.button,.wrapper-price>span,body .site-navigation2__offcanvas-toggle-icon:after,.mrh-layer-content .product-variants-option a,.product-variants-container a,#type-standard-delivery>h2>span>span,#type-standard-delivery>h1,#type-nextday-delivery>h1,div p.button,body .ms-textfield,body .ms-button2,html body,body button,body code,body input,body select,div select.mrh-dropdown,input.button,label.button,span.button,body textarea{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
 
-
-/*
-@font-face{font-family:mm-text-bold;src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff2) format("woff2"),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff) format("woff"),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.ttf) format("truetype")}
-*/
+body,button,code,input,select,textarea,a.button,input.button,label.button,p.button,span.button,mrh-dropdown,.wrapper-price>span,footer .nav-type-2 li a,footer .nav-type-2 li>span,.rating-teaser-product .product-teaser-container h3.product-teaser-headline,.rating-teaser-product .product-teaser-container h3.product-teaser-headline a.product-teaser-detailLink,.banner-voucher .banner-text-3,.service-warranty-item .title-container .edit-button,.service-warranty-item .service-warranty-checkbox label,.mrh-delivery-type .only-open,.mrh-delivery-type h2,#wrapper-main .dynamic-product-list .crossed-price-wrapper .product-crossed-price,.indexed-list li[class*=dynamic-list-item]:before,.input-label label.terms-and-conditions-check-label,.input-label label.terms-and-conditions-check-label,.technical-account-single-order .technical-orders-accordion,.coupons-section-container .coupons-introduction-paragraph{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
 
 
 .product-list>li{border-bottom:1px solid #ddd}
