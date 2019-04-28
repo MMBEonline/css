@@ -38,3 +38,4 @@ div .ptk:after {content: "\1f69a";top: 30px;}
 .mrh-delivery-type h2{font-weight:400;}
 #type-standard-delivery>h2.green{margin: 0 0 0 20px;}
 .fixed-search-container .gridbox {padding: 0;}
+.site-navigation2__offcanvas-toggle-icon:after { content: 'MENU'; margin-top: 2px; font-size: 9px; display: block; }
