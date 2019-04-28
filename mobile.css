@@ -21,7 +21,7 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 .sdd-enabled #add-to-basket-buttons,.ptk.nft:after{display:none;}
 .mrh-delivery-type .mrh-delivery-type-container{background:#fff !important;margin:10px 0 !important;}
 .mrh-delivery-type #type-nextday-delivery{padding:15px 0;}
-#type-nextday-delivery .status-green{display:none !important;}
+#type-nextday-delivery .status-green,#manufacturer-logos{display:none !important;}
 #accordion-highlight-details .mrh-accordion-content h3,#accordion-technical-details .table-prod-details h3{border-bottom: 1px solid #ddd; font-size: 16px; margin-bottom: 5px;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
 .table-prod-details td.checkmark,.sdd-enabled .button-info-layer{background-image:none;background:none;}
 .sdd-enabled .button-info-layer:after{content:"\69";font-family:MM-iconfont;color:#444;font-size:16px;}
