@@ -31,11 +31,10 @@ div .swogo-host-title{font-family:MMTextProWeb-Bold!important;padding:20px 10px 
 .sdd-enabled input[type=radio]+.tooltip+label:before, .sdd-enabled input[type=radio]+label:before{background:#f2f2f2;border:1px solid #ddd;border-radius:3px;}
 .sdd-enabled .additional-services-list p input:checked+.additional-service:after{color:#090;font-family: MM-iconfont;content: "\2713";position:absolute;left: 1px;font-size: 20px;}
 .ptk{display: block;margin: 10px 0 10px 0;position: relative;}
-.ptk:before,.ptk:after {color:#090;position: absolute;left: -20px;font-family: MM-iconfont;content: "\2713";}
+.ptk:before,.ptk:after {color:#090;position: absolute;left:-30px;font-family:MM-iconfont;content:"\2713";font-size: 20px;transform: translateY(-4px);}
 .mrh-delivery-timeframe-cutoff{color:#090;}
 div .ptk:after {content: "\1f69a";top: 30px;}
-#type-nextday-delivery p.mrh-delivery-timeframe{margin: 0 0 0 20px;}
+#type-nextday-delivery p.mrh-delivery-timeframe,#type-standard-delivery>h2.green{margin: 0 0 0 30px;}
 .mrh-delivery-type h2{font-weight:400;}
-#type-standard-delivery>h2.green{margin: 0 0 0 20px;}
 .fixed-search-container .gridbox {padding: 0;}
 .site-navigation2__offcanvas-toggle-icon:after { content: 'MENU'; margin-top: 2px; font-size: 9px; display: block; }
