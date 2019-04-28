@@ -29,7 +29,7 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 .swogo-button-add-to-cart:before,.swogo-summary .swogo-price:not(.swogo-line-throug), .swogo-summary .swogo-discount,.swogo-host-title{font-family: MMTextProWeb-Bold !important;}
 div .swogo-host-title{font-family:MMTextProWeb-Bold!important;padding:20px 10px 10px;font-size:18px;}
 .sdd-enabled input[type=radio]+.tooltip+label:before, .sdd-enabled input[type=radio]+label:before{background:#f2f2f2;border:1px solid #ddd;border-radius:3px;}
-.sdd-enabled .additional-services-list p input:checked+.additional-service:after{color:#090;font-family: MM-iconfont;content: "\2713";position:absolute;left:5px;font-size:16px;}
+.sdd-enabled .additional-services-list p input:checked+.additional-service:after{color:#090;font-family: MM-iconfont;content: "\2713";position:absolute;left: 1px;font-size: 20px;}
 .pinstock{display: block;margin: 10px 0 10px 0;position: relative;}
 .pinstock:before,.pinstock:after {color:#090;position: absolute;left: -20px;font-family: MM-iconfont;content: "\2713";}
 .mrh-delivery-timeframe-cutoff{color:#090;}
