@@ -34,3 +34,4 @@ div .swogo-host-title{font-family:MMTextProWeb-Bold!important;padding:20px 10px 
 .pinstock:before,.pinstock:after {color:#090;position: absolute;left: -20px;font-family: MM-iconfont;content: "\2713";}
 .mrh-delivery-timeframe-cutoff{color:#090;}
 div .pinstock:after {content: "\1f69a";top: 30px;}
+#type-nextday-delivery p.mrh-delivery-timeframe{margin: 0 0 0 20px;}
