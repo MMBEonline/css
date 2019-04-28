@@ -18,7 +18,7 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 .swiper-container h3{height:40px;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
 .swiper-container .slider-vat-label,.swiper-container .product-energy-efficiency{display:none;}
 
-.sdd-enabled #add-to-basket-buttons,.pinstock.noafter:after{display:none;}
+.sdd-enabled #add-to-basket-buttons,.ptk.nft:after{display:none;}
 .mrh-delivery-type .mrh-delivery-type-container{background:#fff !important;margin:10px 0 !important;}
 .mrh-delivery-type #type-nextday-delivery{padding:15px 0;}
 #type-nextday-delivery .status-green{display:none !important;}
@@ -30,9 +30,9 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 div .swogo-host-title{font-family:MMTextProWeb-Bold!important;padding:20px 10px 10px;font-size:18px;}
 .sdd-enabled input[type=radio]+.tooltip+label:before, .sdd-enabled input[type=radio]+label:before{background:#f2f2f2;border:1px solid #ddd;border-radius:3px;}
 .sdd-enabled .additional-services-list p input:checked+.additional-service:after{color:#090;font-family: MM-iconfont;content: "\2713";position:absolute;left: 1px;font-size: 20px;}
-.pinstock{display: block;margin: 10px 0 10px 0;position: relative;}
-.pinstock:before,.pinstock:after {color:#090;position: absolute;left: -20px;font-family: MM-iconfont;content: "\2713";}
+.ptk{display: block;margin: 10px 0 10px 0;position: relative;}
+.ptk:before,.ptk:after {color:#090;position: absolute;left: -20px;font-family: MM-iconfont;content: "\2713";}
 .mrh-delivery-timeframe-cutoff{color:#090;}
-div .pinstock:after {content: "\1f69a";top: 30px;}
+div .ptk:after {content: "\1f69a";top: 30px;}
 #type-nextday-delivery p.mrh-delivery-timeframe{margin: 0 0 0 20px;}
 .mrh-delivery-type h2{font-weight:400;}
