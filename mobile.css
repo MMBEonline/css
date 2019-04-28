@@ -26,3 +26,5 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 .table-prod-details td.checkmark,.sdd-enabled .button-info-layer{background-image:none;background:none;}
 .sdd-enabled .button-info-layer:after{content:"\69";font-family:MM-iconfont;color:#444;font-size:16px;}
 .table-prod-details td.checkmark:before{content:"\2714";position:absolute;left:10px;color:green;}
+.swogo-button-add-to-cart:before,.swogo-summary .swogo-price:not(.swogo-line-throug), .swogo-summary .swogo-discount,.swogo-host-title{font-family: MMTextProWeb-Bold !important;}
+.swogo-host-title{font-family:MMTextProWeb-Bold!important;padding:20px 10px 10px;font-size:18px;}
