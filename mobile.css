@@ -17,3 +17,5 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 .swiper-container .product-teaser-container figure{max-height:37vw;height:auto !important;}
 .swiper-container h3{height:40px;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
 .swiper-container .slider-vat-label,.swiper-container .product-energy-efficiency{display:none;}
+
+.sdd-enabled #add-to-basket-buttons{display:none;}
