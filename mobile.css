@@ -19,8 +19,7 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 .swiper-container .slider-vat-label,.swiper-container .product-energy-efficiency{display:none;}
 
 .sdd-enabled #add-to-basket-buttons,.ptk.nft:after{display:none;}
-#delivery-type.mrh-delivery-type {padding: 0 10px 0;}
-.mrh-delivery-type .mrh-delivery-type-container{background:#fff !important;margin:10px 0 !important;}
+.mrh-delivery-type .mrh-delivery-type-container{background:#fff !important;margin:10px 5px !important;}
 .mrh-delivery-type #type-nextday-delivery{padding:15px 0;}
 #type-nextday-delivery .status-green,#manufacturer-logos{display:none !important;}
 #accordion-highlight-details .mrh-accordion-content h3,#accordion-technical-details .table-prod-details h3{border-bottom: 1px solid #ddd; font-size: 16px; margin-bottom: 5px;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
