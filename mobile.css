@@ -39,3 +39,4 @@ div .ptk:after {content: "\1f69a";top: 30px;}
 .fixed-search-container .gridbox {padding: 0;}
 .site-navigation2__offcanvas-toggle-icon:after { content: 'MENU'; margin-top: 2px; font-size: 9px; display: block; }
 .product-variants-container .product-variants-list {background: #fff;margin: 10px 0px 0;}
+.pdp-slider.slider-number-pagination {padding: 0!important;}
