@@ -35,4 +35,4 @@ div .swogo-host-title{font-family:MMTextProWeb-Bold!important;padding:20px 10px 
 .mrh-delivery-timeframe-cutoff{color:#090;}
 div .pinstock:after {content: "\1f69a";top: 30px;}
 #type-nextday-delivery p.mrh-delivery-timeframe{margin: 0 0 0 20px;}
-.mrh-delivery-type .extra-info,#type-pickup-delivery .option-label h2{font-weight:400;}
+.mrh-delivery-type h2{font-weight:400;}
