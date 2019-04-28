@@ -21,3 +21,4 @@ body #nav-categories li a:after,#nav-categories li a.background-type-2:after {ba
 .sdd-enabled #add-to-basket-buttons{display:none;}
 .mrh-delivery-type .mrh-delivery-type-container{background:#fff !important;margin:10px 0 !important;}
 .mrh-delivery-type #type-nextday-delivery{padding:15px 0;}
+##type-nextday-delivery .status-green{display:none !important;}
