@@ -40,6 +40,3 @@ div .ptk:after {content: "\1f69a";top: 30px;}
 .site-navigation2__offcanvas-toggle-icon:after { content: 'MENU'; margin-top: 2px; font-size: 9px; display: block; }
 .product-variants-container .product-variants-list {background: #fff;margin: 10px 0px 0;}
 .pdp-slider.slider-number-pagination {padding: 0!important;}
-/*
-#accordion-highlight-details .mrh-accordion-headline, #accordion-technical-details .mrh-accordion-headline {font-size: 16px;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight: 600;}
-*/
