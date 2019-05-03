@@ -60,6 +60,6 @@ body #nav-categories>li>a:after { background: none !important; font-size: 16px; 
 #nav-categories>li>a[href*='510008']:before{ background-position: -5px -195px}
 #nav-categories>li>a[href*='502826']:before{ background-position: -110px -195px}
 #nav-categories>li>a[href*='670014']:before{ background-position: -110px -130px}
-.category-breadcrumb {color: #df0000;position: relative;}
+.category-breadcrumb {color:#df0000!important;position: relative;}
 .category-breadcrumb:before {content: "...";}
 .category-breadcrumb:after { content: " ›"; font-size: 25px; position: absolute; right: -10px; top: -7px; }
