@@ -62,4 +62,4 @@ body #nav-categories>li>a:after { background: none !important; font-size: 16px; 
 #nav-categories>li>a[href*='670014']:before{ background-position: -110px -130px}
 .category-breadcrumb {color:#df0000!important;position: relative;}
 .category-breadcrumb:before {content: "...";}
-.category-breadcrumb:after { content: " ›"; font-size: 22px; position: absolute; right: -10px; top: -5px; }
+.category-breadcrumb:after { content: " ›"; font-size: 22px; position: absolute; right: -10px; top: -5.5px; }
