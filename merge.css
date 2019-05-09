@@ -442,9 +442,8 @@ div strong:not(.text--small) {font-family: SourceSansPro-Regular;font-weight: bo
 #ContainerAuto_ar strong {font-family: SourceSansPro-Regular !important;font-weight: bold;}
 .responsive #product-sidebar .sidebar-form .price-details{float: none !important;display: flex;flex-direction: column;text-align: left !important;}
 body.responsive #product-sidebar .sidebar-form .price-button {position:inherit;}
-#compare-table .price-old-you-save{display: none;}
 #product-sidebar .sidebar-form .price-details .old-price-block{order: 1;margin: 0 0 5px !important;}
-.price-old-you-save{position:absolute;top:-4px;right:0;width:68px;font-size:16px;color:#fff;line-height:1.3;font-family:mm-text-bold;padding:1px 6px 3px;text-align:right;background:#DF0000;}
+.price-old-you-save{position:absolute;top:-4px;right:0;width:62px;font-size:16px;color:#fff;line-height:1.3;font-family:mm-text-bold;padding:1px 6px 3px;text-align:right;background:#DF0000;}
 .price-old-you-save span{display:block;font-family:SourceSansPro-regular;}
 .price.price-old:after{width:calc(100% + 10px);margin-left:calc(0px - 50% - 5px);border:none;background:#DF0000;}
 .price-old-info,.price-old-info{display: none;}
@@ -453,8 +452,7 @@ body.responsive #product-sidebar .sidebar-form .price-button {position:inherit;}
 .price-details.has-old-price>*,.product-wrapper .product-price .price-box>*,.cms-products-grid .price-box>* {order: 9;}
 div .price.price-old{margin-left: 20px;}
 .product-wrapper .product-price .price-box>.price-old,.cms-products-grid .price-box>.price.price-old{order: 1;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
-#product-wrapper .sidebar-form .price-old-you-save{display: none;}
-.products-grid .price-old-you-save{display: none;}
+#product-wrapper .sidebar-form .price-old-you-save,.products-grid .price-old-you-save,#compare-table .price-old-you-save{display: none;}
 .products-grid .info-wrapper .price-old{top: -40px !important;}
 .products-grid .info-wrapper .price.price-old:after{margin-top: -8px;}
 .ms-detect--ie .product-wrapper .product-price .price-box>.price-old,.ms-detect--ie .cms-products-grid .price-box>.price.price-old{width: 30%;}
