@@ -384,7 +384,6 @@ input[type="text"]{font-family: "SourceSansPro-Regular";}
 #product-details .description h3,#product-details .description h4{font-size:16px;line-height: 16px}
 .reviews-content .review-rate .button span:after {top: 11px !important;}
 .price.price-xs {font-size: 30px !important;line-height: 34px;}
-.price.price-xs span{float: none;}
 #product-details .prodrel .add-to-compare:before{display: none;}
 .products-grid .base-info.cta .ee-wrapper,.products-carousel .products-grid .ee-wrapper{display: block;position: absolute;top: 47%;}
 .toplayer{border:none;}
