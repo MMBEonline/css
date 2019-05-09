@@ -352,7 +352,7 @@ div .select.reviews-sorting{position:absolute;right:12px;top:12px;}
 div .fullscreen-layer .fullscreen-layer-header .logo{background: url(https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/images/red/mm-logo.svg) 50% no-repeat;text-indent: -999px;}
 div .gallery-view .gv-heading{font-weight: bold;font-family: SourceSansPro-Regular;}
 div .fullscreen-layer .fullscreen-layer-wrapper .fullscreen-layer-header {background: #f2f2f2;height: 59px;border-bottom: 1px solid #ddd!important;}
-div .fullscreen-layer .fullscreen-layer-header .button-close:after{content: '╳';background-image:none;}
+div .fullscreen-layer .fullscreen-layer-header .button-close:after{content: 'â•³';background-image:none;}
 body #product-sidebar.sticky{top: 100px;} div#accessoires .prev,div#accessoires .next{top:50%!important}
 #product-sidebar .thumbnail-carousel.thumbnail-carousel--single-page div.thumbnail-carousel__carousel{width:100%}
 #product-sidebar .thumbnail-carousel__prev,#product-sidebar .thumbnail-carousel__next{position: relative;background-color:#f2f2f2;border:none!important;width:15px!important}
@@ -472,6 +472,7 @@ div .price.price-old{margin-left: 20px;}
 .products-grid .base-content .rate{text-align:left;visibility:visible;position:absolute;top:-45px;left:5px;}
 .products-grid .base-content .rate .see-reviews{font-size:14px;}
 .compare-table-wrapper .title {line-height:1;}
+div #page-footer {padding: 0;border-top: 1px solid #ddd;margin: 2rem 0 0;}
 @media (min-width: 1200px){
     div #product-details .price-sidebar {width: 246px;}
     div .box.infobox.availability { background: #fff; padding: 15px 10px !important; border: 1px solid #ddd;}
@@ -492,16 +493,17 @@ div .price.price-old{margin-left: 20px;}
     div .products-list>li footer {margin: 10px 0 10px 208px;}
     .swogo-container.swogo-container-pdp{width:686px !important;}
     .products-list footer .first-review {display: none;}
+    body #page-footer p.ms-text--small{width:948px;height: 105px;}
 }
 @media only screen and (max-width: 954px){
     .responsive #category>hgroup .side{display: flex;justify-content: flex-end;}
     .responsive div#filters, .small-screen aside#filters {background-color: #fff !important;}
     .responsive #filters, .responsive #my-market-wrapper #my-market-sidebar {border: 1px solid #ddd;border-left: none;background-position: right 0;background: none transparent;padding: 12px 0 15px 12px;margin-top: 0;box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .4) !important;}
     .container.shader>.main, .container.shader>.side {padding-bottom: 1px;}
-    #page-footer .ms-site-footer__row:last-child .ms-link-list:nth-child(2) img {margin-top: 0px;}
-    #page-footer .ms-site-footer__row:last-child p {text-align: center;padding: 0 20px;}
+    body #page-footer p.ms-text--small{width:708px;height: 105px;}
 }
 @media (min-width: 61.875em) {
     #rise-header .site-navigation2--dropdown .site-navigation2__item--primary-toggle{background:#000;}
     #rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
+    #page-footer p.ms-text--small {height:90px;display:table-cell;vertical-align:bottom;background:url(https://csscdn.redblue.de/MediaBE/static/css/footerimg.png)no-repeat;opacity:1;background-position-x:50%;width:1188px;text-align:center;}
 }
