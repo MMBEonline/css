@@ -9,14 +9,14 @@ div .titreh2>h2, div #prudsyshomepage>h2, div #flyer1>h2, div #selection1>h2{
     font-size: 20px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
-div .bestcat {
+div .bestcat h2 {
 	margin-bottom: 10px;
 }
 div .swiper-container h3 {
     height: inherit;
 }
 
-.swiper-container h3 {
+.swiper-container h3 a {
 	font-size: 14px;
 }
 
