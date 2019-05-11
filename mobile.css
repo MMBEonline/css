@@ -1,22 +1,8 @@
 @charset "utf-8";
 
-div .titreh2>h2, div #prudsyshomepage>h2, div #flyer1>h2, div #selection1>h2{
-	margin-top: 15px;
-    border-bottom: none;
-    padding-bottom: 0 !important;
-    color: #000;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-div .bestcat h2 {
-	margin-bottom: 10px;
-}
 .swiper-container h3 a {
 	font-size: 14px !important;
 }
-
-
 
 @font-face{font-family:"mm-headline";src:url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.woff2") format("woff2"),url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.woff") format("woff"),url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.ttf") format("truetype")}@font-face{font-family:mm-text-regular;src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format("woff2"),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff) format("woff"),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf) format("truetype")}@font-face{font-family:mm-text-bold;src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff2) format("woff2"),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.woff) format("woff"),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Bold.ttf) format("truetype")}
 html body,div #nav-categories>li>a,div .product-variants-container a,div .frosmoServiceText,.mrh-delivery-type .only-open, .mrh-delivery-type h2,.crossed-price-wrapper .product-crossed-price,.wrapper-price>span,a.button,body .ms-button2,body .ms-textfield,body .not-available,body .only-open,body .site-navigation2__offcanvas-toggle-icon:after,.crossed-price-wrapper .product-crossed-price,body a.button,body textarea,button,code,div p.button,div select.mrh-dropdown,footer .nav-type-2 li a,footer .nav-type-2 li>span,input,input.button,label.button,mrh-dropdown,p.button,select,span.button,textarea{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
