@@ -66,3 +66,5 @@ body #nav-categories>li>a:after { background: none !important; font-size: 16px; 
 .additional-service-info input[type=checkbox]:checked:after, .additional-service-info input[type=radio]:checked:after {margin-left: 16px;}
 .bg-white.wrapper-full-width>.grid>.gridbox.column-1-1,.additional-services-list{display:block!important;}
 .sdd-enabled .additional-service-info label:before,.sdd-enabled label.additional-service:after{display:none!important;}
+.product-teaser-attributes>li:first-child, .product-teaser-attributes>li:nth-child(2), .product-teaser-attributes>li:nth-child(3) {display: block;}
+.product-teaser-attributes>li {display: none;}
