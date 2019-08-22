@@ -270,7 +270,6 @@ div .breadcrumbs li.home a {background: none;width: 13px;}
 .thumbnail-carousel__next{border-top-right-radius: 3px;border-bottom-right-radius: 3px;background-color: #f2f2f2;}
 body .icon {background:none;margin: -7px 0 0 3px;}
 body .icon:after {font-size: 13px;color: #777;content:"\e60e";}
-body .specification dt:before {background: none;text-indent: 0;content: '\e634';color: #56B118;font-size: 14px;left: 8px;top: 8px;font-family: "mm-icons";}
 .usp_price_sidebar li::before {content: "\e634";color: #56B118;font-size: 14px;top: 3px;font-family: mm-icons;background: none !important;}
 .page-product .label,.service-value {font-size: 14px;}
 #product-sidebar .fullscreen-gallery,#product-details .details .more,#product-details .options a{font-size: 14px;border-bottom: 1px solid #bbb;}
@@ -520,7 +519,7 @@ body .box.infobox.availability .online-ndd:before,body .preorder11,.box.infobox 
 .products-list .price{font-size:54px}
 div #newbundle:before{border-width:0 0 21px 260px}
 div #newbundle:after{width:262px}
-html body .specification dt:before {top: 10px !important;content: "" !important;line-height: 0px!important;width: 15px !important;height: 12px !important;padding: 0 !important;background-position: -2px -26px !important;}
+html body .specification dt:before{top:10px;content:""!important;line-height:0px;width:15px;height:12px;padding:0;background-position:-2px -26px !important;left:8px}
 body .usp_price_sidebar li::before {content: "" !important;line-height: 0px!important;width: 15px !important;height: 12px !important;padding: 0 !important;background-position: -2px -26px !important;}
 body .price-sidebar>.price-details>.box>.lowstock-label{padding: 0 0 5px;}
 @media (min-width: 1200px){
