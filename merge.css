@@ -263,8 +263,6 @@ div .product-accessories .products-grid .base-info .b-set .add-to-cart span{padd
 div .product-accessories .products-grid .base-info .b-set{display: flex;justify-content: space-around;}
 div .breadcrumbs li.home a {background: none;width: 13px;}
 .deliverytbl-section-delivery .deliverytbl-sub-heading th:before{content:"\e622  ";color:#000;font-size: 16px;position: absolute;left: 26px;}
-.iconfont-delivery:before,.box.infobox.availability>ul>li:before{content:"\e622";font-size:32px;color:#777}
-.box.infobox.availability>ul>li:before {font-family: "mm-icons";background: none !important;text-indent: 0;font-size: 11px;color: #444;width: 18px;height: 18px;top: 50%;margin-top: -5px;left: 0;}
 .deliverytbl-section-pickup .deliverytbl-sub-heading th:before{color:#000;font-size:20px;content:"\e621  ";position: absolute;left: 28px;}
 .iconfont-store:before,.box.infobox.availability>ul>li.section-store-availability:before,.box.infobox.availability>ul>li.market-buy:before{content:"\e621";font-size:32px;color:#777}
 .box.infobox.availability>ul>li.section-store-availability:before, .box.infobox.availability>ul>li.market-buy:before {color: #444;font-size: 18px;left: 3px;margin-top: -9px;}
@@ -323,7 +321,7 @@ div .button.gray.rate-product span{padding: 1px 17px 0px 6px !important; color: 
 div .next:before {background: none;content: "\e603";top: 10px;right: 15px;font-size: 20px;}
 div .prev:before {content: "\e602";background: none;font-size: 20px;top: 10px;left: 12px;}
 div .prev:hover:before,div .next:hover:before{color:#df0000;}
-div .box.infobox ul li {margin:5px 0 0;font-size: 14px;line-height:1.1;}
+div .box.infobox ul li {margin:3px 0 0;font-size: 14px;line-height:1.1;}
 div .box.infobox ul>li:nth-child(1) {margin: 0;}
 div .box.infobox ul li a {border-bottom: 1px solid #bbb;line-height:1.5;}
 .swogo-container.swogo-container-pdp {margin:40px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:772px;padding:0 10px;}
@@ -502,3 +500,5 @@ div #page-footer {padding: 0;border-top: 1px solid #ddd;margin: 2rem 0 0;}
     #rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
     #page-footer p.ms-text--small {height:90px;display:table-cell;vertical-align:bottom;background:url(https://csscdn.redblue.de/MediaBE/static/css/footerimg.png)no-repeat;opacity:1;background-position-x:50%;width:1188px;text-align:center;}
 }
+
+body .specification dt:before, body .usp_price_sidebar li::before, .box.infobox.availability>ul>.section-store-availability:before, .box.infobox.availability li.online:before, .box.infobox.availability li.productinstock:before, .box.infobox.availability li[class*="cluster"]:before, .box.infobox.availability li.preorder11:before { content: "En stock \A Livraison gratuite"!important; white-space: pre; font-family: SourceSansPro-regular; line-height: 20px; font-size: 14px; padding: 0 0 0 25px; display: block; height: auto; color: #444; background: url(https://csscdn.redblue.de/MediaBE/static/CMS/logosprite.png) no-repeat!important; text-indent: 0; }
