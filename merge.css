@@ -270,7 +270,6 @@ div .breadcrumbs li.home a {background: none;width: 13px;}
 .thumbnail-carousel__next{border-top-right-radius: 3px;border-bottom-right-radius: 3px;background-color: #f2f2f2;}
 body .icon {background:none;margin: -7px 0 0 3px;}
 body .icon:after {font-size: 13px;color: #777;content:"\e60e";}
-.usp_price_sidebar li::before {content: "\e634";color: #56B118;font-size: 14px;top: 3px;font-family: mm-icons;background: none !important;}
 .page-product .label,.service-value {font-size: 14px;}
 #product-sidebar .fullscreen-gallery,#product-details .details .more,#product-details .options a{font-size: 14px;border-bottom: 1px solid #bbb;}
 #product-sidebar .fullscreen-gallery:hover,#product-details .details .more:hover,#product-details .options a:hover{color: #df0000;border-bottom:1px solid #df0000;text-decoration: none;}
@@ -469,6 +468,7 @@ div #page-footer {padding: 0;border-top: 1px solid #ddd;margin: 2rem 0 0;}
     body.responsive .product-details dd {width: 220px;}
     .responsive #product-details {width: 794px;}
     .responsive #product-sidebar {width: 370px;}
+    body div #product-details .price-sidebar{width:262px}
 }
 @media screen and (max-width: 1199px){
     div .button.large.add-to-cart span{font-size:20px !important;}
@@ -497,31 +497,21 @@ div #page-footer {padding: 0;border-top: 1px solid #ddd;margin: 2rem 0 0;}
     #rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
     #page-footer p.ms-text--small {height:90px;display:table-cell;vertical-align:bottom;background:url(https://csscdn.redblue.de/MediaBE/static/css/footerimg.png)no-repeat;opacity:1;background-position-x:50%;width:1188px;text-align:center;}
 }
-
 body .specification dt:before, body .usp_price_sidebar li::before, .box.infobox.availability>ul>.section-store-availability:before, .box.infobox.availability li.online:before, .box.infobox.availability li.productinstock:before, .box.infobox.availability li[class*="cluster"]:before, .box.infobox.availability li.preorder11:before { content: "En stock \A Livraison gratuite"!important; white-space: pre; font-family: SourceSansPro-regular; line-height: 20px; font-size: 14px; padding: 0 0 0 25px; display: block; height: auto; color: #444; background: url(https://csscdn.redblue.de/MediaBE/static/CMS/logosprite.png) no-repeat!important; text-indent: 0; }
 .box.infobox.availability>ul>li.section-store-availability:before { content: ""!important; background-position:-1px bottom!important; height: 17px;top:14px;}
-
 .section-delivery-table,.market-buy,.online.online-ndd:after,.products-list>li .product-wrapper .product-price small{display:none!important}
 li.online,li.productinstock,li[class*="cluster"],li.preorder11{padding:44px 0 0 25px !important;color:#444!important}
 li.productinstock{margin-bottom:4px!important;color:#444!important}
-
-
-
-
 body .box.infobox.availability li[class*="cluster"]:before{content:"Bientôt en stock \A Livraison gratuite"!important;background:url(https://csscdn.redblue.de/MediaBE/static/CMS/yellowdot.png) no-repeat!important}
 body .box.infobox.availability li.preorder11:before{content:"Précommande \A Livraison gratuite"!important}
 .online .timeframe,.dmsg{overflow:visible!important;position:relative}
 .online .timeframe:after,.online:after,li.productinstock:after,li[class*="cluster"]:after,li.preorder11:after{content:"\e622";font-family:mm-icons;position:absolute;top:48px;left:0;font-size:11px;color:#090}
 .online .timeframe:after{top:3px;left:-24px}
-
 body .price-box{margin-bottom:10px}
 body .box.infobox.availability .online-ndd:before,body .preorder11,.box.infobox ul li[class*="cluster"]{color:#444!important}
 .products-list .price{font-size:54px}
 div #newbundle:before{border-width:0 0 21px 260px}
 div #newbundle:after{width:262px}
 html body .specification dt:before{top:10px;content:""!important;line-height:0px;width:15px;height:12px;padding:0;background-position:-2px -26px !important;left:8px}
-body .usp_price_sidebar li::before {content:""!important;height:12px!important;background-position:-2px -26px!important;}
+body .usp_price_sidebar li::before {content:""!important;height:12px!important;background-position:-2px -26px!important;top:6px;position:absolute;left:0px}
 body .price-sidebar>.price-details>.box>.lowstock-label{padding:0 0 5px;}
-@media (min-width: 1200px){
-    body div #product-details .price-sidebar{width:262px}
-}
