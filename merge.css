@@ -387,7 +387,6 @@ div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 .my-account.gift-cards .content .giftcard .image.balance{background:url("images/myaccount/giftcardBalance.png") no-repeat scroll 50% 0 transparent}
 .box.infobox ul li.false:before,.box.infobox ul li.online-nostock:before{color: #df0000;}
 #product-details .price.big {font-size: 64px;line-height: 64px;height: 64px;}
-.box.infobox.availability .online-ndd:before,.preorder11,.preorder11:before{color: #090 !important;}
 .prodrel-heading{margin: 10px 0 5px;}
 .prodrel-photo a,.prodrel-content{border: 1px solid #ddd;}
 .prodrel-item{border-top: 1px solid #ddd;background: #f2f2f2;}
