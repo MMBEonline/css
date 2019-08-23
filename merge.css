@@ -404,7 +404,6 @@ div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 #product-details #alaTestReviews>iframe{min-width: 97.5% !important;border: 1px solid #ddd;padding: 10px;}
 .prodrel .prodrel-item small{display: none;}
 .ms-login-logout__greet-text{font-weight: bold;}
-.box.infobox ul li[class*="cluster"],.box.infobox ul li[class*="cluster"]:before {color: #ffa500;}
 .price-sidebar .ee-wrapper {margin:0;}
 .premiumopts .layer-content .bsx3 {width: 644px;}
 #basket-flyout header .info{color: #444}
@@ -508,10 +507,13 @@ body .box.infobox.availability li.preorder11:before{content:"Précommande \A Liv
 .online .timeframe:after,.online:after,li.productinstock:after,li[class*="cluster"]:after,li.preorder11:after{content:"\e622";font-family:mm-icons;position:absolute;top:48px;left:0;font-size:11px;color:#090}
 .online .timeframe:after{top:3px;left:-24px}
 body .price-box{margin-bottom:10px}
-body .box.infobox.availability .online-ndd:before,body .preorder11,.box.infobox ul li[class*="cluster"]{color:#444!important}
 .products-list .price{font-size:54px}
 div #newbundle:before{border-width:0 0 21px 260px}
 div #newbundle:after{width:262px}
 html body .specification dt:before{top:10px;content:""!important;line-height:0px;width:15px;height:12px;padding:0;background-position:-2px -26px !important;left:8px}
 body .usp_price_sidebar li::before {content:""!important;height:12px!important;background-position:-2px -26px!important;top:6px;position:absolute;left:0px}
 body .price-sidebar>.price-details>.box>.lowstock-label{padding:0 0 5px;}
+
+/*
+body .box.infobox.availability .online-ndd:before,body .preorder11,.box.infobox ul li[class*="cluster"]{color:#444!important}
+*/
