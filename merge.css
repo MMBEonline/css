@@ -385,7 +385,6 @@ input[type="text"]{font-family: "SourceSansPro-Regular";}
 #dptIframe{height: 0px;}
 div .box.infobox .lowstock-label {font-size: 14px;color:#df0000;}
 .my-account.gift-cards .content .giftcard .image.balance{background:url("images/myaccount/giftcardBalance.png") no-repeat scroll 50% 0 transparent}
-.box.infobox ul li.false:before,.box.infobox ul li.online-nostock:before{color: #df0000;}
 #product-details .price.big {font-size: 64px;line-height: 64px;height: 64px;}
 .prodrel-heading{margin: 10px 0 5px;}
 .prodrel-photo a,.prodrel-content{border: 1px solid #ddd;}
@@ -512,6 +511,10 @@ div #newbundle:after{width:262px}
 html body .specification dt:before{top:10px;content:""!important;line-height:0px;width:15px;height:12px;padding:0;background-position:-2px -26px !important;left:8px}
 body .usp_price_sidebar li::before {content:""!important;height:12px!important;background-position:-2px -26px!important;top:6px;position:absolute;left:0px}
 body .price-sidebar>.price-details>.box>.lowstock-label{padding:0 0 5px;}
+.box.infobox ul li.false:before{background:none!important;text-indent:0;font-size:11px;top:calc(50% + 2px);content:"\e622"}
+
+
+
 
 /*
 body .box.infobox.availability .online-ndd:before,body .preorder11,.box.infobox ul li[class*="cluster"]{color:#444!important}
