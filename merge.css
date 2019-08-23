@@ -520,8 +520,8 @@ body .box.infobox.availability .online-ndd:before,body .preorder11,.box.infobox 
 div #newbundle:before{border-width:0 0 21px 260px}
 div #newbundle:after{width:262px}
 html body .specification dt:before{top:10px;content:""!important;line-height:0px;width:15px;height:12px;padding:0;background-position:-2px -26px !important;left:8px}
-body .usp_price_sidebar li::before {content: "" !important;line-height: 0px!important;width: 15px !important;height: 12px !important;padding: 0 !important;background-position: -2px -26px !important;}
-body .price-sidebar>.price-details>.box>.lowstock-label{padding: 0 0 5px;}
+body .usp_price_sidebar li::before {content:""!important;height:12px!important;background-position:-2px -26px!important;}
+body .price-sidebar>.price-details>.box>.lowstock-label{padding:0 0 5px;}
 @media (min-width: 1200px){
     body div #product-details .price-sidebar{width:262px}
 }
