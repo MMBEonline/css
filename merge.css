@@ -7,12 +7,16 @@
 @font-face{
     font-family:"mm-text-regular";
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot);
-    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format('woff2'))
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),
+        url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format('woff2'),
+        url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff) format('woff')
 }
 @font-face{
     font-family:"mm-text-bold";
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot);
-    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff2) format("woff2"),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff) format("woff")
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot?#iefix) format('embedded-opentype'),
+        url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff2) format("woff2"),
+        url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff) format("woff")
 }
 @font-face{font-family:"mm-icons";
     src:url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot");
