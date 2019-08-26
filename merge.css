@@ -2,27 +2,23 @@
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot");
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot?#iefix") format("embedded-opentype"),
         url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.woff2") format("woff2"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.woff") format("woff"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.ttf") format("truetype"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.svg#svg") format("svg")
+        url("https://csscdn.redblue.de/MediaBE/static/css/mm-headline.woff") format("woff")
 }
 @font-face{
     font-family:"mm-text-regular";
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot);
-    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format('woff2'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.ttf) format('truetype')
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextProWebTT-Regular.woff2) format('woff2'))
 }
 @font-face{
     font-family:"mm-text-bold";
     src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot);
-    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff2) format("woff2"),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff) format("woff"),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.ttf) format("truetype")
+    src:url(https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot?#iefix) format('embedded-opentype'),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff2) format("woff2"),url(https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff) format("woff")
 }
 @font-face{font-family:"mm-icons";
     src:url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot");
     src:url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot?#iefix") format("embedded-opentype"),
         url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.woff2") format("woff2"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.woff") format("woff"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.ttf") format("truetype"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.svg#svg") format("svg")
+        url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.woff") format("woff")
 }
 @font-face{
     font-family:"SourceSansPro-Regular";
@@ -30,17 +26,13 @@
     src:url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.eot");
     src:url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
         url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.woff2") format("woff2"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.woff") format("woff"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.ttf") format("truetype"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.svg#svg") format("svg");
+        url("https://csscdn.redblue.de/MediaBE/static/css/SourceSansPro-Regular.woff") format("woff")
 }
 @font-face{font-family:"pricemm";
     src:url("https://csscdn.redblue.de/MediaBE/static/css/pricemm.eot");
     src:url("https://csscdn.redblue.de/MediaBE/static/css/pricemm.eot?#iefix") format("embedded-opentype"),
         url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.woff2") format("woff2"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.woff") format("woff"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.ttf") format("truetype"),
-        url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.svg#svg") format("svg")
+        url("https://csscdn.redblue.de/MediaBE/static/css/newpricem.woff") format("woff")
 }
 #my-market-wrapper #contact-data .columns>.column {width: 400px !important;}
 #bv-mboxzone-lightbox.bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userinfo-data,#bv-mboxzone-lightbox.bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userinfo-value,#bv-mboxzone-lightbox.bv-cv2-cleanslate .bv-mbox-fullprofile .bv-author-profile-userinfo .bv-author-userstats-data,#bv-mboxzone-lightbox.bv-cv2-cleanslate .bv-mbox-fullprofile .bv-sidebar .bv-author-profile-userinfo .bv-author-userstats-list .bv-author-userstats-value {color: #fff !important;}
