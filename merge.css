@@ -493,7 +493,7 @@ div #page-footer {padding: 0;border-top: 1px solid #ddd;margin: 2rem 0 0;}
     #rise-header .site-navigation2--dropdown .site-navigation2__item--panel-expanded, #rise-header .site-navigation2--dropdown .site-navigation2__item--is-open{background:#fff;}
     #page-footer p.ms-text--small {height:90px;display:table-cell;vertical-align:bottom;background:url(https://csscdn.redblue.de/MediaBE/static/css/footerimg.png)no-repeat;opacity:1;background-position-x:50%;width:1188px;text-align:center;}
 }
-body .specification dt:before, body .usp_price_sidebar li::before, .box.infobox.availability>ul>.section-store-availability:before, .box.infobox.availability li.online:before, .box.infobox.availability li.productinstock:before, .box.infobox.availability li[class*="cluster"]:before, .box.infobox.availability li.preorder11:before { top:5px;content: "En stock \A Livraison gratuite"!important; white-space: pre; font-family: SourceSansPro-regular; line-height: 20px; font-size: 14px; padding: 0 0 0 25px; display: block; height: auto; color: #444; background: url(https://image.noelshack.com/fichiers/2019/35/1/1566801965-verticalmerge.png) no-repeat!important; text-indent: 0; }
+body .specification dt:before, body .usp_price_sidebar li::before, .box.infobox.availability>ul>.section-store-availability:before, .box.infobox.availability li.online:before, .box.infobox.availability li.productinstock:before, .box.infobox.availability li[class*="cluster"]:before, .box.infobox.availability li.preorder11:before { top:5px;content: "En stock \A Livraison gratuite"!important; white-space: pre; font-family: SourceSansPro-regular; line-height: 20px; font-size: 14px; padding: 0 0 0 25px; display: block; height: auto; color: #444; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAABlCAMAAACP17jrAAAA8FBMVEUAAAA0r16P06ZERERiwIJERET/pQBERERmwoZ8y5bh8+dERERERERERET/pQD/pQD/pQBERERERERERERERERERET/pQAtq1cmqFE0rl1ERET/pQBItm1CsmdERERMt3ApqVREREQ3r2CHz5//pQCK0KI+sWX/pQBTunXg8+f/pQD/pQD/pQBERERERERERERERET/pQD/pQBERERERERERET/pQBERET/pQD/pQBERET/pQBERET/pQD/pQD/pQD/pQBERET/pQD/pQD/pQD/pQBERET/pQBEREQFmzcVoUQdpUv/pQAjp1AOnz8AlSxz06xsAAAASHRSTlMA02nwXI5wIUsRCtVx9/DouKOATDAYBfz34ci9vLaxrq2pnYh1cDQvIBb46uPi3NG9mmtnYFhCNzcpHRYLC9TEs5SHeWRHRg6ifdp5AAABNUlEQVRIx+3U+0+CUBTA8YMEaAJCiJWWZVmWb800H71fR73a///fdDYw7+3S8mfHd2OwfTiwu91d2IJ2zv6A5GJ5CnxXqXBiPpue83B5cPgDCeA7mc6VlAzUtTKdKZAkuIBf7So0tR9MyLQIQO7oa0kQ2XEC4uJ9EO+D//t869xHQq5r2x3gq4wD0DOM6Ty8PzpDoLp1VtXHvLww5lRoos7sV/E3fYexpz59KqPnQKxSYOyhRgBSd0SsVoaIhoWqHYA85ZQhLj4Ptus8cNVVaV8AD9c9C9LixDI4uEU+l5M0ChmCqBheohium/VKmm+WTF8rebBRN/nR6qFZzPKioRHeKWsgi49YNBvYlsVDawI9VLmV5lHbowaIWXqrJa/UbKNFzz2QG6nkRYjqA7E5gcjMxno53yscTStm9EuyAAAAAElFTkSuQmCC) no-repeat!important; text-indent: 0; }
 .box.infobox.availability>ul>li.section-store-availability:before {content:""!important;background-position:-1px bottom!important;height:17px;top:12px;}
 .section-delivery-table,.market-buy,.online.online-ndd:after,.products-list>li .product-wrapper .product-price small{display:none!important}
 li.online,li.productinstock,li[class*="cluster"],li.preorder11{padding:44px 0 0 25px !important;color:#444!important}
@@ -511,10 +511,3 @@ html body .specification dt:before{top:10px;content:""!important;line-height:0px
 body .usp_price_sidebar li::before {content:""!important;height:12px!important;background-position:-2px -26px!important;top:6px;position:absolute;left:0px}
 body .price-sidebar>.price-details>.box>.lowstock-label{padding:0 0 5px;}
 .box.infobox ul li.false:before{background:none!important;text-indent:0;font-size:11px;top:calc(50% + 2px);content:"\e622"}
-
-
-
-
-/*
-body .box.infobox.availability .online-ndd:before,body .preorder11,.box.infobox ul li[class*="cluster"]{color:#444!important}
-*/
