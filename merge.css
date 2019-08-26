@@ -316,7 +316,7 @@ div .button.gray.rate-product span{padding: 1px 17px 0px 6px !important; color: 
 div .next:before {background: none;content: "\e603";top: 10px;right: 15px;font-size: 20px;}
 div .prev:before {content: "\e602";background: none;font-size: 20px;top: 10px;left: 12px;}
 div .prev:hover:before,div .next:hover:before{color:#df0000;}
-.box.infobox ul li {margin:0 0 5px;font-size: 14px;line-height:1.1;}
+div .box.infobox ul li {margin:0 0 5px;font-size: 14px;line-height:1.1;}
 div .box.infobox ul li a {border-bottom: 1px solid #bbb;line-height:1.5;}
 .swogo-container.swogo-container-pdp {margin:40px 0 10px;border:1px solid #ddd;position:relative;display:inline-block;width:772px;padding:0 10px;}
 .swogo-container-pdp .swogo-host-title {font-size: 20px;position:absolute;top:-35px;left:0;border-bottom:none;display:inline-block;padding:0;font-weight:normal;}
