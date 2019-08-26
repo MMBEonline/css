@@ -498,7 +498,7 @@ body .specification dt:before, body .usp_price_sidebar li::before, .box.infobox.
 .section-delivery-table,.market-buy,.online.online-ndd:after,.products-list>li .product-wrapper .product-price small{display:none!important}
 li.online,li.productinstock,li[class*="cluster"],li.preorder11{padding:44px 0 0 25px !important;color:#444!important}
 li.productinstock{margin-bottom:4px!important;color:#444!important}
-body .box.infobox.availability li[class*="cluster"]:before{content:"Bientôt en stock \A Livraison gratuite"!important;background:url(https://csscdn.redblue.de/MediaBE/static/CMS/yellowdot.png) no-repeat!important}
+body .box.infobox.availability li[class*="cluster"]:before{content:"Bientôt en stock \A Livraison gratuite"!important;background:url(https://image.noelshack.com/fichiers/2019/35/1/1566799961-yellowdot.png) no-repeat!important}
 body .box.infobox.availability li.preorder11:before{content:"Précommande \A Livraison gratuite"!important}
 .online .timeframe,.dmsg{overflow:visible!important;position:relative}
 .online .timeframe:after,.online:after,li.productinstock:after,li[class*="cluster"]:after,li.preorder11:after{content:"\e622";font-family:mm-icons;position:absolute;top:48px;left:0;font-size:11px;color:#090}
