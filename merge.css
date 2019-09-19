@@ -408,7 +408,7 @@ input[type="text"]{font-family: "SourceSansPro-Regular";}
 #filters .content.categories.categories-tree ul li a:hover{color: #df0000;}
 .box.infobox .energy-usage .value {color: #fff;}
 .products-carousel .products-grid .base-info .energy-info-wrapper{display: none;}
-.products-grid .photo-wrapper img, #product-preview .photo-wrapper img {width: auto;}
+.products-grid .photo-wrapper img, #product-preview .photo-wrapper img {width: 194px;}
 .responsive .my-account.login-page .error-box>p {color: #ed1c24 !important; font-size: 16px; margin-left: 20px;}
 .error-box, .error-wrapper, .success-box {background-color: #FFF;}
 .error-box:before, .error-wrapper .icon, .success-box:before {position: absolute; left: unset; top: unset; margin: 0 0 0 -30px; width: unset; height: unset; background: unset; content: "\e636"; font-family: mm-icons !important; font-size: 22px;}
@@ -500,6 +500,8 @@ body .price-box{margin-bottom:10px}
 div #newbundle:before{border-width:0 0 21px 260px}
 div #newbundle:after{width:262px}
 html body .specification dt:before{top:8px;left:8px}
-body .usp_price_sidebar li::before, body .specification dt:before{content:"";height:14px;width:14px;top:5px;position:absolute;left:0;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAhFBMVEUAAAApqUUpqUUpqUUpqUUpqUUpqUUpqUUpqUUpqUX///8sq0gipj8OnSolqEIdpDoBlRn5/fooqUQUoTOt3rWFzpV9yo1mwnpTumgwrEsbojcXoTMJnCkHmB/0+/bz+/bm9ere8uK54sCm2a6DzJB0x4RwxYFwxIFfvnRGtV8pqUQEmSMX0YuaAAAACXRSTlMA8tGEU/kUFlSp0xEJAAAAjklEQVQI102PRw7DMAzAZDtOKskre3fv/v9/TRwUKG+8kbCQKqm1VClEEoERkUTbhJ3BxVOBBTL2vmQvMlCI1nLvQ31sjQJZjO3TDp8mp7qUoM0r33fhStRYp0G795lOF6JbMChAcmkrovwRHKIEhTzO1eE+44KCTCAPvpuKNSTbMsyEKzFr9xf5WxDbwheAtQiNKitQGQAAAABJRU5ErkJggg==) center/contain no-repeat;}
+body .usp_price_sidebar li::before, body .specification dt:before{content:"";height:14px;width:14px;top:5px;position:absolute;left:0;    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAOCAMAAAALzYw2AAAAh1BMVEUAAABVVVUpqUUpqUUpqUUpqUUpqUUpqUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUpqUX///9tbW1oaGjt7e3o6Ogtq0gfpT0MnSkVoTMlqEIBlRn5/fp/y45xxoJkwXgGmCD0+/at3rWFzpVTumgbojfm9ere8uK54sCm2a5GtV9E9DmnAAAAEXRSTlMA9/LRhFMU+dqN9GJaHRjRhJEcEC4AAADHSURBVBjTfdDbcsIgEAZgTgmJrbbsWstCzp5a9f2fzw0ZvWAc/4EL+GYY9hec0mhrtSlFyqaupKzq9XIqFKSoYj59SpciP5It5BuCgs09w1qqWcBT9KTKzcq5n+2y5VoYgBC8p/b4N5L55vvf3ZY3ay00xHEM56nv8Bj114y448VYCUu3bn9qe8Q+NHblkiZzUtgGLvh/RRxaApWh9jEcELuhbQDyZw34OB32wwSc/EM8ij/TKcyWj7KUQMnyEt7X9yhevSr+DrfQF3MpY5UtAAAAAElFTkSuQmCC) no-repeat;background-position: left;}
+body .specification dt.false:before {background-position: right;}
 body .price-sidebar>.price-details>.box>.lowstock-label{padding:0 0 7px;}
 .box.infobox ul li.false:before{background:none!important;text-indent:0;font-size:11px;top:calc(50% + 2px);content:"\e622"}
+#category .online-lowstock .lowstock-label,#category .online-verylowstock .verylowstock-label{display:none;}
