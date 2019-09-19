@@ -408,7 +408,7 @@ input[type="text"]{font-family: "SourceSansPro-Regular";}
 #filters .content.categories.categories-tree ul li a:hover{color: #df0000;}
 .box.infobox .energy-usage .value {color: #fff;}
 .products-carousel .products-grid .base-info .energy-info-wrapper{display: none;}
-.products-grid .photo-wrapper img, #product-preview .photo-wrapper img {width: 194px;}
+.products-grid .photo-wrapper img, #product-preview .photo-wrapper img {width: 194px;height: 131px;}
 .responsive .my-account.login-page .error-box>p {color: #ed1c24 !important; font-size: 16px; margin-left: 20px;}
 .error-box, .error-wrapper, .success-box {background-color: #FFF;}
 .error-box:before, .error-wrapper .icon, .success-box:before {position: absolute; left: unset; top: unset; margin: 0 0 0 -30px; width: unset; height: unset; background: unset; content: "\e636"; font-family: mm-icons !important; font-size: 22px;}
