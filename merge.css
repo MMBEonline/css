@@ -512,7 +512,6 @@ div #page-footer {padding: 0;border-top: 1px solid #ddd;margin: 2rem 0 0;}
 }
 .section-delivery-table,.market-buy,.online.online-ndd:after,.products-list>li .product-wrapper .product-price small{display:none!important}
 .online .timeframe,.dmsg{overflow:visible!important;position:relative}
-.online .timeframe:after,.online:after,li.productinstock:after,li[class*="cluster"]:after,li.preorder11:after{content:"\e622";font-family:mm-icons;position:absolute;top:47px;left:0;font-size:11px;color:#090}
 .online .timeframe:after{top:3px;left:-24px}
 body .price-box{margin-bottom:10px}
 .products-list .price{font-size:54px}
