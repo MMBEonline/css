@@ -1,3 +1,28 @@
+#rise-header a.ms-logo:after {
+    content: "";
+    width: 80px;
+    height: 65px;
+    position: absolute;
+    top: -20px;
+    right: -80px;
+    background: url(https://www.mediamarkt.be/static/cms5/img/merci-belgie-fr.png) center/contain no-repeat;
+}
+#rise-header a.ms-logo {
+    margin-right: 100px;
+    position: relative;
+}
+@media (max-width: 954px){
+    body #rise-header a.ms-logo:after {
+        top: -14px;
+        right: -75px;
+        width: 73px;
+        height: 61px;
+    }
+    body #rise-header a.ms-logo {
+        margin-right: 80px;
+    }
+}
+
 @font-face{font-family:"mm-headline";
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot");
     src:url("https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MMHeadlineProWebTT-Regular.eot?#iefix") format("embedded-opentype"),
