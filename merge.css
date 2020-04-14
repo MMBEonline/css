@@ -31,7 +31,14 @@ ul li.section-store-availability:before {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAMAAADjcdz2AAAASFBMVEUAAABERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERiV1/2AAAAF3RSTlMA8o7UIRlxS6OAMMixqeLcvWdgWDcLlOvqBukAAAB6SURBVBjTbc5LDsMgDATQMcFACSRpPp3737Su1ACLPMnyaOSFASS5TQoT2X1gJnbigYOj9D/o/K8Q9vHwKeVYnYYa1NWIB+9Z77CWbNvRw9g2crZCyRIWbq2IlAs7BcdM9zInmeE4tcfCRrG8o1EhWTCI5HphFJYMfAH/UwrmQy6lQwAAAABJRU5ErkJggg==) !important;
 	top: 12px !important;
 }
-
+.box.infobox ul li.false:before {
+    background: none!important;
+    text-indent: 0;
+    font-size: 11px;
+    top: 50%;
+    content: "\e622";
+    display: block;
+}
 
 #rise-header a.ms-logo:after {
     content: "";
@@ -556,7 +563,6 @@ html body .specification dt:before{top:8px;left:8px}
 body .usp_price_sidebar li::before, body .specification dt:before{content:"";height:14px;width:14px;top:5px;position:absolute;left:0;    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAOCAMAAAALzYw2AAAAh1BMVEUAAABVVVUpqUUpqUUpqUUpqUUpqUUpqUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUpqUX///9tbW1oaGjt7e3o6Ogtq0gfpT0MnSkVoTMlqEIBlRn5/fp/y45xxoJkwXgGmCD0+/at3rWFzpVTumgbojfm9ere8uK54sCm2a5GtV9E9DmnAAAAEXRSTlMA9/LRhFMU+dqN9GJaHRjRhJEcEC4AAADHSURBVBjTfdDbcsIgEAZgTgmJrbbsWstCzp5a9f2fzw0ZvWAc/4EL+GYY9hec0mhrtSlFyqaupKzq9XIqFKSoYj59SpciP5It5BuCgs09w1qqWcBT9KTKzcq5n+2y5VoYgBC8p/b4N5L55vvf3ZY3ay00xHEM56nv8Bj114y448VYCUu3bn9qe8Q+NHblkiZzUtgGLvh/RRxaApWh9jEcELuhbQDyZw34OB32wwSc/EM8ij/TKcyWj7KUQMnyEt7X9yhevSr+DrfQF3MpY5UtAAAAAElFTkSuQmCC) no-repeat;background-position: left;}
 body .specification dt.false:before {background-position: right;}
 body .price-sidebar>.price-details>.box>.lowstock-label{padding:0 0 7px;}
-.box.infobox ul li.false:before{background:none!important;text-indent:0;font-size:11px;top:calc(50% + 2px);content:"\e622"}
 #category .online-lowstock .lowstock-label,#category .online-verylowstock .verylowstock-label{display:none;}
 #basket-flyout .button.guarantee-add-back {border: 1px solid #ddd;background: #fff;}
 #basket-flyout .button.guarantee-add-back:hover span {color: #df0000;}
