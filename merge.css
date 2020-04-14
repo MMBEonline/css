@@ -14,6 +14,7 @@
     top: 4px;
     background: none !important;
     display: block !important;
+    text-indent: 0 !important;
 }
 .pinstock {
     margin-bottom: 5px;
