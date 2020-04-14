@@ -4,14 +4,15 @@
 .pinstock, .delvrmsg {
 	position: relative;
 }
-.delvrmsg:before, .productinstock {
-    font-family: MM-iconfont;
+.delvrmsg:before, .productinstock:before {
+    font-family: MM-iconfont !important;
     color: #090;
-    content: "\26ab";
+    content: "\26ab" !important;
     position: absolute;
     font-size: 20px;
     left: -28px;
     top: 4px;
+    background: none !important;
     display: block !important;
 }
 .pinstock {
