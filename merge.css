@@ -4,7 +4,7 @@
 .pinstock, .delvrmsg {
 	position: relative;
 }
-.delvrmsg:before {
+.delvrmsg:before, .productinstock {
     font-family: MM-iconfont;
     color: #090;
     content: "\26ab";
@@ -12,6 +12,7 @@
     font-size: 20px;
     left: -28px;
     top: 4px;
+    display: block !important;
 }
 .pinstock {
     margin-bottom: 5px;
