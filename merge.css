@@ -4,7 +4,7 @@
 .pinstock, .delvrmsg {
 	position: relative;
 }
-.delvrmsg:before, .productinstock:before {
+.delvrmsg:before, .productinstock:before, .box.infobox.availability ul li.online:before {
     font-family: MM-iconfont !important;
     color: #090;
     content: "\26ab" !important;
