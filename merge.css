@@ -16,6 +16,9 @@
     display: block !important;
     text-indent: 0 !important;
 }
+body .box.infobox.availability ul li.online:before {
+   left: 0 !important;
+}
 .pinstock {
     margin-bottom: 5px;
 }
