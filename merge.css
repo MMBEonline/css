@@ -40,12 +40,14 @@ ul li.section-store-availability:before {
 .box.infobox ul li.false:before {
     background: none!important;
     text-indent: 0;
-    font-size: 11px;
-    top: 50%;
-    content: "\e622";
     display: block;
+    font-size: 19px;
+    content: "\26ab";
+    font-family: MM-iconfont;
+    top: auto;
+    bottom: -2px;
+    height: auto;
 }
-
 #rise-header a.ms-logo:after {
     content: "";
     width: 80px;
