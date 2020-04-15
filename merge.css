@@ -5,20 +5,17 @@
 .pinstock, .delvrmsg {
     position: relative;
 }
-.delvrmsg:before, .productinstock:before {
+.delvrmsg:before {
     font-family: MM-iconfont !important;
     color: #090;
     content: "\26ab" !important;
     position: absolute;
     font-size: 19px;
     left: -26px;
-    top: 4px;
+    top: -2px;
     background: none !important;
     display: block !important;
     text-indent: 0 !important;
-}
-li.online .delvrmsg:before {
-    top: -3px;
 }
 .pinstock {
     margin-bottom: 5px;
