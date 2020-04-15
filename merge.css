@@ -36,7 +36,7 @@ ul li.section-store-availability:before {
     content: "" !important;
     display: block !important;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAMAAADjcdz2AAAASFBMVEUAAABERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERiV1/2AAAAF3RSTlMA8o7UIRlxS6OAMMixqeLcvWdgWDcLlOvqBukAAAB6SURBVBjTbc5LDsMgDATQMcFACSRpPp3737Su1ACLPMnyaOSFASS5TQoT2X1gJnbigYOj9D/o/K8Q9vHwKeVYnYYa1NWIB+9Z77CWbNvRw9g2crZCyRIWbq2IlAs7BcdM9zInmeE4tcfCRrG8o1EhWTCI5HphFJYMfAH/UwrmQy6lQwAAAABJRU5ErkJggg==) !important;
-    top: 12px !important;
+    top: 0 !important;
 }
 .box.infobox ul li.false:before {
     background: none!important;
