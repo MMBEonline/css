@@ -1,5 +1,4 @@
 .box.infobox ul li:before {
-    display: none;
     margin: 0;
 }
 .pinstock, .delvrmsg {
