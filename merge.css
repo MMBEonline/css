@@ -45,8 +45,8 @@ ul li.section-store-availability:before {
     content: "\26ab";
     font-family: MM-iconfont;
     top: auto;
-    bottom: -2px;
-    height: auto;
+    left: -1px;
+    bottom: 0;
 }
 #rise-header a.ms-logo:after {
     content: "";
