@@ -44,7 +44,7 @@ div.left-33 {width:33%;float:left;padding:10px;text-align:center;}
 .fa-info-circle {color:#1884FF;}
 .fa-check-circle {color:#00BB27;}
 .fa-times-circle {color:#df0000;}
-.text-left{text-align:left;}
+.text-left{text-align:left !important;}
 .big{font-size:18px;}
 .clear{clear:both;}
 @media (min-width:650px){
