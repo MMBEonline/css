@@ -39,10 +39,12 @@ html{font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,A
             a.red{color:#df0000 !important}
             div.border-100 {width: 100%;float:left;border: 1px solid #dbdbdb;background-color:#f3f3f3;text-align:left;}
             div.left-100 {width:100%;float:left;padding:10px;text-align:left;}
-            div.left-50 {width:50%;float:left;padding:10px;text-align:left;}
+            div.left-50 {width:50%;float:left;padding:10px;text-align:center;}
+            div.left-33 {width:33%;float:left;padding:10px;text-align:center;}
             .fa-info-circle {color:#1884FF;}
             .fa-check-circle {color:#00BB27;}
             .fa-times-circle {color:#df0000;}
+            .text-left{text-align:left;}
             .big{font-size:18px;}
             .clear{clear:both;}
             @media (min-width:650px){
