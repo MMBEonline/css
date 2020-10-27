@@ -1,3 +1,44 @@
+/* PDP */
+body #product-details .price-sidebar .installment-compact {
+	margin: 0 0 10px;
+	background: #fff;
+}
+body .installment-compact.bexpay-badge .values span {
+	line-height: 1;
+	font-size: 11px;
+	font-weight: normal;
+	color: #828282;
+}
+body .installment-compact.bexpay-badge .values {
+	padding-top: 1px;
+}
+body .installment-compact.bexpay-badge {
+	height: 25px;
+	box-shadow: none;
+	border: 1px solid #ddd;
+}
+body .installment-compact {
+	line-height: 25px;
+}
+body .installment-compact.bexpay-badge .link:after {
+    border-top: 12.5px solid transparent;
+    border-bottom: 12.5px solid transparent;
+}
+body .installment-compact.bexpay-badge .label:after {
+    font-size: 13px;
+    color: #777;
+    content: "\e60e";
+    font-family: "mm-icons";
+    background: none;
+}
+body .installment-compact .label {
+	box-shadow: none;
+	font-family: mm-text-bold;
+}
+
+
+
+
 .box.infobox ul li:before {
     margin: 0;
     display: none;
